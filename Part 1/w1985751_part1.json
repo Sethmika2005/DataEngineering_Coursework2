@@ -1,0 +1,4852 @@
+[
+  {
+    "ID": "image_1.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/2499271/pexels-photo-2499271.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "bird",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 126.330728,
+      "Green": 138.405384,
+      "Blue": 89.813284
+    },
+    "Normalization": {
+      "Red": 64238.207256971917,
+      "Green": 70429.403463355353,
+      "Blue": 46430.590021107411
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.24998396793587174,
+          0.39521528025991864,
+          0.29365931863727457,
+          0.36701057425472194
+        ],
+        "Correlation": [
+          0.94500319736108052,
+          0.91308403442817887,
+          0.935362810212392,
+          0.919284517535639
+        ],
+        "Energy": [
+          0.12107499288757875,
+          0.10471608564837069,
+          0.11883292523323198,
+          0.10693958137742186
+        ],
+        "Homogeneity": [
+          0.88224442217768861,
+          0.84225157060948885,
+          0.87476192384769547,
+          0.84845335293164836
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.8189852538475355,
+        "Standard_Deviation": 0.46952954932056612
+      },
+      "StandardDeviation": {
+        "Mean": 8.9040515857285936,
+        "Standard_Deviation": 7.3546272621590454
+      },
+      "LBP": {
+        "Mean": 0.0841921642,
+        "Standard_Deviation": 0.100154124
+      },
+      "HOG": {
+        "Mean": 0.15446423,
+        "Standard_Deviation": 0.06259875
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 154.49637155297532,
+        "Standard_Deviation": 3837.016511516792
+      },
+      "Circularity": {
+        "Mean": 0.87039883842531274,
+        "Standard_Deviation": 0.20717712086524923
+      },
+      "MajorAxisLength": {
+        "Mean": 3.9967420225251393,
+        "Standard_Deviation": 22.444495966948466
+      },
+      "MinorAxisLength": {
+        "Mean": 2.388145124491059,
+        "Standard_Deviation": 17.24056966174879
+      },
+      "Eccentricity": {
+        "Mean": 0.4901765250379177,
+        "Standard_Deviation": 0.424813133668095
+      },
+      "Orientation": {
+        "Mean": 12.856113740242517,
+        "Standard_Deviation": 41.68832592778319
+      },
+      "FilledArea": {
+        "Mean": 167.00145137880986,
+        "Standard_Deviation": 4160.853119106333
+      },
+      "Perimeter": {
+        "Mean": 16.246991291727124,
+        "Standard_Deviation": 299.24230490349481
+      }
+    }
+  },
+  {
+    "ID": "image_2.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/70080/elephant-africa-african-elephant-kenya-70080.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "bull",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 124.048108,
+      "Green": 119.723184,
+      "Blue": 116.073716
+    },
+    "Normalization": {
+      "Red": 64145.377573610283,
+      "Green": 62843.4948316897,
+      "Blue": 62794.340769971495
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.41267334669338679,
+          0.48339564901345777,
+          0.27218436873747492,
+          0.46992983963919827
+        ],
+        "Correlation": [
+          0.93141426609722566,
+          0.91969095177868032,
+          0.95476633607024941,
+          0.92192783409806611
+        ],
+        "Energy": [
+          0.075724313460588513,
+          0.069693737124388616,
+          0.092284856590937381,
+          0.070258396416966282
+        ],
+        "Homogeneity": [
+          0.81669652638610568,
+          0.79426642195546726,
+          0.86768476953907814,
+          0.79669104407880553
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.1610780678750592,
+        "Standard_Deviation": 0.32877212884948359
+      },
+      "StandardDeviation": {
+        "Mean": 11.373645183441125,
+        "Standard_Deviation": 5.9997618755318882
+      },
+      "LBP": {
+        "Mean": 0.0815640613,
+        "Standard_Deviation": 0.102342479
+      },
+      "HOG": {
+        "Mean": 0.155374706,
+        "Standard_Deviation": 0.0603033714
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 133.82292849035187,
+        "Standard_Deviation": 3557.4954922952306
+      },
+      "Circularity": {
+        "Mean": 0.85695859160699006,
+        "Standard_Deviation": 0.2152771345598829
+      },
+      "MajorAxisLength": {
+        "Mean": 4.5670137002019171,
+        "Standard_Deviation": 24.291439561871695
+      },
+      "MinorAxisLength": {
+        "Mean": 2.2570371752371154,
+        "Standard_Deviation": 15.849147292806519
+      },
+      "Eccentricity": {
+        "Mean": 0.52131909683369515,
+        "Standard_Deviation": 0.43235935398502912
+      },
+      "Orientation": {
+        "Mean": 20.625745860485225,
+        "Standard_Deviation": 51.569270519884725
+      },
+      "FilledArea": {
+        "Mean": 136.96367763904655,
+        "Standard_Deviation": 3634.3916057758238
+      },
+      "Perimeter": {
+        "Mean": 16.950202043132773,
+        "Standard_Deviation": 274.88298339455116
+      }
+    }
+  },
+  {
+    "ID": "image_3.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "duckling",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 117.102928,
+      "Green": 97.71842,
+      "Blue": 70.43486
+    },
+    "Normalization": {
+      "Red": 59922.7922495577,
+      "Green": 51060.299126159945,
+      "Blue": 35989.8795147488
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.32160320641282569,
+          0.394568696511259,
+          0.2638436873747495,
+          0.38399845783751874
+        ],
+        "Correlation": [
+          0.90621455117107685,
+          0.885064073227278,
+          0.92305714877774347,
+          0.88814410276070321
+        ],
+        "Energy": [
+          0.14257144509459801,
+          0.13010253698821755,
+          0.15659339456468049,
+          0.1310768241255868
+        ],
+        "Homogeneity": [
+          0.84573079492317971,
+          0.81917930717815046,
+          0.87089679358717431,
+          0.8218912106109344
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.0977862865105967,
+        "Standard_Deviation": 0.31086968307666196
+      },
+      "StandardDeviation": {
+        "Mean": 10.023395491357208,
+        "Standard_Deviation": 4.7703259803695133
+      },
+      "LBP": {
+        "Mean": 0.0831593,
+        "Standard_Deviation": 0.101028107
+      },
+      "HOG": {
+        "Mean": 0.16003336,
+        "Standard_Deviation": 0.0465522483
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 45.477911646586342,
+        "Standard_Deviation": 1212.6145665250747
+      },
+      "Circularity": {
+        "Mean": 0.90123747051620828,
+        "Standard_Deviation": 0.16931404596489019
+      },
+      "MajorAxisLength": {
+        "Mean": 3.2029332001510555,
+        "Standard_Deviation": 11.53215188261459
+      },
+      "MinorAxisLength": {
+        "Mean": 1.9391926128945978,
+        "Standard_Deviation": 6.6575646488651881
+      },
+      "Eccentricity": {
+        "Mean": 0.43880217242367203,
+        "Standard_Deviation": 0.42424515882549851
+      },
+      "Orientation": {
+        "Mean": 12.601407749443036,
+        "Standard_Deviation": 44.600436386071287
+      },
+      "FilledArea": {
+        "Mean": 46.255020080321287,
+        "Standard_Deviation": 1232.1980854692401
+      },
+      "Perimeter": {
+        "Mean": 7.3667449799196811,
+        "Standard_Deviation": 92.765226713826237
+      }
+    }
+  },
+  {
+    "ID": "image_4.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/133394/pexels-photo-133394.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "elephant",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 168.538636,
+      "Green": 133.57902,
+      "Blue": 105.923344
+    },
+    "Normalization": {
+      "Red": 85200.381559145011,
+      "Green": 69167.327752756464,
+      "Blue": 58689.349496100484
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.37068136272545094,
+          0.44031550074096082,
+          0.29788777555110224,
+          0.47118284665523436
+        ],
+        "Correlation": [
+          0.92667962681849592,
+          0.91287261098868455,
+          0.941016408414916,
+          0.90676662626478155
+        ],
+        "Energy": [
+          0.0969538038803057,
+          0.089007446447680882,
+          0.10752949242774126,
+          0.08799993869361028
+        ],
+        "Homogeneity": [
+          0.833944822979292,
+          0.80979781875039336,
+          0.86067301269205077,
+          0.80639508810540261
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.10885463505373,
+        "Standard_Deviation": 0.3318101400589028
+      },
+      "StandardDeviation": {
+        "Mean": 11.081012124925964,
+        "Standard_Deviation": 6.3056329841870662
+      },
+      "LBP": {
+        "Mean": 0.0810309052,
+        "Standard_Deviation": 0.102772385
+      },
+      "HOG": {
+        "Mean": 0.15816769,
+        "Standard_Deviation": 0.0525429696
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 88.783232628398792,
+        "Standard_Deviation": 2886.5342290488784
+      },
+      "Circularity": {
+        "Mean": 0.84021096827049135,
+        "Standard_Deviation": 0.23285011513652126
+      },
+      "MajorAxisLength": {
+        "Mean": 4.201568211319084,
+        "Standard_Deviation": 15.930240406642291
+      },
+      "MinorAxisLength": {
+        "Mean": 2.3060902812065329,
+        "Standard_Deviation": 12.25366743922749
+      },
+      "Eccentricity": {
+        "Mean": 0.53396169489025558,
+        "Standard_Deviation": 0.41820922845091563
+      },
+      "Orientation": {
+        "Mean": 18.794591871991223,
+        "Standard_Deviation": 48.171658024836674
+      },
+      "FilledArea": {
+        "Mean": 106.15785498489426,
+        "Standard_Deviation": 3504.9192207197088
+      },
+      "Perimeter": {
+        "Mean": 14.36939123867066,
+        "Standard_Deviation": 245.79191727829152
+      }
+    }
+  },
+  {
+    "ID": "image_5.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/982021/pexels-photo-982021.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "elephant",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 81.664512,
+      "Green": 77.13558,
+      "Blue": 68.816532
+    },
+    "Normalization": {
+      "Red": 43640.213825315674,
+      "Green": 40533.109976927321,
+      "Blue": 36649.470195654765
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.36601603206412825,
+          0.50333131192244207,
+          0.37761122244488982,
+          0.53253601391159067
+        ],
+        "Correlation": [
+          0.91599768702226725,
+          0.88456543170504176,
+          0.91337631041998368,
+          0.87787045441822109
+        ],
+        "Energy": [
+          0.10527499895984352,
+          0.090793177269833145,
+          0.10459260202167861,
+          0.089468314247996589
+        ],
+        "Homogeneity": [
+          0.84073921175684685,
+          0.80062831072967588,
+          0.83674722778891109,
+          0.795521771666245
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.2134862135858189,
+        "Standard_Deviation": 0.420639147754331
+      },
+      "StandardDeviation": {
+        "Mean": 12.168215645525635,
+        "Standard_Deviation": 7.5882626907770758
+      },
+      "LBP": {
+        "Mean": 0.087551415,
+        "Standard_Deviation": 0.0971800908
+      },
+      "HOG": {
+        "Mean": 0.155692801,
+        "Standard_Deviation": 0.0594772771
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 77.147568013190437,
+        "Standard_Deviation": 1474.4245150729018
+      },
+      "Circularity": {
+        "Mean": 0.82942690714654188,
+        "Standard_Deviation": 0.2305563480125801
+      },
+      "MajorAxisLength": {
+        "Mean": 5.15767459977289,
+        "Standard_Deviation": 20.535543722944983
+      },
+      "MinorAxisLength": {
+        "Mean": 2.5860301564506321,
+        "Standard_Deviation": 7.6528457320664955
+      },
+      "Eccentricity": {
+        "Mean": 0.5555673580254552,
+        "Standard_Deviation": 0.40545405023125258
+      },
+      "Orientation": {
+        "Mean": 11.570931504759102,
+        "Standard_Deviation": 41.939558798924182
+      },
+      "FilledArea": {
+        "Mean": 89.301731244847488,
+        "Standard_Deviation": 1737.9379058696891
+      },
+      "Perimeter": {
+        "Mean": 16.582132728771644,
+        "Standard_Deviation": 169.24026378576949
+      }
+    }
+  },
+  {
+    "ID": "image_6.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1054666/pexels-photo-1054666.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "elphant",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 143.595928,
+      "Green": 132.82458,
+      "Blue": 115.985232
+    },
+    "Normalization": {
+      "Red": 75235.884764954477,
+      "Green": 70516.5313959028,
+      "Blue": 64101.443460014991
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.27077354709418838,
+          0.35520339275745882,
+          0.25658116232464928,
+          0.34692631756498971
+        ],
+        "Correlation": [
+          0.96845373150909442,
+          0.95862240941329346,
+          0.97011203675725266,
+          0.95959012219038642
+        ],
+        "Energy": [
+          0.10318432266537081,
+          0.09390868567249927,
+          0.10548033092236578,
+          0.093891920271121643
+        ],
+        "Homogeneity": [
+          0.87382137608550436,
+          0.84351673095212287,
+          0.8797963927855712,
+          0.84370578163675392
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.8074176088175848,
+        "Standard_Deviation": 0.35619489184228886
+      },
+      "StandardDeviation": {
+        "Mean": 8.1057069958129659,
+        "Standard_Deviation": 5.4925440364557669
+      },
+      "LBP": {
+        "Mean": 0.0809609145,
+        "Standard_Deviation": 0.10282848
+      },
+      "HOG": {
+        "Mean": 0.158020973,
+        "Standard_Deviation": 0.0529827029
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 89.939175257731961,
+        "Standard_Deviation": 2637.3496874713946
+      },
+      "Circularity": {
+        "Mean": 0.87203722323680144,
+        "Standard_Deviation": 0.20780713757130936
+      },
+      "MajorAxisLength": {
+        "Mean": 3.7757910441637104,
+        "Standard_Deviation": 22.372110278161422
+      },
+      "MinorAxisLength": {
+        "Mean": 2.0674206492370804,
+        "Standard_Deviation": 12.00850723787303
+      },
+      "Eccentricity": {
+        "Mean": 0.461106961978982,
+        "Standard_Deviation": 0.429693601461841
+      },
+      "Orientation": {
+        "Mean": 14.349127268971271,
+        "Standard_Deviation": 44.44193715945601
+      },
+      "FilledArea": {
+        "Mean": 90.261855670103088,
+        "Standard_Deviation": 2645.7957567172189
+      },
+      "Perimeter": {
+        "Mean": 7.0613701030927851,
+        "Standard_Deviation": 79.890199996934655
+      }
+    }
+  },
+  {
+    "ID": "image_7.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/17081254/pexels-photo-17081254/free-photo-of-elephant-in-nature.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "girraffe",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 174.56576,
+      "Green": 162.658004,
+      "Blue": 148.106856
+    },
+    "Normalization": {
+      "Red": 87465.734617224647,
+      "Green": 81791.883426562679,
+      "Blue": 76141.569346340984
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.1763366733466934,
+          0.24874598897193184,
+          0.19311022044088177,
+          0.26847281737824347
+        ],
+        "Correlation": [
+          0.8775387179022025,
+          0.82739335335400843,
+          0.86589009846764464,
+          0.81370366655447623
+        ],
+        "Energy": [
+          0.39513532780992838,
+          0.37835596973191915,
+          0.39293892217300341,
+          0.37488371810992549
+        ],
+        "Homogeneity": [
+          0.91924569138276546,
+          0.89872329830000663,
+          0.91515303941215742,
+          0.89396595462133344
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.629135914664932,
+        "Standard_Deviation": 0.516634377035761
+      },
+      "StandardDeviation": {
+        "Mean": 7.8117196980750707,
+        "Standard_Deviation": 6.5106912266235906
+      },
+      "LBP": {
+        "Mean": 0.0852395371,
+        "Standard_Deviation": 0.099248834
+      },
+      "HOG": {
+        "Mean": 0.158858657,
+        "Standard_Deviation": 0.0504155532
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 55.541327124563445,
+        "Standard_Deviation": 1002.3832703160109
+      },
+      "Circularity": {
+        "Mean": 0.82263319800121582,
+        "Standard_Deviation": 0.23057562557874853
+      },
+      "MajorAxisLength": {
+        "Mean": 5.605608993171189,
+        "Standard_Deviation": 21.953505165839761
+      },
+      "MinorAxisLength": {
+        "Mean": 2.5858193399633436,
+        "Standard_Deviation": 4.5299226740646823
+      },
+      "Eccentricity": {
+        "Mean": 0.56781914168146819,
+        "Standard_Deviation": 0.40395449831260072
+      },
+      "Orientation": {
+        "Mean": 11.919357676840919,
+        "Standard_Deviation": 41.025931318040016
+      },
+      "FilledArea": {
+        "Mean": 63.229336437718274,
+        "Standard_Deviation": 1206.6083028587391
+      },
+      "Perimeter": {
+        "Mean": 16.214747380675206,
+        "Standard_Deviation": 149.532113390909
+      }
+    }
+  },
+  {
+    "ID": "image_8.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/12321255/pexels-photo-12321255.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "hedgehog",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 209.364852,
+      "Green": 207.88336,
+      "Blue": 206.624332
+    },
+    "Normalization": {
+      "Red": 105541.08712157611,
+      "Green": 105063.56651039892,
+      "Blue": 104712.85607428668
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.34576352705410818,
+          0.46741579351086943,
+          0.27222444889779557,
+          0.44962871635053675
+        ],
+        "Correlation": [
+          0.92481078085459212,
+          0.89849157193126794,
+          0.94085869862007787,
+          0.90235295298263585
+        ],
+        "Energy": [
+          0.28811269927430017,
+          0.27426836526958964,
+          0.29604778024184641,
+          0.27533146674495945
+        ],
+        "Homogeneity": [
+          0.87828991315965266,
+          0.85488308423316717,
+          0.891988376753507,
+          0.85814933617593048
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.8173199910992492,
+        "Standard_Deviation": 0.5623355003343028
+      },
+      "StandardDeviation": {
+        "Mean": 10.160012366601611,
+        "Standard_Deviation": 10.04023670273839
+      },
+      "LBP": {
+        "Mean": 0.0853789076,
+        "Standard_Deviation": 0.0991269
+      },
+      "HOG": {
+        "Mean": 0.15694423,
+        "Standard_Deviation": 0.0560919046
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 91.198473282442748,
+        "Standard_Deviation": 934.47956502357079
+      },
+      "Circularity": {
+        "Mean": 0.80693207824365476,
+        "Standard_Deviation": 0.24780017558669906
+      },
+      "MajorAxisLength": {
+        "Mean": 6.5275374582090251,
+        "Standard_Deviation": 16.573872259716982
+      },
+      "MinorAxisLength": {
+        "Mean": 3.2855776264200491,
+        "Standard_Deviation": 9.3053465985661568
+      },
+      "Eccentricity": {
+        "Mean": 0.55577364785312688,
+        "Standard_Deviation": 0.41382609341130838
+      },
+      "Orientation": {
+        "Mean": 10.6041015981796,
+        "Standard_Deviation": 44.086240842370664
+      },
+      "FilledArea": {
+        "Mean": 98.2468193384224,
+        "Standard_Deviation": 1035.9503635606977
+      },
+      "Perimeter": {
+        "Mean": 23.490770992366411,
+        "Standard_Deviation": 170.39453231339166
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/17308888/pexels-photo-17308888/free-photo-of-a-group-of-elephants-standing-in-a-field.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "cheetah",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 162.810556,
+      "Green": 125.917556,
+      "Blue": 92.53666
+    },
+    "Normalization": {
+      "Red": 82310.3760496381,
+      "Green": 63346.733974240393,
+      "Blue": 46517.19577523553
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.6864769539078156,
+          0.84322151316661387,
+          0.40271342685370742,
+          0.857522660551564
+        ],
+        "Correlation": [
+          0.79428542852591322,
+          0.747663171599224,
+          0.87932335461508038,
+          0.74338384783931111
+        ],
+        "Energy": [
+          0.182248623001514,
+          0.16801886526728724,
+          0.19742137260492934,
+          0.16866554270723161
+        ],
+        "Homogeneity": [
+          0.79611469605878427,
+          0.76851424960810066,
+          0.83537294589178357,
+          0.7688471799979385
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.208857868932661,
+        "Standard_Deviation": 0.44422820053579493
+      },
+      "StandardDeviation": {
+        "Mean": 15.447396144367076,
+        "Standard_Deviation": 13.12041954980282
+      },
+      "LBP": {
+        "Mean": 0.0856512114,
+        "Standard_Deviation": 0.0988876373
+      },
+      "HOG": {
+        "Mean": 0.156046987,
+        "Standard_Deviation": 0.0585417822
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 36.821689259645467,
+        "Standard_Deviation": 130.59882359056471
+      },
+      "Circularity": {
+        "Mean": 0.77444645941975,
+        "Standard_Deviation": 0.2542942051406899
+      },
+      "MajorAxisLength": {
+        "Mean": 7.65749819563386,
+        "Standard_Deviation": 10.997320624942548
+      },
+      "MinorAxisLength": {
+        "Mean": 3.4991993899289304,
+        "Standard_Deviation": 4.5052442416737151
+      },
+      "Eccentricity": {
+        "Mean": 0.62052971756880426,
+        "Standard_Deviation": 0.39207482212319217
+      },
+      "Orientation": {
+        "Mean": 11.945549148937404,
+        "Standard_Deviation": 57.584405195913305
+      },
+      "FilledArea": {
+        "Mean": 37.287799791449423,
+        "Standard_Deviation": 133.73795213237383
+      },
+      "Perimeter": {
+        "Mean": 18.963158498435874,
+        "Standard_Deviation": 45.58940722259991
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "chimpanzee",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 88.636452,
+      "Green": 94.316244,
+      "Blue": 72.477852
+    },
+    "Normalization": {
+      "Red": 49925.462270703661,
+      "Green": 50650.498997350587,
+      "Blue": 39407.412964185212
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.19705811623246494,
+          0.28030811121240484,
+          0.22394789579158317,
+          0.29414339701446979
+        ],
+        "Correlation": [
+          0.9629670083006836,
+          0.94733760145417334,
+          0.95790581042084644,
+          0.94473687537701334
+        ],
+        "Energy": [
+          0.14256088034987813,
+          0.12876808490774258,
+          0.13969040021526016,
+          0.12777388747723847
+        ],
+        "Homogeneity": [
+          0.90477668670674694,
+          0.87493490655325346,
+          0.898049832999332,
+          0.8713945593257324
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.6960296266285608,
+        "Standard_Deviation": 0.53260350600419826
+      },
+      "StandardDeviation": {
+        "Mean": 7.5378234764597565,
+        "Standard_Deviation": 5.6505002094511081
+      },
+      "LBP": {
+        "Mean": 0.0880081579,
+        "Standard_Deviation": 0.0967595056
+      },
+      "HOG": {
+        "Mean": 0.156856433,
+        "Standard_Deviation": 0.0563370734
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 461.85882352941178,
+        "Standard_Deviation": 6422.7871378231066
+      },
+      "Circularity": {
+        "Mean": 0.86444448720372591,
+        "Standard_Deviation": 0.22210544124320261
+      },
+      "MajorAxisLength": {
+        "Mean": 7.6365966480296814,
+        "Standard_Deviation": 40.15073423567673
+      },
+      "MinorAxisLength": {
+        "Mean": 3.8260363989158912,
+        "Standard_Deviation": 23.860469550069944
+      },
+      "Eccentricity": {
+        "Mean": 0.50363198124749153,
+        "Standard_Deviation": 0.42124051162064552
+      },
+      "Orientation": {
+        "Mean": 11.740968212319931,
+        "Standard_Deviation": 38.9637970204735
+      },
+      "FilledArea": {
+        "Mean": 498.69019607843137,
+        "Standard_Deviation": 6966.0997488358125
+      },
+      "Perimeter": {
+        "Mean": 28.908807843137254,
+        "Standard_Deviation": 226.06933003755341
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/2220336/pexels-photo-2220336.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "tiger",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 91.599956,
+      "Green": 90.063584,
+      "Blue": 49.929336
+    },
+    "Normalization": {
+      "Red": 52358.7676610717,
+      "Green": 50030.686130902832,
+      "Blue": 30021.564072988203
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.27207615230460924,
+          0.4040746824309942,
+          0.29486172344689376,
+          0.41613085891221319
+        ],
+        "Correlation": [
+          0.95289980570218746,
+          0.93003952334656292,
+          0.94891163781528076,
+          0.92795294658889116
+        ],
+        "Energy": [
+          0.10808111752161638,
+          0.093747826526808312,
+          0.10552566860374052,
+          0.094259798995594279
+        ],
+        "Homogeneity": [
+          0.87545190380761528,
+          0.836471741077345,
+          0.87026927187708758,
+          0.83664791172190744
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.0409264067542612,
+        "Standard_Deviation": 0.59816707063793573
+      },
+      "StandardDeviation": {
+        "Mean": 10.418291578348045,
+        "Standard_Deviation": 7.8060032589554424
+      },
+      "LBP": {
+        "Mean": 0.0962536931,
+        "Standard_Deviation": 0.0884130597
+      },
+      "HOG": {
+        "Mean": 0.151450709,
+        "Standard_Deviation": 0.0695736
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 137.75583203732504,
+        "Standard_Deviation": 2779.8479380479139
+      },
+      "Circularity": {
+        "Mean": 0.82297766127435512,
+        "Standard_Deviation": 0.23580352906741919
+      },
+      "MajorAxisLength": {
+        "Mean": 5.5364404718302724,
+        "Standard_Deviation": 18.204574950115752
+      },
+      "MinorAxisLength": {
+        "Mean": 3.0143530066585233,
+        "Standard_Deviation": 13.213610131790608
+      },
+      "Eccentricity": {
+        "Mean": 0.558195648674757,
+        "Standard_Deviation": 0.40627000240044081
+      },
+      "Orientation": {
+        "Mean": 7.9076080110460154,
+        "Standard_Deviation": 41.854453001824183
+      },
+      "FilledArea": {
+        "Mean": 159.82115085536549,
+        "Standard_Deviation": 3286.4717383015418
+      },
+      "Perimeter": {
+        "Mean": 20.281480559875593,
+        "Standard_Deviation": 227.86583896399193
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1320412/pexels-photo-1320412.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "peacock",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 126.850472,
+      "Green": 115.175208,
+      "Blue": 81.790484
+    },
+    "Normalization": {
+      "Red": 64937.881467168976,
+      "Green": 58694.249884329322,
+      "Blue": 41889.650179930781
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          1.0677074148296593,
+          1.4191549431528387,
+          0.92933867735470943,
+          1.4670463170830639
+        ],
+        "Correlation": [
+          0.72842234453411325,
+          0.638981645888302,
+          0.7636722716779627,
+          0.62679748976264693
+        ],
+        "Energy": [
+          0.057986447733141634,
+          0.051603636979035514,
+          0.061877080654294564,
+          0.050990028514295085
+        ],
+        "Homogeneity": [
+          0.68541192861914291,
+          0.64772354136653876,
+          0.70431870407481623,
+          0.64493717848905185
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.6714453917354826,
+        "Standard_Deviation": 0.2097206645005788
+      },
+      "StandardDeviation": {
+        "Mean": 24.248448203086898,
+        "Standard_Deviation": 10.243627494574524
+      },
+      "LBP": {
+        "Mean": 0.0758152306,
+        "Standard_Deviation": 0.106744207
+      },
+      "HOG": {
+        "Mean": 0.155202419,
+        "Standard_Deviation": 0.0607454926
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 44.56479481641469,
+        "Standard_Deviation": 1782.4476168917968
+      },
+      "Circularity": {
+        "Mean": 0.80554104574961516,
+        "Standard_Deviation": 0.26163781954172283
+      },
+      "MajorAxisLength": {
+        "Mean": 4.5882775350805742,
+        "Standard_Deviation": 12.837701951508734
+      },
+      "MinorAxisLength": {
+        "Mean": 2.3748849658907316,
+        "Standard_Deviation": 7.034339462345228
+      },
+      "Eccentricity": {
+        "Mean": 0.5359405116485757,
+        "Standard_Deviation": 0.41823055371445833
+      },
+      "Orientation": {
+        "Mean": 9.2428629772871886,
+        "Standard_Deviation": 45.399065615141872
+      },
+      "FilledArea": {
+        "Mean": 54.635709143268535,
+        "Standard_Deviation": 2279.3483523886343
+      },
+      "Perimeter": {
+        "Mean": 13.711809935205164,
+        "Standard_Deviation": 214.22569041172864
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/3284268/pexels-photo-3284268.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "elephant",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 140.272796,
+      "Green": 97.390536,
+      "Blue": 81.811996
+    },
+    "Normalization": {
+      "Red": 74794.275769606218,
+      "Green": 52168.095773777131,
+      "Blue": 44394.853826380095
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.31099799599198397,
+          0.38603057819044906,
+          0.25905811623246494,
+          0.38421130838831968
+        ],
+        "Correlation": [
+          0.94332466338453458,
+          0.92961822075353151,
+          0.95277077532972754,
+          0.92994867762167721
+        ],
+        "Energy": [
+          0.092492978100489565,
+          0.0828512906400608,
+          0.0992303864161188,
+          0.082725031980957542
+        ],
+        "Homogeneity": [
+          0.85712732130928537,
+          0.82940858336579626,
+          0.87521910487641952,
+          0.82876608259940054
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.9897830677911088,
+        "Standard_Deviation": 0.32289720892336238
+      },
+      "StandardDeviation": {
+        "Mean": 9.6448334591515579,
+        "Standard_Deviation": 5.499641440484619
+      },
+      "LBP": {
+        "Mean": 0.0810826942,
+        "Standard_Deviation": 0.10273084
+      },
+      "HOG": {
+        "Mean": 0.158202276,
+        "Standard_Deviation": 0.0524387583
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 161.81793478260869,
+        "Standard_Deviation": 4207.5578813166994
+      },
+      "Circularity": {
+        "Mean": 0.884765070059332,
+        "Standard_Deviation": 0.20345442885274054
+      },
+      "MajorAxisLength": {
+        "Mean": 3.8359578768277349,
+        "Standard_Deviation": 21.96117973680067
+      },
+      "MinorAxisLength": {
+        "Mean": 2.4014873478361247,
+        "Standard_Deviation": 18.510664091780487
+      },
+      "Eccentricity": {
+        "Mean": 0.46200992479872011,
+        "Standard_Deviation": 0.42883033484994054
+      },
+      "Orientation": {
+        "Mean": 15.207353937903015,
+        "Standard_Deviation": 41.14883196089891
+      },
+      "FilledArea": {
+        "Mean": 189.24320652173913,
+        "Standard_Deviation": 4946.7329059502435
+      },
+      "Perimeter": {
+        "Mean": 12.599312500000002,
+        "Standard_Deviation": 210.0891828911528
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1300960/pexels-photo-1300960.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "elephant",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 92.526324,
+      "Green": 88.00864,
+      "Blue": 79.363192
+    },
+    "Normalization": {
+      "Red": 49124.736047693696,
+      "Green": 46149.705695214776,
+      "Blue": 42114.829284151972
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.31756713426853711,
+          0.39542411476259132,
+          0.26459318637274548,
+          0.37767719808354183
+        ],
+        "Correlation": [
+          0.93003631823318511,
+          0.9127345260927493,
+          0.94162560742384616,
+          0.91665516066471942
+        ],
+        "Energy": [
+          0.1048837599206429,
+          0.093658057889284246,
+          0.11454459305785922,
+          0.096791414473618165
+        ],
+        "Homogeneity": [
+          0.85133981295925187,
+          0.82194730141646022,
+          0.87188583834335343,
+          0.82883174498629852
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.00512933429838,
+        "Standard_Deviation": 0.31831155516116605
+      },
+      "StandardDeviation": {
+        "Mean": 9.8121881060138563,
+        "Standard_Deviation": 5.0338569857798818
+      },
+      "LBP": {
+        "Mean": 0.0792094767,
+        "Standard_Deviation": 0.10420683
+      },
+      "HOG": {
+        "Mean": 0.157579333,
+        "Standard_Deviation": 0.0542820804
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 52.952159468438538,
+        "Standard_Deviation": 1619.5472193943781
+      },
+      "Circularity": {
+        "Mean": 0.86237906374575413,
+        "Standard_Deviation": 0.21924727331644933
+      },
+      "MajorAxisLength": {
+        "Mean": 3.9442353807016279,
+        "Standard_Deviation": 21.249809304231785
+      },
+      "MinorAxisLength": {
+        "Mean": 2.1218572342222961,
+        "Standard_Deviation": 11.084358109824668
+      },
+      "Eccentricity": {
+        "Mean": 0.48906650764947274,
+        "Standard_Deviation": 0.42660287770890848
+      },
+      "Orientation": {
+        "Mean": 9.2714551075753366,
+        "Standard_Deviation": 46.603398562980892
+      },
+      "FilledArea": {
+        "Mean": 54.649169435215946,
+        "Standard_Deviation": 1669.78229620802
+      },
+      "Perimeter": {
+        "Mean": 9.8701235880398688,
+        "Standard_Deviation": 137.376592975869
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1622508/pexels-photo-1622508.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "jellyfish",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 51.735128,
+      "Green": 146.330032,
+      "Blue": 193.319308
+    },
+    "Normalization": {
+      "Red": 38563.11963517985,
+      "Green": 74790.924114824229,
+      "Blue": 97023.663583325673
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.20087374749498996,
+          0.25533230790237793,
+          0.19913426853707417,
+          0.27732418745306242
+        ],
+        "Correlation": [
+          0.93698783016863207,
+          0.91976463759543214,
+          0.93737729738319875,
+          0.912854853131277
+        ],
+        "Energy": [
+          0.20660099967470014,
+          0.19053674401236989,
+          0.20625789650643978,
+          0.18739942004002225
+        ],
+        "Homogeneity": [
+          0.90571108884435536,
+          0.88241272123405123,
+          0.90492551770207075,
+          0.87727586100725174
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.6068380800333779,
+        "Standard_Deviation": 0.43968534845654955
+      },
+      "StandardDeviation": {
+        "Mean": 6.8879255606365595,
+        "Standard_Deviation": 4.8605503087877278
+      },
+      "LBP": {
+        "Mean": 0.0837551653,
+        "Standard_Deviation": 0.100526132
+      },
+      "HOG": {
+        "Mean": 0.159679651,
+        "Standard_Deviation": 0.0477514453
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 113.14732142857143,
+        "Standard_Deviation": 2042.6410626163215
+      },
+      "Circularity": {
+        "Mean": 0.84651969668311511,
+        "Standard_Deviation": 0.2240087831853656
+      },
+      "MajorAxisLength": {
+        "Mean": 4.9855376928376787,
+        "Standard_Deviation": 18.322641109776633
+      },
+      "MinorAxisLength": {
+        "Mean": 2.8184722135712179,
+        "Standard_Deviation": 10.174175023419396
+      },
+      "Eccentricity": {
+        "Mean": 0.49630847760583319,
+        "Standard_Deviation": 0.41779930224277106
+      },
+      "Orientation": {
+        "Mean": 10.467508384428839,
+        "Standard_Deviation": 37.710740918112485
+      },
+      "FilledArea": {
+        "Mean": 125.79241071428571,
+        "Standard_Deviation": 2306.290154495051
+      },
+      "Perimeter": {
+        "Mean": 14.855044642857141,
+        "Standard_Deviation": 128.19343474782727
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/2674052/pexels-photo-2674052.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 76.881112,
+      "Green": 69.767548,
+      "Blue": 73.433536
+    },
+    "Normalization": {
+      "Red": 44340.47071685148,
+      "Green": 39106.767651622977,
+      "Blue": 39893.955234584253
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.54006412825651307,
+          0.63586090015702756,
+          0.3082244488977956,
+          0.61815414395926127
+        ],
+        "Correlation": [
+          0.91114821473543628,
+          0.89535627551229324,
+          0.94922754796672915,
+          0.89827235669406025
+        ],
+        "Energy": [
+          0.10847764158376873,
+          0.1002673172332019,
+          0.12874796139774539,
+          0.10181028572726082
+        ],
+        "Homogeneity": [
+          0.80492124248496988,
+          0.781654022808476,
+          0.86081169004676017,
+          0.78619704338536789
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.1880519546478965,
+        "Standard_Deviation": 0.41801204511109696
+      },
+      "StandardDeviation": {
+        "Mean": 12.827641080725078,
+        "Standard_Deviation": 9.2911247760478837
+      },
+      "LBP": {
+        "Mean": 0.0837518275,
+        "Standard_Deviation": 0.10052897
+      },
+      "HOG": {
+        "Mean": 0.1546157,
+        "Standard_Deviation": 0.0622236878
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 129.68007312614259,
+        "Standard_Deviation": 1654.232604869231
+      },
+      "Circularity": {
+        "Mean": 0.83763694250853493,
+        "Standard_Deviation": 0.23936912028174637
+      },
+      "MajorAxisLength": {
+        "Mean": 6.0739439286383918,
+        "Standard_Deviation": 27.179304120789624
+      },
+      "MinorAxisLength": {
+        "Mean": 2.5865223336202465,
+        "Standard_Deviation": 10.07307776083873
+      },
+      "Eccentricity": {
+        "Mean": 0.52343387587587065,
+        "Standard_Deviation": 0.42787166551973788
+      },
+      "Orientation": {
+        "Mean": 12.478122532010936,
+        "Standard_Deviation": 55.168405096669922
+      },
+      "FilledArea": {
+        "Mean": 146.34186471663619,
+        "Standard_Deviation": 1901.0929443124191
+      },
+      "Perimeter": {
+        "Mean": 22.185974405850093,
+        "Standard_Deviation": 205.22592459822673
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/209077/pexels-photo-209077.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "elephant",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 50.563612,
+      "Green": 56.833428,
+      "Blue": 56.023136
+    },
+    "Normalization": {
+      "Red": 27473.769173868979,
+      "Green": 30306.274649167673,
+      "Blue": 30175.304927226243
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.27856513026052104,
+          0.36679772370392083,
+          0.27113426853707412,
+          0.3674523395488371
+        ],
+        "Correlation": [
+          0.87331390652152507,
+          0.83312990359490058,
+          0.87663281131049819,
+          0.83283848696794194
+        ],
+        "Energy": [
+          0.16426775282026981,
+          0.1475625038422852,
+          0.16745959137513505,
+          0.147630058952001
+        ],
+        "Homogeneity": [
+          0.867991983967936,
+          0.83624677544802362,
+          0.87180394121576488,
+          0.83684978507449093
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.9585464214088093,
+        "Standard_Deviation": 0.43016676445900592
+      },
+      "StandardDeviation": {
+        "Mean": 9.6668928348850791,
+        "Standard_Deviation": 5.3268496712556388
+      },
+      "LBP": {
+        "Mean": 0.0812568665,
+        "Standard_Deviation": 0.10259074
+      },
+      "HOG": {
+        "Mean": 0.159185544,
+        "Standard_Deviation": 0.0493735969
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 79.257184966838608,
+        "Standard_Deviation": 2583.7742638132795
+      },
+      "Circularity": {
+        "Mean": 0.85542868517566706,
+        "Standard_Deviation": 0.21661714774926602
+      },
+      "MajorAxisLength": {
+        "Mean": 3.9657114070514821,
+        "Standard_Deviation": 17.290346892934
+      },
+      "MinorAxisLength": {
+        "Mean": 2.2716453375142458,
+        "Standard_Deviation": 12.0702902966504
+      },
+      "Eccentricity": {
+        "Mean": 0.53211225688069574,
+        "Standard_Deviation": 0.41483661332861715
+      },
+      "Orientation": {
+        "Mean": 14.267797569783617,
+        "Standard_Deviation": 46.627429226626816
+      },
+      "FilledArea": {
+        "Mean": 87.719233603537219,
+        "Standard_Deviation": 2877.6138216941767
+      },
+      "Perimeter": {
+        "Mean": 14.035938835666897,
+        "Standard_Deviation": 250.95945414648764
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/2649842/pexels-photo-2649842.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 98.119208,
+      "Green": 100.40394,
+      "Blue": 100.035372
+    },
+    "Normalization": {
+      "Red": 50499.071874089415,
+      "Green": 51317.699067484536,
+      "Blue": 50849.2028929181
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.32547494989979964,
+          0.38517114389098839,
+          0.2626132264529058,
+          0.38568921409954177
+        ],
+        "Correlation": [
+          0.8524411553110115,
+          0.82554373801810288,
+          0.88103686910324208,
+          0.82531011704063317
+        ],
+        "Energy": [
+          0.16094509483897657,
+          0.14787705688743397,
+          0.17778537827558927,
+          0.14801096758746038
+        ],
+        "Homogeneity": [
+          0.84337441549766212,
+          0.81951725762814864,
+          0.87060988643954573,
+          0.81962093860399476
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.1102733268928882,
+        "Standard_Deviation": 0.24735564268373125
+      },
+      "StandardDeviation": {
+        "Mean": 10.102217043103058,
+        "Standard_Deviation": 4.2045354313140511
+      },
+      "LBP": {
+        "Mean": 0.0820213109,
+        "Standard_Deviation": 0.101970054
+      },
+      "HOG": {
+        "Mean": 0.159902319,
+        "Standard_Deviation": 0.0470004156
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 35.130013831258644,
+        "Standard_Deviation": 1167.671220433894
+      },
+      "Circularity": {
+        "Mean": 0.8507119604231026,
+        "Standard_Deviation": 0.228019770332199
+      },
+      "MajorAxisLength": {
+        "Mean": 3.7767816851091354,
+        "Standard_Deviation": 9.9739423971451
+      },
+      "MinorAxisLength": {
+        "Mean": 2.1158060313243992,
+        "Standard_Deviation": 6.8446348615880481
+      },
+      "Eccentricity": {
+        "Mean": 0.49821267139789133,
+        "Standard_Deviation": 0.42310355240539094
+      },
+      "Orientation": {
+        "Mean": 15.222225823422201,
+        "Standard_Deviation": 47.835366372148037
+      },
+      "FilledArea": {
+        "Mean": 40.577685569386816,
+        "Standard_Deviation": 1392.76526903531
+      },
+      "Perimeter": {
+        "Mean": 10.289765329644974,
+        "Standard_Deviation": 132.87103402379762
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1213921/pexels-photo-1213921.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 128.662144,
+      "Green": 137.78656,
+      "Blue": 158.857176
+    },
+    "Normalization": {
+      "Red": 66647.8794763336,
+      "Green": 72940.4470523693,
+      "Blue": 85677.559995767282
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.31084168336673351,
+          0.37003867454347572,
+          0.25460921843687379,
+          0.3791269914578656
+        ],
+        "Correlation": [
+          0.95729944532554057,
+          0.94915677783314556,
+          0.96500741582061533,
+          0.94791407073837231
+        ],
+        "Energy": [
+          0.11786560311002767,
+          0.10844385412900115,
+          0.12655363327858121,
+          0.10798537378713034
+        ],
+        "Homogeneity": [
+          0.85363674014696067,
+          0.828272242547888,
+          0.87447828991315968,
+          0.82645993389584782
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.9464548576286154,
+        "Standard_Deviation": 0.3135203175007274
+      },
+      "StandardDeviation": {
+        "Mean": 9.3690214531649918,
+        "Standard_Deviation": 4.8435939671286743
+      },
+      "LBP": {
+        "Mean": 0.0791322589,
+        "Standard_Deviation": 0.10426648
+      },
+      "HOG": {
+        "Mean": 0.158867925,
+        "Standard_Deviation": 0.0503862202
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 2183.1632653061224,
+        "Standard_Deviation": 15263.184712114389
+      },
+      "Circularity": {
+        "Mean": 0.91292993846710258,
+        "Standard_Deviation": 0.17629699159973056
+      },
+      "MajorAxisLength": {
+        "Mean": 12.506498182261812,
+        "Standard_Deviation": 71.422924955318976
+      },
+      "MinorAxisLength": {
+        "Mean": 10.581479353363116,
+        "Standard_Deviation": 63.407369385371176
+      },
+      "Eccentricity": {
+        "Mean": 0.40841378714987331,
+        "Standard_Deviation": 0.41206982215873145
+      },
+      "Orientation": {
+        "Mean": 17.826898420270059,
+        "Standard_Deviation": 46.380056714549568
+      },
+      "FilledArea": {
+        "Mean": 2234.408163265306,
+        "Standard_Deviation": 15621.898993504768
+      },
+      "Perimeter": {
+        "Mean": 54.6304081632653,
+        "Standard_Deviation": 365.00894797832927
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1362012/pexels-photo-1362012.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "monkey",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 128.081332,
+      "Green": 128.434444,
+      "Blue": 122.326164
+    },
+    "Normalization": {
+      "Red": 65595.998220861075,
+      "Green": 65714.129223723037,
+      "Blue": 62748.331921313409
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.22019639278557113,
+          0.29011530074176411,
+          0.22042885771543086,
+          0.31487022140473325
+        ],
+        "Correlation": [
+          0.9632884562084,
+          0.95161274388486827,
+          0.9632078817290618,
+          0.94747895151980188
+        ],
+        "Energy": [
+          0.10933104859819839,
+          0.096861877319530845,
+          0.10870268006955797,
+          0.095819061515323087
+        ],
+        "Homogeneity": [
+          0.89719178356713436,
+          0.86672543483761111,
+          0.895131529726119,
+          0.86274994879538636
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.9354796912787595,
+        "Standard_Deviation": 0.45087178605034772
+      },
+      "StandardDeviation": {
+        "Mean": 8.0547176102525082,
+        "Standard_Deviation": 5.5273330300177763
+      },
+      "LBP": {
+        "Mean": 0.0934457928,
+        "Standard_Deviation": 0.0914259702
+      },
+      "HOG": {
+        "Mean": 0.154238939,
+        "Standard_Deviation": 0.0631518364
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 223.91866028708134,
+        "Standard_Deviation": 2262.16188020771
+      },
+      "Circularity": {
+        "Mean": 0.8585578879810174,
+        "Standard_Deviation": 0.22714838806305879
+      },
+      "MajorAxisLength": {
+        "Mean": 7.1885675129858928,
+        "Standard_Deviation": 30.778479378578751
+      },
+      "MinorAxisLength": {
+        "Mean": 3.6791709285274128,
+        "Standard_Deviation": 15.357545302797087
+      },
+      "Eccentricity": {
+        "Mean": 0.49321962770373662,
+        "Standard_Deviation": 0.42579434363853824
+      },
+      "Orientation": {
+        "Mean": 18.453825926057153,
+        "Standard_Deviation": 42.85684688032886
+      },
+      "FilledArea": {
+        "Mean": 231.1244019138756,
+        "Standard_Deviation": 2369.1072160781609
+      },
+      "Perimeter": {
+        "Mean": 26.715995215311004,
+        "Standard_Deviation": 201.18949630734434
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "elephant",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 140.38054,
+      "Green": 143.745032,
+      "Blue": 130.996604
+    },
+    "Normalization": {
+      "Red": 74557.617616263189,
+      "Green": 77083.250464802855,
+      "Blue": 68911.865451837744
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.40465330661322646,
+          0.50493371512564211,
+          0.29476152304609216,
+          0.46623909140927144
+        ],
+        "Correlation": [
+          0.962072086470035,
+          0.95270887794212122,
+          0.97238828495235063,
+          0.956333465108012
+        ],
+        "Energy": [
+          0.07709115195521303,
+          0.06971869874708965,
+          0.0870006181822563,
+          0.0711053267604743
+        ],
+        "Homogeneity": [
+          0.82671409485637959,
+          0.79767836082509525,
+          0.85913640614562459,
+          0.80381035953001523
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.1432944745103075,
+        "Standard_Deviation": 0.35878785278579811
+      },
+      "StandardDeviation": {
+        "Mean": 11.422870999285548,
+        "Standard_Deviation": 6.9271462111499522
+      },
+      "LBP": {
+        "Mean": 0.0834744573,
+        "Standard_Deviation": 0.100763358
+      },
+      "HOG": {
+        "Mean": 0.156659886,
+        "Standard_Deviation": 0.0568812527
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 175.80566037735849,
+        "Standard_Deviation": 3933.1522154226836
+      },
+      "Circularity": {
+        "Mean": 0.88348900876422742,
+        "Standard_Deviation": 0.190282588484012
+      },
+      "MajorAxisLength": {
+        "Mean": 3.7103325129711635,
+        "Standard_Deviation": 17.28673559613949
+      },
+      "MinorAxisLength": {
+        "Mean": 2.310719116333622,
+        "Standard_Deviation": 16.270672992555809
+      },
+      "Eccentricity": {
+        "Mean": 0.48707507933390509,
+        "Standard_Deviation": 0.43033265934580273
+      },
+      "Orientation": {
+        "Mean": 14.914333883178164,
+        "Standard_Deviation": 45.595990326208252
+      },
+      "FilledArea": {
+        "Mean": 180.4245283018868,
+        "Standard_Deviation": 4039.0513034512678
+      },
+      "Perimeter": {
+        "Mean": 13.754064150943394,
+        "Standard_Deviation": 218.0309552901623
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/326900/pexels-photo-326900.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 113.92992,
+      "Green": 84.844176,
+      "Blue": 55.24576
+    },
+    "Normalization": {
+      "Red": 61606.057276606305,
+      "Green": 46091.909943690254,
+      "Blue": 29941.461155885034
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.46016833667334672,
+          0.53962032280994854,
+          0.29315430861723446,
+          0.53986931779390446
+        ],
+        "Correlation": [
+          0.92104354854660386,
+          0.907363369685122,
+          0.9496872197596935,
+          0.90731859679370452
+        ],
+        "Energy": [
+          0.080355703631712336,
+          0.074464492340580793,
+          0.095439879871968378,
+          0.075128752065391574
+        ],
+        "Homogeneity": [
+          0.80969412157648624,
+          0.78725741395951565,
+          0.860478089512358,
+          0.7901181119754539
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.2531695480682012,
+        "Standard_Deviation": 0.4688750659115381
+      },
+      "StandardDeviation": {
+        "Mean": 12.985039838470895,
+        "Standard_Deviation": 7.3253556101010018
+      },
+      "LBP": {
+        "Mean": 0.0849783272,
+        "Standard_Deviation": 0.0994764119
+      },
+      "HOG": {
+        "Mean": 0.153836146,
+        "Standard_Deviation": 0.0641266927
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 128.86998916576383,
+        "Standard_Deviation": 3176.1539294424383
+      },
+      "Circularity": {
+        "Mean": 0.83097258471730917,
+        "Standard_Deviation": 0.24179489499152734
+      },
+      "MajorAxisLength": {
+        "Mean": 4.9138361874055638,
+        "Standard_Deviation": 19.290690467137818
+      },
+      "MinorAxisLength": {
+        "Mean": 2.5793148809731559,
+        "Standard_Deviation": 13.169383565579327
+      },
+      "Eccentricity": {
+        "Mean": 0.53363896779138775,
+        "Standard_Deviation": 0.42402192316020448
+      },
+      "Orientation": {
+        "Mean": 14.251397572982992,
+        "Standard_Deviation": 53.81415797678266
+      },
+      "FilledArea": {
+        "Mean": 143.38244853737811,
+        "Standard_Deviation": 3491.00394102675
+      },
+      "Perimeter": {
+        "Mean": 19.266115926327178,
+        "Standard_Deviation": 260.26664928580607
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "tiger",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 56.973512,
+      "Green": 52.010948,
+      "Blue": 47.39452
+    },
+    "Normalization": {
+      "Red": 34763.257307630927,
+      "Green": 31972.523509441868,
+      "Blue": 29910.46830764347
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.22452104208416834,
+          0.39897430130802691,
+          0.31541883767535067,
+          0.40848831932401874
+        ],
+        "Correlation": [
+          0.95901943164589654,
+          0.92719760448158317,
+          0.9423916600385851,
+          0.92546685648906568
+        ],
+        "Energy": [
+          0.26538074369179243,
+          0.242172617131893,
+          0.25249860631885013,
+          0.24032160185484033
+        ],
+        "Homogeneity": [
+          0.90158216432865723,
+          0.85757393209933563,
+          0.87518303273213083,
+          0.85351444371709351
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.8191701732403525,
+        "Standard_Deviation": 0.6846340250543167
+      },
+      "StandardDeviation": {
+        "Mean": 9.856486429724745,
+        "Standard_Deviation": 8.87454257735806
+      },
+      "LBP": {
+        "Mean": 0.0919071361,
+        "Standard_Deviation": 0.0929990336
+      },
+      "HOG": {
+        "Mean": 0.154503569,
+        "Standard_Deviation": 0.0625015721
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 75.556390977443613,
+        "Standard_Deviation": 1100.4024237431158
+      },
+      "Circularity": {
+        "Mean": 0.80022398881056822,
+        "Standard_Deviation": 0.24005680763651652
+      },
+      "MajorAxisLength": {
+        "Mean": 6.03795542281663,
+        "Standard_Deviation": 14.797136178309986
+      },
+      "MinorAxisLength": {
+        "Mean": 3.0216963944136062,
+        "Standard_Deviation": 9.2113809447573765
+      },
+      "Eccentricity": {
+        "Mean": 0.60622064177212132,
+        "Standard_Deviation": 0.38735945811480132
+      },
+      "Orientation": {
+        "Mean": 3.658916122773646,
+        "Standard_Deviation": 37.370860643360921
+      },
+      "FilledArea": {
+        "Mean": 80.2,
+        "Standard_Deviation": 1186.3598739852964
+      },
+      "Perimeter": {
+        "Mean": 16.039136842105265,
+        "Standard_Deviation": 103.90182250757393
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/70069/pexels-photo-70069.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "parrot",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 101.650104,
+      "Green": 127.467544,
+      "Blue": 79.105592
+    },
+    "Normalization": {
+      "Red": 56043.481988389976,
+      "Green": 65744.8496856199,
+      "Blue": 44009.659235286592
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.23051302605210422,
+          0.34608696350617069,
+          0.23557114228456916,
+          0.28913136895032548
+        ],
+        "Correlation": [
+          0.95985082092149354,
+          0.93964083490952466,
+          0.95892324833009024,
+          0.94958196604176581
+        ],
+        "Energy": [
+          0.12940553141553651,
+          0.11578571183690134,
+          0.12942028942855655,
+          0.11778147832625299
+        ],
+        "Homogeneity": [
+          0.898009285237141,
+          0.86752961022722985,
+          0.89568423513694073,
+          0.87197668550193241
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.6856098163943978,
+        "Standard_Deviation": 0.42897117648692024
+      },
+      "StandardDeviation": {
+        "Mean": 7.6924038049882908,
+        "Standard_Deviation": 6.5386459815560247
+      },
+      "LBP": {
+        "Mean": 0.0807630718,
+        "Standard_Deviation": 0.102986634
+      },
+      "HOG": {
+        "Mean": 0.155412793,
+        "Standard_Deviation": 0.0602051616
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 139.54017857142858,
+        "Standard_Deviation": 1675.0015227725469
+      },
+      "Circularity": {
+        "Mean": 0.87398572091380411,
+        "Standard_Deviation": 0.21290871438517267
+      },
+      "MajorAxisLength": {
+        "Mean": 4.6794277418389978,
+        "Standard_Deviation": 21.421249514892143
+      },
+      "MinorAxisLength": {
+        "Mean": 2.6620559141850721,
+        "Standard_Deviation": 11.413398543496154
+      },
+      "Eccentricity": {
+        "Mean": 0.4388592763508834,
+        "Standard_Deviation": 0.43098479097310316
+      },
+      "Orientation": {
+        "Mean": 7.3372551184347969,
+        "Standard_Deviation": 40.672173910751241
+      },
+      "FilledArea": {
+        "Mean": 145.31919642857142,
+        "Standard_Deviation": 1745.2032639670715
+      },
+      "Perimeter": {
+        "Mean": 14.865305803571433,
+        "Standard_Deviation": 126.99136439224448
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/45851/bird-blue-cristata-cyanocitta-45851.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "monkey",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 90.920896,
+      "Green": 124.237724,
+      "Blue": 122.237132
+    },
+    "Normalization": {
+      "Red": 48202.205049593795,
+      "Green": 62994.259759622546,
+      "Blue": 62815.25107909373
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.18789979959919839,
+          0.26125597889165109,
+          0.20337875751503004,
+          0.25138051654411026
+        ],
+        "Correlation": [
+          0.94224375237822733,
+          0.91972137371363871,
+          0.93749185295215443,
+          0.92275611531971335
+        ],
+        "Energy": [
+          0.15770179072373203,
+          0.13944360271522077,
+          0.15429566547925511,
+          0.14069541908260513
+        ],
+        "Homogeneity": [
+          0.906924515698063,
+          0.87484923085984923,
+          0.90071943887775552,
+          0.87754212499815931
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.6958131152935607,
+        "Standard_Deviation": 0.38810117455047938
+      },
+      "StandardDeviation": {
+        "Mean": 6.6574115817424824,
+        "Standard_Deviation": 3.6322562813366575
+      },
+      "LBP": {
+        "Mean": 0.0853098184,
+        "Standard_Deviation": 0.0991873741
+      },
+      "HOG": {
+        "Mean": 0.1584194,
+        "Standard_Deviation": 0.0517792664
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 162.45634266886327,
+        "Standard_Deviation": 3363.355398843908
+      },
+      "Circularity": {
+        "Mean": 0.86595104533927558,
+        "Standard_Deviation": 0.21901428192624425
+      },
+      "MajorAxisLength": {
+        "Mean": 4.65580284825049,
+        "Standard_Deviation": 24.187367743503192
+      },
+      "MinorAxisLength": {
+        "Mean": 2.5030567194175224,
+        "Standard_Deviation": 13.250429606649904
+      },
+      "Eccentricity": {
+        "Mean": 0.49250803321371633,
+        "Standard_Deviation": 0.42481658469294808
+      },
+      "Orientation": {
+        "Mean": 9.0146781046346032,
+        "Standard_Deviation": 40.477140918896616
+      },
+      "FilledArea": {
+        "Mean": 174.89126853377266,
+        "Standard_Deviation": 3631.76314971347
+      },
+      "Perimeter": {
+        "Mean": 18.518761120263594,
+        "Standard_Deviation": 242.1232920805254
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/59816/swan-bird-nature-water-bird-59816.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "monkey",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 59.251236,
+      "Green": 84.816004,
+      "Blue": 52.552296
+    },
+    "Normalization": {
+      "Red": 32992.215130314165,
+      "Green": 45563.286194762608,
+      "Blue": 29205.889619945745
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.2619158316633266,
+          0.36331982602479512,
+          0.2520681362725451,
+          0.37018325227609522
+        ],
+        "Correlation": [
+          0.95100154541782989,
+          0.932039600512366,
+          0.95286377957107782,
+          0.93075653178693984
+        ],
+        "Energy": [
+          0.12521235082590032,
+          0.11110292952742684,
+          0.12595642790189598,
+          0.11008812001429241
+        ],
+        "Homogeneity": [
+          0.877345156980628,
+          0.8420148915064597,
+          0.88080607882431539,
+          0.8401543233427442
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.1506185868145842,
+        "Standard_Deviation": 0.51592395048970829
+      },
+      "StandardDeviation": {
+        "Mean": 9.98026064609889,
+        "Standard_Deviation": 6.775888754985206
+      },
+      "LBP": {
+        "Mean": 0.0991364568,
+        "Standard_Deviation": 0.0851110518
+      },
+      "HOG": {
+        "Mean": 0.153047577,
+        "Standard_Deviation": 0.0659867227
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 167.31001890359167,
+        "Standard_Deviation": 1605.387977720427
+      },
+      "Circularity": {
+        "Mean": 0.79366237830641573,
+        "Standard_Deviation": 0.25275520255133832
+      },
+      "MajorAxisLength": {
+        "Mean": 9.599910858044332,
+        "Standard_Deviation": 31.690274572207247
+      },
+      "MinorAxisLength": {
+        "Mean": 4.8599751410312546,
+        "Standard_Deviation": 11.17170356983018
+      },
+      "Eccentricity": {
+        "Mean": 0.5392484089250098,
+        "Standard_Deviation": 0.39253216053160195
+      },
+      "Orientation": {
+        "Mean": 6.8086700619521165,
+        "Standard_Deviation": 47.107254619165666
+      },
+      "FilledArea": {
+        "Mean": 176.82230623818526,
+        "Standard_Deviation": 1750.342795049962
+      },
+      "Perimeter": {
+        "Mean": 36.113103969754249,
+        "Standard_Deviation": 227.04840916476084
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1670413/pexels-photo-1670413.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 145.76612,
+      "Green": 132.642988,
+      "Blue": 101.330184
+    },
+    "Normalization": {
+      "Red": 74152.559895533544,
+      "Green": 67694.489131927388,
+      "Blue": 52302.215202871746
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.43195190380761528,
+          0.49909438114706373,
+          0.29095390781563124,
+          0.50213051353207416
+        ],
+        "Correlation": [
+          0.90408743907274225,
+          0.88914505173444192,
+          0.93531388330660137,
+          0.88847371635060168
+        ],
+        "Energy": [
+          0.10293292685571545,
+          0.095449309158700507,
+          0.1206426027847278,
+          0.095811633436730645
+        ],
+        "Homogeneity": [
+          0.81565203740814973,
+          0.794556648366874,
+          0.86073961255845033,
+          0.79598616069814976
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.195085924353041,
+        "Standard_Deviation": 0.35170218565800115
+      },
+      "StandardDeviation": {
+        "Mean": 11.947399923063017,
+        "Standard_Deviation": 6.6914012865612928
+      },
+      "LBP": {
+        "Mean": 0.0817384422,
+        "Standard_Deviation": 0.102200858
+      },
+      "HOG": {
+        "Mean": 0.155964866,
+        "Standard_Deviation": 0.0587601811
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 45.130434782608695,
+        "Standard_Deviation": 859.12718766790465
+      },
+      "Circularity": {
+        "Mean": 0.84231654496678976,
+        "Standard_Deviation": 0.23649330723011106
+      },
+      "MajorAxisLength": {
+        "Mean": 4.4802344807082326,
+        "Standard_Deviation": 13.610086760123698
+      },
+      "MinorAxisLength": {
+        "Mean": 2.2431787319087824,
+        "Standard_Deviation": 5.8079429374872964
+      },
+      "Eccentricity": {
+        "Mean": 0.50958076734004953,
+        "Standard_Deviation": 0.42792507135107777
+      },
+      "Orientation": {
+        "Mean": 15.190155852823455,
+        "Standard_Deviation": 49.392713417347
+      },
+      "FilledArea": {
+        "Mean": 47.203528670447383,
+        "Standard_Deviation": 886.657981028599
+      },
+      "Perimeter": {
+        "Mean": 12.575327662255825,
+        "Standard_Deviation": 102.70696376372065
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/733998/pexels-photo-733998.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "moose",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 173.168148,
+      "Green": 171.068932,
+      "Blue": 163.999424
+    },
+    "Normalization": {
+      "Red": 87521.084489757457,
+      "Green": 86584.876806028609,
+      "Blue": 83436.110460914031
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.29693386773547092,
+          0.43912675049497796,
+          0.2997795591182365,
+          0.42073726611539708
+        ],
+        "Correlation": [
+          0.92278449537582952,
+          0.88577525467633211,
+          0.9219944679352049,
+          0.8905586256516409
+        ],
+        "Energy": [
+          0.14636174534238816,
+          0.1296241611270485,
+          0.14559626767763986,
+          0.13025948784124119
+        ],
+        "Homogeneity": [
+          0.87873119572478287,
+          0.84562014572135025,
+          0.87827815631262518,
+          0.846983785301302
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.8263660755047724,
+        "Standard_Deviation": 0.49928319389951281
+      },
+      "StandardDeviation": {
+        "Mean": 9.37848261887241,
+        "Standard_Deviation": 8.8932337084207127
+      },
+      "LBP": {
+        "Mean": 0.0844855383,
+        "Standard_Deviation": 0.0999024808
+      },
+      "HOG": {
+        "Mean": 0.154576272,
+        "Standard_Deviation": 0.0623215139
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 84.777777777777771,
+        "Standard_Deviation": 1353.3907303174792
+      },
+      "Circularity": {
+        "Mean": 0.85829759357994229,
+        "Standard_Deviation": 0.21908050146538691
+      },
+      "MajorAxisLength": {
+        "Mean": 5.1068441159625522,
+        "Standard_Deviation": 25.72557804313298
+      },
+      "MinorAxisLength": {
+        "Mean": 2.5320924175002615,
+        "Standard_Deviation": 10.443185065941073
+      },
+      "Eccentricity": {
+        "Mean": 0.51990110458806993,
+        "Standard_Deviation": 0.41945756441565807
+      },
+      "Orientation": {
+        "Mean": 12.244276069401211,
+        "Standard_Deviation": 41.494080107160464
+      },
+      "FilledArea": {
+        "Mean": 93.900343642611688,
+        "Standard_Deviation": 1534.255110305189
+      },
+      "Perimeter": {
+        "Mean": 17.166951890034369,
+        "Standard_Deviation": 183.1418007267356
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/321552/pexels-photo-321552.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 80.247588,
+      "Green": 56.545292,
+      "Blue": 39.897508
+    },
+    "Normalization": {
+      "Red": 43368.353956663515,
+      "Green": 31083.793368761675,
+      "Blue": 22342.596515902649
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.48524248496993994,
+          0.52050393371914172,
+          0.31864529058116231,
+          0.61310195541383372
+        ],
+        "Correlation": [
+          0.86052816258407328,
+          0.85046387424139791,
+          0.908443745753843,
+          0.82386046985908667
+        ],
+        "Energy": [
+          0.11519052803804003,
+          0.11156172624875028,
+          0.13561716330456505,
+          0.10462105704116019
+        ],
+        "Homogeneity": [
+          0.80226867067468266,
+          0.79478803967320077,
+          0.8511035404141617,
+          0.77167006022733509
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.2572154948543943,
+        "Standard_Deviation": 0.39737359314170717
+      },
+      "StandardDeviation": {
+        "Mean": 13.173085306422632,
+        "Standard_Deviation": 7.3295437374066115
+      },
+      "LBP": {
+        "Mean": 0.0828795359,
+        "Standard_Deviation": 0.10126169
+      },
+      "HOG": {
+        "Mean": 0.152214542,
+        "Standard_Deviation": 0.067886211
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 55.420338983050847,
+        "Standard_Deviation": 1207.6412484393081
+      },
+      "Circularity": {
+        "Mean": 0.83401106394474978,
+        "Standard_Deviation": 0.2400906313134632
+      },
+      "MajorAxisLength": {
+        "Mean": 4.7976415972605251,
+        "Standard_Deviation": 16.850165337097398
+      },
+      "MinorAxisLength": {
+        "Mean": 2.120933853275023,
+        "Standard_Deviation": 6.21883442332083
+      },
+      "Eccentricity": {
+        "Mean": 0.542057627821816,
+        "Standard_Deviation": 0.4261888833296465
+      },
+      "Orientation": {
+        "Mean": 27.085705745552808,
+        "Standard_Deviation": 47.120345559130335
+      },
+      "FilledArea": {
+        "Mean": 66.606779661016944,
+        "Standard_Deviation": 1529.384629383479
+      },
+      "Perimeter": {
+        "Mean": 14.266489491525403,
+        "Standard_Deviation": 153.94567651657425
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/38280/monkey-mandril-africa-baboon-38280.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "fox",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 87.676136,
+      "Green": 85.40102,
+      "Blue": 78.130216
+    },
+    "Normalization": {
+      "Red": 49852.092516555109,
+      "Green": 47964.639028719022,
+      "Blue": 43575.273405280379
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.22901803607214427,
+          0.3816209573455529,
+          0.30153106212424852,
+          0.37489006068248726
+        ],
+        "Correlation": [
+          0.96942008167732852,
+          0.949057547853763,
+          0.95975376954774994,
+          0.94996457432036729
+        ],
+        "Energy": [
+          0.11441067863984482,
+          0.095511612621109382,
+          0.10537563235489014,
+          0.096531399884942609
+        ],
+        "Homogeneity": [
+          0.89339385437541741,
+          0.847208846550817,
+          0.87257989311957262,
+          0.8497034817798591
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.8618947652442932,
+        "Standard_Deviation": 0.56295515212263791
+      },
+      "StandardDeviation": {
+        "Mean": 8.7184674413799179,
+        "Standard_Deviation": 7.3528940530937836
+      },
+      "LBP": {
+        "Mean": 0.0928866342,
+        "Standard_Deviation": 0.0920038
+      },
+      "HOG": {
+        "Mean": 0.155052498,
+        "Standard_Deviation": 0.061127007
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 156.38229376257544,
+        "Standard_Deviation": 2965.1251848145257
+      },
+      "Circularity": {
+        "Mean": 0.8432058947919473,
+        "Standard_Deviation": 0.22023182895323509
+      },
+      "MajorAxisLength": {
+        "Mean": 5.6312404779004224,
+        "Standard_Deviation": 22.926697587390976
+      },
+      "MinorAxisLength": {
+        "Mean": 3.0626557473400888,
+        "Standard_Deviation": 16.392752599333278
+      },
+      "Eccentricity": {
+        "Mean": 0.58120516839367786,
+        "Standard_Deviation": 0.40139334241897329
+      },
+      "Orientation": {
+        "Mean": 5.3687248525621492,
+        "Standard_Deviation": 34.882669126352631
+      },
+      "FilledArea": {
+        "Mean": 162.43259557344064,
+        "Standard_Deviation": 3070.4193800421881
+      },
+      "Perimeter": {
+        "Mean": 22.3060060362173,
+        "Standard_Deviation": 256.96445983292659
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/132434/pexels-photo-132434.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "parrot",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 70.1161,
+      "Green": 52.239924,
+      "Blue": 33.895416
+    },
+    "Normalization": {
+      "Red": 42843.406709486415,
+      "Green": 32611.164352209566,
+      "Blue": 17969.754476938986
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.3625050100200401,
+          0.4692029349279721,
+          0.27903406813627252,
+          0.45155641945213071
+        ],
+        "Correlation": [
+          0.94277139713791347,
+          0.92601616950311072,
+          0.95594343036858309,
+          0.92879872139897124
+        ],
+        "Energy": [
+          0.26907584396849804,
+          0.25446314369284334,
+          0.27779035502668664,
+          0.25575648699236653
+        ],
+        "Homogeneity": [
+          0.853811623246493,
+          0.82694540718042664,
+          0.8765366733466935,
+          0.82829372840537452
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.8433127765141242,
+        "Standard_Deviation": 0.51620028054053124
+      },
+      "StandardDeviation": {
+        "Mean": 9.8292522619364444,
+        "Standard_Deviation": 8.4906876834756559
+      },
+      "LBP": {
+        "Mean": 0.0834198892,
+        "Standard_Deviation": 0.100809306
+      },
+      "HOG": {
+        "Mean": 0.154112339,
+        "Standard_Deviation": 0.0634601712
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 436.62790697674421,
+        "Standard_Deviation": 4183.2004234007381
+      },
+      "Circularity": {
+        "Mean": 0.7970506981442812,
+        "Standard_Deviation": 0.25771006871809365
+      },
+      "MajorAxisLength": {
+        "Mean": 9.218501775776053,
+        "Standard_Deviation": 40.897115065713571
+      },
+      "MinorAxisLength": {
+        "Mean": 4.5222841171568193,
+        "Standard_Deviation": 20.442124594579397
+      },
+      "Eccentricity": {
+        "Mean": 0.58155909712285536,
+        "Standard_Deviation": 0.41080672737032209
+      },
+      "Orientation": {
+        "Mean": 15.412600646374313,
+        "Standard_Deviation": 54.073195923522455
+      },
+      "FilledArea": {
+        "Mean": 478.28682170542635,
+        "Standard_Deviation": 4632.7978253457268
+      },
+      "Perimeter": {
+        "Mean": 50.666573643410864,
+        "Standard_Deviation": 389.94372068458858
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/3342627/pexels-photo-3342627.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 114.12294,
+      "Green": 96.121836,
+      "Blue": 56.473932
+    },
+    "Normalization": {
+      "Red": 59630.940158475038,
+      "Green": 50136.2489891625,
+      "Blue": 31871.451038257168
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.35201603206412824,
+          0.52871675214155767,
+          0.33976352705410823,
+          0.43895004437733176
+        ],
+        "Correlation": [
+          0.94175070740706768,
+          0.9125532999146273,
+          0.94377759086414592,
+          0.92740077162418633
+        ],
+        "Energy": [
+          0.13049815970216991,
+          0.11603250361602503,
+          0.13503512133686207,
+          0.11852433908744395
+        ],
+        "Homogeneity": [
+          0.84581690046760194,
+          0.80731296546714959,
+          0.85491249164996663,
+          0.81884657759071922
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.1246729671850275,
+        "Standard_Deviation": 0.41056108570404259
+      },
+      "StandardDeviation": {
+        "Mean": 11.356288488908675,
+        "Standard_Deviation": 7.8750132372382788
+      },
+      "LBP": {
+        "Mean": 0.0831961408,
+        "Standard_Deviation": 0.100997239
+      },
+      "HOG": {
+        "Mean": 0.155838579,
+        "Standard_Deviation": 0.0590941943
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 145.39698492462313,
+        "Standard_Deviation": 2128.0257789936263
+      },
+      "Circularity": {
+        "Mean": 0.8430134667878888,
+        "Standard_Deviation": 0.240178543487748
+      },
+      "MajorAxisLength": {
+        "Mean": 6.6614076993496418,
+        "Standard_Deviation": 32.886673772398218
+      },
+      "MinorAxisLength": {
+        "Mean": 3.1540121276391391,
+        "Standard_Deviation": 13.072549886646984
+      },
+      "Eccentricity": {
+        "Mean": 0.50003235402957935,
+        "Standard_Deviation": 0.42910741558693088
+      },
+      "Orientation": {
+        "Mean": 8.8779867355185562,
+        "Standard_Deviation": 44.9255730218902
+      },
+      "FilledArea": {
+        "Mean": 150.92964824120602,
+        "Standard_Deviation": 2226.0613748071796
+      },
+      "Perimeter": {
+        "Mean": 25.716198492462308,
+        "Standard_Deviation": 249.47599515214284
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/2499898/pexels-photo-2499898.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "elephant",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 105.20126,
+      "Green": 109.332732,
+      "Blue": 88.830408
+    },
+    "Normalization": {
+      "Red": 55555.058378284557,
+      "Green": 57857.256577942942,
+      "Blue": 47171.805629135815
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.38996392785571143,
+          0.61448749201810438,
+          0.47167535070140276,
+          0.65577246677724188
+        ],
+        "Correlation": [
+          0.94819803090705068,
+          0.91835390743195,
+          0.93734384223740308,
+          0.9128567018638124
+        ],
+        "Energy": [
+          0.082158547315071009,
+          0.068849019791927465,
+          0.0779268406793547,
+          0.067375034050509972
+        ],
+        "Homogeneity": [
+          0.83910541082164336,
+          0.78982755089336987,
+          0.82257488309953242,
+          0.78372737458885711
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.136735871437053,
+        "Standard_Deviation": 0.50929326826958732
+      },
+      "StandardDeviation": {
+        "Mean": 12.869402324870471,
+        "Standard_Deviation": 10.097086490925857
+      },
+      "LBP": {
+        "Mean": 0.0880334452,
+        "Standard_Deviation": 0.0967361107
+      },
+      "HOG": {
+        "Mean": 0.153085545,
+        "Standard_Deviation": 0.0658985525
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 168.36878453038673,
+        "Standard_Deviation": 3672.7010454061542
+      },
+      "Circularity": {
+        "Mean": 0.82143317802633942,
+        "Standard_Deviation": 0.24321395626521689
+      },
+      "MajorAxisLength": {
+        "Mean": 5.1697822449768376,
+        "Standard_Deviation": 20.923225259720059
+      },
+      "MinorAxisLength": {
+        "Mean": 2.7360714383804048,
+        "Standard_Deviation": 16.846874699023619
+      },
+      "Eccentricity": {
+        "Mean": 0.54069310904140133,
+        "Standard_Deviation": 0.43135139851395149
+      },
+      "Orientation": {
+        "Mean": 6.2499486174907961,
+        "Standard_Deviation": 32.46704683638071
+      },
+      "FilledArea": {
+        "Mean": 183.15055248618785,
+        "Standard_Deviation": 4041.2976560675975
+      },
+      "Perimeter": {
+        "Mean": 18.262616022099451,
+        "Standard_Deviation": 240.48062907336839
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/908070/pexels-photo-908070.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "monkey",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 89.842688,
+      "Green": 84.808584,
+      "Blue": 54.684664
+    },
+    "Normalization": {
+      "Red": 46450.782434393186,
+      "Green": 43680.263536965846,
+      "Blue": 29764.749734933022
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.29167935871743489,
+          0.50160039517913579,
+          0.37625250501002006,
+          0.49833534805081103
+        ],
+        "Correlation": [
+          0.94761113421295362,
+          0.90972596707374243,
+          0.93227413404451576,
+          0.910308957790393
+        ],
+        "Energy": [
+          0.14018322827619167,
+          0.1173966871716971,
+          0.12907376850695379,
+          0.11614106892842911
+        ],
+        "Homogeneity": [
+          0.87061997327989316,
+          0.81647951882388692,
+          0.84528650634602531,
+          0.81450186373319211
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.2541680729325595,
+        "Standard_Deviation": 0.45442525191699934
+      },
+      "StandardDeviation": {
+        "Mean": 11.829369829847314,
+        "Standard_Deviation": 9.25446149511044
+      },
+      "LBP": {
+        "Mean": 0.0992714837,
+        "Standard_Deviation": 0.0849508271
+      },
+      "HOG": {
+        "Mean": 0.149499133,
+        "Standard_Deviation": 0.0736737251
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 101.07228915662651,
+        "Standard_Deviation": 740.8938904014758
+      },
+      "Circularity": {
+        "Mean": 0.74168735065555835,
+        "Standard_Deviation": 0.25032378653571613
+      },
+      "MajorAxisLength": {
+        "Mean": 10.594145322448258,
+        "Standard_Deviation": 22.024858554238438
+      },
+      "MinorAxisLength": {
+        "Mean": 5.1063680209156974,
+        "Standard_Deviation": 9.0101762404989767
+      },
+      "Eccentricity": {
+        "Mean": 0.66632544121329673,
+        "Standard_Deviation": 0.34996119838103323
+      },
+      "Orientation": {
+        "Mean": 5.4213942273626206,
+        "Standard_Deviation": 36.674639589679785
+      },
+      "FilledArea": {
+        "Mean": 102.88640275387263,
+        "Standard_Deviation": 759.15091237715933
+      },
+      "Perimeter": {
+        "Mean": 31.611166953528404,
+        "Standard_Deviation": 141.19331095527085
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/189342/pexels-photo-189342.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 138.039276,
+      "Green": 109.772632,
+      "Blue": 62.889024
+    },
+    "Normalization": {
+      "Red": 71615.732277308154,
+      "Green": 56820.461807555519,
+      "Blue": 32927.4749954496
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.41935871743486969,
+          0.51484532190633769,
+          0.33547094188376747,
+          0.55382910108794747
+        ],
+        "Correlation": [
+          0.93067681209670727,
+          0.91487801397122048,
+          0.944507520889586,
+          0.90843127613871
+        ],
+        "Energy": [
+          0.076002801241762077,
+          0.068684831662152987,
+          0.0844302918301533,
+          0.067274052812929239
+        ],
+        "Homogeneity": [
+          0.8206176352705411,
+          0.79395517822552253,
+          0.84716927187708757,
+          0.78735908691129752
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.252544493308168,
+        "Standard_Deviation": 0.4027562686652329
+      },
+      "StandardDeviation": {
+        "Mean": 12.609723800207659,
+        "Standard_Deviation": 7.5853365228661387
+      },
+      "LBP": {
+        "Mean": 0.086355187,
+        "Standard_Deviation": 0.0982628465
+      },
+      "HOG": {
+        "Mean": 0.155627295,
+        "Standard_Deviation": 0.0596485026
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 193.77759197324414,
+        "Standard_Deviation": 4209.6567447448388
+      },
+      "Circularity": {
+        "Mean": 0.83354482857592727,
+        "Standard_Deviation": 0.24137245604910018
+      },
+      "MajorAxisLength": {
+        "Mean": 5.4217599066132207,
+        "Standard_Deviation": 23.004961451069732
+      },
+      "MinorAxisLength": {
+        "Mean": 3.0870578783701061,
+        "Standard_Deviation": 18.669738071563923
+      },
+      "Eccentricity": {
+        "Mean": 0.49170235069596135,
+        "Standard_Deviation": 0.42399155314861392
+      },
+      "Orientation": {
+        "Mean": 12.52976538609248,
+        "Standard_Deviation": 47.755435356857333
+      },
+      "FilledArea": {
+        "Mean": 221.81939799331104,
+        "Standard_Deviation": 4884.3917143887566
+      },
+      "Perimeter": {
+        "Mean": 23.880229096989957,
+        "Standard_Deviation": 345.0344624162986
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/953691/pexels-photo-953691.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 110.9525,
+      "Green": 85.685972,
+      "Blue": 65.953144
+    },
+    "Normalization": {
+      "Red": 56222.157512974212,
+      "Green": 43315.0351820145,
+      "Blue": 33256.078241119911
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.45654909819639283,
+          0.54528295067088073,
+          0.31827655310621239,
+          0.54078497676716153
+        ],
+        "Correlation": [
+          0.81974490082894924,
+          0.78482077726851651,
+          0.87440344881176668,
+          0.78659843500647619
+        ],
+        "Energy": [
+          0.12007786937401857,
+          0.10962164534944588,
+          0.14050176122987457,
+          0.11072175083397628
+        ],
+        "Homogeneity": [
+          0.80367715430861719,
+          0.77772037060092125,
+          0.84793166332665337,
+          0.78011186032720081
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.2956004811384405,
+        "Standard_Deviation": 0.30492044231519871
+      },
+      "StandardDeviation": {
+        "Mean": 12.830339439864689,
+        "Standard_Deviation": 6.5478615440659906
+      },
+      "LBP": {
+        "Mean": 0.0846571,
+        "Standard_Deviation": 0.0997546464
+      },
+      "HOG": {
+        "Mean": 0.158169329,
+        "Standard_Deviation": 0.0525381528
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 56.900748129675812,
+        "Standard_Deviation": 1499.5948323803477
+      },
+      "Circularity": {
+        "Mean": 0.83474116280885191,
+        "Standard_Deviation": 0.23903145932671616
+      },
+      "MajorAxisLength": {
+        "Mean": 4.8397041311944742,
+        "Standard_Deviation": 17.2048398340599
+      },
+      "MinorAxisLength": {
+        "Mean": 2.5892486424888319,
+        "Standard_Deviation": 9.842118016445939
+      },
+      "Eccentricity": {
+        "Mean": 0.54054788063757386,
+        "Standard_Deviation": 0.41350527506549745
+      },
+      "Orientation": {
+        "Mean": 15.012296455437776,
+        "Standard_Deviation": 51.499503558182845
+      },
+      "FilledArea": {
+        "Mean": 61.41695760598504,
+        "Standard_Deviation": 1636.5018225718918
+      },
+      "Perimeter": {
+        "Mean": 19.120270822942619,
+        "Standard_Deviation": 302.910681845913
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "monkey",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 119.708612,
+      "Green": 116.812128,
+      "Blue": 77.56472
+    },
+    "Normalization": {
+      "Red": 63545.85904934346,
+      "Green": 61109.739792886845,
+      "Blue": 42387.421508533123
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.31627655310621244,
+          0.37925148894984356,
+          0.25313827655310622,
+          0.37363705366645117
+        ],
+        "Correlation": [
+          0.94209277393573454,
+          0.9305454678559345,
+          0.9536699832757054,
+          0.9315770595584707
+        ],
+        "Energy": [
+          0.089133393584764714,
+          0.08080860963906375,
+          0.098528106473467963,
+          0.081788043523048637
+        ],
+        "Homogeneity": [
+          0.851009285237141,
+          0.82576482289897091,
+          0.875413961255845,
+          0.82906126213683207
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.0307694637337921,
+        "Standard_Deviation": 0.3244141502323788
+      },
+      "StandardDeviation": {
+        "Mean": 9.6283110261018248,
+        "Standard_Deviation": 4.9473704375248779
+      },
+      "LBP": {
+        "Mean": 0.0812210962,
+        "Standard_Deviation": 0.102619551
+      },
+      "HOG": {
+        "Mean": 0.15871805,
+        "Standard_Deviation": 0.0508563332
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 157.12092391304347,
+        "Standard_Deviation": 3849.5480604495988
+      },
+      "Circularity": {
+        "Mean": 0.89659201705990355,
+        "Standard_Deviation": 0.18966739339898808
+      },
+      "MajorAxisLength": {
+        "Mean": 3.7944107268752827,
+        "Standard_Deviation": 20.734505706287791
+      },
+      "MinorAxisLength": {
+        "Mean": 2.2448561026751146,
+        "Standard_Deviation": 13.763549053038494
+      },
+      "Eccentricity": {
+        "Mean": 0.44295418317375868,
+        "Standard_Deviation": 0.43048092164683571
+      },
+      "Orientation": {
+        "Mean": 14.511161590973357,
+        "Standard_Deviation": 45.36430574475505
+      },
+      "FilledArea": {
+        "Mean": 175.79755434782609,
+        "Standard_Deviation": 4332.9275542354071
+      },
+      "Perimeter": {
+        "Mean": 13.233548913043478,
+        "Standard_Deviation": 211.63923840595021
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "rabbit",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 100.93032,
+      "Green": 101.540476,
+      "Blue": 50.922632
+    },
+    "Normalization": {
+      "Red": 53707.98491755905,
+      "Green": 52224.852799471977,
+      "Blue": 27217.094428115488
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.18914228456913829,
+          0.25804715643712273,
+          0.19884569138276553,
+          0.25155722266175634
+        ],
+        "Correlation": [
+          0.93344135738393552,
+          0.909286906426553,
+          0.93002050616755383,
+          0.91156819253653121
+        ],
+        "Energy": [
+          0.16235998258641532,
+          0.14296263830362674,
+          0.15951640634374961,
+          0.14421309351035011
+        ],
+        "Homogeneity": [
+          0.90584569138276572,
+          0.87408049231395335,
+          0.90123446893787584,
+          0.87657546221367255
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.8424480231600491,
+        "Standard_Deviation": 0.35014578745309993
+      },
+      "StandardDeviation": {
+        "Mean": 7.1301856541469384,
+        "Standard_Deviation": 3.5670904250660755
+      },
+      "LBP": {
+        "Mean": 0.0917799398,
+        "Standard_Deviation": 0.0931267217
+      },
+      "HOG": {
+        "Mean": 0.157929108,
+        "Standard_Deviation": 0.053255897
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 92.254812098991749,
+        "Standard_Deviation": 2594.9031024602791
+      },
+      "Circularity": {
+        "Mean": 0.85013843129766331,
+        "Standard_Deviation": 0.22347190858903668
+      },
+      "MajorAxisLength": {
+        "Mean": 4.3584194892260149,
+        "Standard_Deviation": 16.092744565966271
+      },
+      "MinorAxisLength": {
+        "Mean": 2.504456694291497,
+        "Standard_Deviation": 11.89414311898323
+      },
+      "Eccentricity": {
+        "Mean": 0.52251939784193147,
+        "Standard_Deviation": 0.41269273787481342
+      },
+      "Orientation": {
+        "Mean": 7.6520108007397942,
+        "Standard_Deviation": 42.726533657979687
+      },
+      "FilledArea": {
+        "Mean": 99.8872593950504,
+        "Standard_Deviation": 2832.2900322402493
+      },
+      "Perimeter": {
+        "Mean": 15.272241979835004,
+        "Standard_Deviation": 235.13172737075689
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "woodpecker",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 187.717312,
+      "Green": 171.791032,
+      "Blue": 90.448608
+    },
+    "Normalization": {
+      "Red": 96048.463638958448,
+      "Green": 86517.09119686966,
+      "Blue": 47738.391346276454
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.29306613226452904,
+          0.36454070465580463,
+          0.24147094188376755,
+          0.3475086445435962
+        ],
+        "Correlation": [
+          0.90481935215584763,
+          0.88160787906436255,
+          0.92148135024261324,
+          0.88713584115259192
+        ],
+        "Energy": [
+          0.21344053015048137,
+          0.19888536797612719,
+          0.22705361761599352,
+          0.2001465750843609
+        ],
+        "Homogeneity": [
+          0.8641420173680695,
+          0.84027768295441918,
+          0.88479078156312618,
+          0.8444665550205287
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.8893483179880963,
+        "Standard_Deviation": 0.35362240232959286
+      },
+      "StandardDeviation": {
+        "Mean": 9.2423166556204173,
+        "Standard_Deviation": 5.465836197572659
+      },
+      "LBP": {
+        "Mean": 0.0782253593,
+        "Standard_Deviation": 0.104960315
+      },
+      "HOG": {
+        "Mean": 0.158525348,
+        "Standard_Deviation": 0.0514539257
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 164.44615384615383,
+        "Standard_Deviation": 2201.2871775543108
+      },
+      "Circularity": {
+        "Mean": 0.877380556466401,
+        "Standard_Deviation": 0.21840326952026728
+      },
+      "MajorAxisLength": {
+        "Mean": 6.0639577397889681,
+        "Standard_Deviation": 36.895098758561893
+      },
+      "MinorAxisLength": {
+        "Mean": 2.2979461364019627,
+        "Standard_Deviation": 9.6569628263965139
+      },
+      "Eccentricity": {
+        "Mean": 0.42943928014603644,
+        "Standard_Deviation": 0.44223151217634704
+      },
+      "Orientation": {
+        "Mean": 6.3533139777061809,
+        "Standard_Deviation": 50.753697384100796
+      },
+      "FilledArea": {
+        "Mean": 192.15384615384616,
+        "Standard_Deviation": 2587.2509924355704
+      },
+      "Perimeter": {
+        "Mean": 19.471153846153843,
+        "Standard_Deviation": 198.86851004078588
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/67552/giraffe-tall-mammal-africa-67552.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "lion",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 77.676964,
+      "Green": 66.003848,
+      "Blue": 60.778136
+    },
+    "Normalization": {
+      "Red": 42019.267959227735,
+      "Green": 35548.81065634347,
+      "Blue": 32828.257012145754
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.25153507014028065,
+          0.34700262247942781,
+          0.25618837675350703,
+          0.33541632362922236
+        ],
+        "Correlation": [
+          0.93571331750604059,
+          0.91136979818352215,
+          0.93456922119016983,
+          0.91433411903672379
+        ],
+        "Energy": [
+          0.13515056051983726,
+          0.11826549363181085,
+          0.1350425604716447,
+          0.120427767388452
+        ],
+        "Homogeneity": [
+          0.877818637274549,
+          0.841187050118942,
+          0.87672157648630589,
+          0.84476929811526857
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.9898162978188907,
+        "Standard_Deviation": 0.47163970428505581
+      },
+      "StandardDeviation": {
+        "Mean": 9.1384263548865423,
+        "Standard_Deviation": 5.0995710931773965
+      },
+      "LBP": {
+        "Mean": 0.0883850455,
+        "Standard_Deviation": 0.0964094
+      },
+      "HOG": {
+        "Mean": 0.155631974,
+        "Standard_Deviation": 0.059636347
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 95.1031652989449,
+        "Standard_Deviation": 2236.7254939651866
+      },
+      "Circularity": {
+        "Mean": 0.85099389521872437,
+        "Standard_Deviation": 0.23029761352469549
+      },
+      "MajorAxisLength": {
+        "Mean": 4.9377322795789436,
+        "Standard_Deviation": 20.525349447198757
+      },
+      "MinorAxisLength": {
+        "Mean": 2.3598778833818539,
+        "Standard_Deviation": 9.5742219643042841
+      },
+      "Eccentricity": {
+        "Mean": 0.50193624116458035,
+        "Standard_Deviation": 0.43054511710733195
+      },
+      "Orientation": {
+        "Mean": 6.8461695818298764,
+        "Standard_Deviation": 41.731181783368974
+      },
+      "FilledArea": {
+        "Mean": 101.06916764361078,
+        "Standard_Deviation": 2396.4476636961381
+      },
+      "Perimeter": {
+        "Mean": 17.312878077373977,
+        "Standard_Deviation": 234.65814038640806
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/62289/yemen-chameleon-chamaeleo-calyptratus-chameleon-reptile-62289.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "monkey",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 110.326828,
+      "Green": 114.898752,
+      "Blue": 120.451344
+    },
+    "Normalization": {
+      "Red": 62741.757504524459,
+      "Green": 66550.625353081763,
+      "Blue": 71537.1166178045
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.173875751503006,
+          0.26380616945313473,
+          0.21734268537074147,
+          0.27366155156003391
+        ],
+        "Correlation": [
+          0.98269101258999647,
+          0.97374919426136342,
+          0.9783675842798335,
+          0.9727691965748847
+        ],
+        "Energy": [
+          0.11584776157525474,
+          0.10074823503295438,
+          0.1091249666627845,
+          0.10030095429145434
+        ],
+        "Homogeneity": [
+          0.9140293921175684,
+          0.87701655816643309,
+          0.89724215096860382,
+          0.87517961775253927
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.6799117361515714,
+        "Standard_Deviation": 0.5923355634717814
+      },
+      "StandardDeviation": {
+        "Mean": 7.1930897595511585,
+        "Standard_Deviation": 5.2198785457994683
+      },
+      "LBP": {
+        "Mean": 0.090199925,
+        "Standard_Deviation": 0.0946841091
+      },
+      "HOG": {
+        "Mean": 0.156313628,
+        "Standard_Deviation": 0.0578259788
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 212.9549071618037,
+        "Standard_Deviation": 3550.3470987915302
+      },
+      "Circularity": {
+        "Mean": 0.80849046814284542,
+        "Standard_Deviation": 0.25477614168420221
+      },
+      "MajorAxisLength": {
+        "Mean": 7.4630537223934654,
+        "Standard_Deviation": 32.021566600764515
+      },
+      "MinorAxisLength": {
+        "Mean": 3.0529260226120574,
+        "Standard_Deviation": 9.2211974893413728
+      },
+      "Eccentricity": {
+        "Mean": 0.552446837953773,
+        "Standard_Deviation": 0.41965112094068757
+      },
+      "Orientation": {
+        "Mean": 6.87872631279881,
+        "Standard_Deviation": 31.368779697898191
+      },
+      "FilledArea": {
+        "Mean": 213.90981432360743,
+        "Standard_Deviation": 3553.6450282105743
+      },
+      "Perimeter": {
+        "Mean": 18.585742705570297,
+        "Standard_Deviation": 92.0047179059724
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/162140/duckling-birds-yellow-fluffy-162140.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "rabbit",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 79.03322,
+      "Green": 63.442916,
+      "Blue": 46.087312
+    },
+    "Normalization": {
+      "Red": 44398.41760926698,
+      "Green": 35559.869369352149,
+      "Blue": 28609.91846917323
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.31729458917835673,
+          0.44717491094413275,
+          0.30182364729458921,
+          0.43402636937201056
+        ],
+        "Correlation": [
+          0.93687810547163941,
+          0.91040084093282081,
+          0.93953040383348252,
+          0.91301066653995522
+        ],
+        "Energy": [
+          0.13575796890775543,
+          0.12335559029358684,
+          0.14312586092425331,
+          0.12446119467751471
+        ],
+        "Homogeneity": [
+          0.86068724114896444,
+          0.827154212997041,
+          0.87039131596526387,
+          0.830193988511425
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.0505242301908888,
+        "Standard_Deviation": 0.45255436954620543
+      },
+      "StandardDeviation": {
+        "Mean": 10.668071435229111,
+        "Standard_Deviation": 7.7477890229125279
+      },
+      "LBP": {
+        "Mean": 0.0852154791,
+        "Standard_Deviation": 0.0992698371
+      },
+      "HOG": {
+        "Mean": 0.156725749,
+        "Standard_Deviation": 0.0566994548
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 79.192134831460677,
+        "Standard_Deviation": 990.02503868130111
+      },
+      "Circularity": {
+        "Mean": 0.84317454121499014,
+        "Standard_Deviation": 0.23153782258276714
+      },
+      "MajorAxisLength": {
+        "Mean": 5.6072635682862622,
+        "Standard_Deviation": 27.12731082313304
+      },
+      "MinorAxisLength": {
+        "Mean": 2.6161701004945406,
+        "Standard_Deviation": 8.269924717063045
+      },
+      "Eccentricity": {
+        "Mean": 0.5060131814782034,
+        "Standard_Deviation": 0.42179482359147874
+      },
+      "Orientation": {
+        "Mean": 11.503474221578069,
+        "Standard_Deviation": 48.833364043752255
+      },
+      "FilledArea": {
+        "Mean": 84.340449438202242,
+        "Standard_Deviation": 1057.6186676531972
+      },
+      "Perimeter": {
+        "Mean": 21.024019101123574,
+        "Standard_Deviation": 217.23914925541254
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/219906/pexels-photo-219906.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "parrot",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 107.807996,
+      "Green": 125.159052,
+      "Blue": 40.922248
+    },
+    "Normalization": {
+      "Red": 54722.042280227826,
+      "Green": 63249.791061282333,
+      "Blue": 21586.525362496348
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.33836072144288576,
+          0.40209477070373212,
+          0.27497394789579155,
+          0.42537580170360756
+        ],
+        "Correlation": [
+          0.87113860883985583,
+          0.84677968267029469,
+          0.89521246411235555,
+          0.83790898520921075
+        ],
+        "Energy": [
+          0.14131876039052052,
+          0.12984152958482,
+          0.1531015703551391,
+          0.12843950684661781
+        ],
+        "Homogeneity": [
+          0.84870026720106884,
+          0.82669032119014252,
+          0.87028744154976612,
+          0.82250379181877453
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.9994593355397905,
+        "Standard_Deviation": 0.34457361127770753
+      },
+      "StandardDeviation": {
+        "Mean": 10.075093128063884,
+        "Standard_Deviation": 6.2385961942171164
+      },
+      "LBP": {
+        "Mean": 0.0789643526,
+        "Standard_Deviation": 0.104395904
+      },
+      "HOG": {
+        "Mean": 0.158100307,
+        "Standard_Deviation": 0.0527454466
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 76.156121045392027,
+        "Standard_Deviation": 2274.1057759525129
+      },
+      "Circularity": {
+        "Mean": 0.87939189998892686,
+        "Standard_Deviation": 0.20065740738011997
+      },
+      "MajorAxisLength": {
+        "Mean": 3.541807249931082,
+        "Standard_Deviation": 15.112286403072192
+      },
+      "MinorAxisLength": {
+        "Mean": 2.0670044828333758,
+        "Standard_Deviation": 9.7166301940055924
+      },
+      "Eccentricity": {
+        "Mean": 0.47380969308902715,
+        "Standard_Deviation": 0.42683067455899543
+      },
+      "Orientation": {
+        "Mean": 16.431930838223636,
+        "Standard_Deviation": 44.721988830729615
+      },
+      "FilledArea": {
+        "Mean": 93.647180192572208,
+        "Standard_Deviation": 2894.0629182540483
+      },
+      "Perimeter": {
+        "Mean": 10.185022696011007,
+        "Standard_Deviation": 147.26399331931444
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/45911/peacock-plumage-bird-peafowl-45911.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "monkey",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 162.83972,
+      "Green": 143.87294,
+      "Blue": 114.991104
+    },
+    "Normalization": {
+      "Red": 85625.762561040028,
+      "Green": 75381.142360563055,
+      "Blue": 60163.03767591645
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.27204809619238474,
+          0.3332757699768274,
+          0.23859719438877755,
+          0.3306854189340605
+        ],
+        "Correlation": [
+          0.96309622664412,
+          0.95482467062296772,
+          0.967655590131082,
+          0.9551747546990903
+        ],
+        "Energy": [
+          0.11699027583021754,
+          0.10727665458813146,
+          0.12435073092879145,
+          0.10751066641797088
+        ],
+        "Homogeneity": [
+          0.86640113560454246,
+          0.84184969806011489,
+          0.88273647294589175,
+          0.84237245365815139
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.9392346797574866,
+        "Standard_Deviation": 0.33225269644821004
+      },
+      "StandardDeviation": {
+        "Mean": 8.9173376340258876,
+        "Standard_Deviation": 4.1584198950968023
+      },
+      "LBP": {
+        "Mean": 0.0803553462,
+        "Standard_Deviation": 0.10331054
+      },
+      "HOG": {
+        "Mean": 0.159176633,
+        "Standard_Deviation": 0.0494023114
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 315.34649122807019,
+        "Standard_Deviation": 4613.9697231654181
+      },
+      "Circularity": {
+        "Mean": 0.87872755132639835,
+        "Standard_Deviation": 0.20585520004960375
+      },
+      "MajorAxisLength": {
+        "Mean": 5.1543981559798357,
+        "Standard_Deviation": 27.251484629067154
+      },
+      "MinorAxisLength": {
+        "Mean": 3.2175892463105851,
+        "Standard_Deviation": 21.01363817422363
+      },
+      "Eccentricity": {
+        "Mean": 0.45555368862881057,
+        "Standard_Deviation": 0.43272032978611541
+      },
+      "Orientation": {
+        "Mean": 10.574537970634861,
+        "Standard_Deviation": 42.955493486407875
+      },
+      "FilledArea": {
+        "Mean": 328.46491228070175,
+        "Standard_Deviation": 4808.8020629572338
+      },
+      "Perimeter": {
+        "Mean": 21.841456140350875,
+        "Standard_Deviation": 237.84434510242363
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/326012/pexels-photo-326012.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "tiger",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 58.49024,
+      "Green": 46.945444,
+      "Blue": 36.939016
+    },
+    "Normalization": {
+      "Red": 38497.20810537225,
+      "Green": 30483.7174417268,
+      "Blue": 23984.4302831805
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.38830060120240484,
+          0.54160023453721073,
+          0.31655310621242483,
+          0.52375291665495327
+        ],
+        "Correlation": [
+          0.931764519862161,
+          0.90493243369098031,
+          0.94436922112985133,
+          0.90806520053292006
+        ],
+        "Energy": [
+          0.34857328049284941,
+          0.33982386549209137,
+          0.35225704256609408,
+          0.33936109696350625
+        ],
+        "Homogeneity": [
+          0.87394375417501657,
+          0.8544184561507786,
+          0.88820975283901127,
+          0.85735921695476081
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.786208321296705,
+        "Standard_Deviation": 0.83025841450950755
+      },
+      "StandardDeviation": {
+        "Mean": 11.899020962757566,
+        "Standard_Deviation": 11.7147420639183
+      },
+      "LBP": {
+        "Mean": 0.0873285234,
+        "Standard_Deviation": 0.097383894
+      },
+      "HOG": {
+        "Mean": 0.15274933,
+        "Standard_Deviation": 0.0666741729
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 253.79026217228466,
+        "Standard_Deviation": 3881.6548067224444
+      },
+      "Circularity": {
+        "Mean": 0.83527993446632587,
+        "Standard_Deviation": 0.23078262069199978
+      },
+      "MajorAxisLength": {
+        "Mean": 6.1102276520089314,
+        "Standard_Deviation": 27.131156863390583
+      },
+      "MinorAxisLength": {
+        "Mean": 3.2534229717590755,
+        "Standard_Deviation": 18.815430890698291
+      },
+      "Eccentricity": {
+        "Mean": 0.542262479781986,
+        "Standard_Deviation": 0.41794117371465461
+      },
+      "Orientation": {
+        "Mean": 11.208207930744358,
+        "Standard_Deviation": 43.65134388906651
+      },
+      "FilledArea": {
+        "Mean": 302.86891385767791,
+        "Standard_Deviation": 4667.3477803031419
+      },
+      "Perimeter": {
+        "Mean": 37.901651685393269,
+        "Standard_Deviation": 469.62886679440453
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "turtle",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 41.69928,
+      "Green": 105.791304,
+      "Blue": 82.075664
+    },
+    "Normalization": {
+      "Red": 22347.129821403141,
+      "Green": 54185.814305886954,
+      "Blue": 43918.9365568315
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.42342685370741484,
+          0.64621828827996675,
+          0.45875751503006018,
+          0.62585290822125217
+        ],
+        "Correlation": [
+          0.8679102904541991,
+          0.79838640172922237,
+          0.85677391501834665,
+          0.80474121631367679
+        ],
+        "Energy": [
+          0.10792940391404049,
+          0.089806644847680819,
+          0.10318998214465003,
+          0.090432228990815156
+        ],
+        "Homogeneity": [
+          0.82174228456913834,
+          0.77083117470746432,
+          0.81005637942551778,
+          0.77357420251324283
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.3057880656428456,
+        "Standard_Deviation": 0.42932923296965481
+      },
+      "StandardDeviation": {
+        "Mean": 14.233291340761639,
+        "Standard_Deviation": 8.58107784823532
+      },
+      "LBP": {
+        "Mean": 0.0864947736,
+        "Standard_Deviation": 0.0981378853
+      },
+      "HOG": {
+        "Mean": 0.155717179,
+        "Standard_Deviation": 0.0594134554
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 106.59165942658558,
+        "Standard_Deviation": 2382.0839506397656
+      },
+      "Circularity": {
+        "Mean": 0.83834272199060189,
+        "Standard_Deviation": 0.2273320766349291
+      },
+      "MajorAxisLength": {
+        "Mean": 5.1271196837591209,
+        "Standard_Deviation": 22.366348952123928
+      },
+      "MinorAxisLength": {
+        "Mean": 2.5498928410147959,
+        "Standard_Deviation": 10.189138176353586
+      },
+      "Eccentricity": {
+        "Mean": 0.53682356425466216,
+        "Standard_Deviation": 0.4173690195522215
+      },
+      "Orientation": {
+        "Mean": 9.6768501108445513,
+        "Standard_Deviation": 40.561981869575177
+      },
+      "FilledArea": {
+        "Mean": 130.53692441355344,
+        "Standard_Deviation": 2939.4176578216552
+      },
+      "Perimeter": {
+        "Mean": 20.554790616854881,
+        "Standard_Deviation": 279.89821393543639
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/162203/panthera-tigris-altaica-tiger-siberian-amurtiger-162203.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "monkey",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 112.478412,
+      "Green": 118.363004,
+      "Blue": 57.563864
+    },
+    "Normalization": {
+      "Red": 57907.196820928388,
+      "Green": 63511.387032816638,
+      "Blue": 31396.320887597365
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.30023647294589179,
+          0.36218328440448028,
+          0.24937474949899802,
+          0.36177364749539154
+        ],
+        "Correlation": [
+          0.93911483002030449,
+          0.9265649719395338,
+          0.94945028029167777,
+          0.92666035260378832
+        ],
+        "Energy": [
+          0.10327282357902176,
+          0.094522785060862188,
+          0.11217760860398152,
+          0.094595551302734726
+        ],
+        "Homogeneity": [
+          0.85715731462925859,
+          0.83336198114331539,
+          0.87839746158984644,
+          0.83349236883921485
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.04483371513532,
+        "Standard_Deviation": 0.340746110726554
+      },
+      "StandardDeviation": {
+        "Mean": 9.518789434912712,
+        "Standard_Deviation": 4.7777176559666046
+      },
+      "LBP": {
+        "Mean": 0.0820535868,
+        "Standard_Deviation": 0.101943627
+      },
+      "HOG": {
+        "Mean": 0.158705324,
+        "Standard_Deviation": 0.0508959703
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 129.09978768577494,
+        "Standard_Deviation": 2202.7093968934132
+      },
+      "Circularity": {
+        "Mean": 0.8651319787908831,
+        "Standard_Deviation": 0.22410361407880416
+      },
+      "MajorAxisLength": {
+        "Mean": 5.1448945881638171,
+        "Standard_Deviation": 27.922289713996509
+      },
+      "MinorAxisLength": {
+        "Mean": 2.7912712694346835,
+        "Standard_Deviation": 14.22313720764215
+      },
+      "Eccentricity": {
+        "Mean": 0.47617182524125606,
+        "Standard_Deviation": 0.42701193991649194
+      },
+      "Orientation": {
+        "Mean": 15.456615263227793,
+        "Standard_Deviation": 46.47142017625341
+      },
+      "FilledArea": {
+        "Mean": 134.47770700636943,
+        "Standard_Deviation": 2268.726918106116
+      },
+      "Perimeter": {
+        "Mean": 16.834924628450111,
+        "Standard_Deviation": 141.47380219615962
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/39857/leopard-leopard-spots-animal-wild-39857.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "monkeys",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 159.711756,
+      "Green": 155.371852,
+      "Blue": 142.384752
+    },
+    "Normalization": {
+      "Red": 82198.502435019851,
+      "Green": 79718.99266857488,
+      "Blue": 74620.05470281314
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.21508617234468938,
+          0.3168902936132787,
+          0.25498997995991979,
+          0.325958530287027
+        ],
+        "Correlation": [
+          0.9517856196369272,
+          0.9290273089744574,
+          0.94290273346460174,
+          0.926997705765002
+        ],
+        "Energy": [
+          0.14019362935891824,
+          0.11933000091192428,
+          0.13174377118164182,
+          0.11885525096314842
+        ],
+        "Homogeneity": [
+          0.89423340013360053,
+          0.85269624084508377,
+          0.8796314629258517,
+          0.85089651581051207
+        ]
+      },
+      "Entropy": {
+        "Mean": 4.9982834686382986,
+        "Standard_Deviation": 0.37345829124643154
+      },
+      "StandardDeviation": {
+        "Mean": 8.5123525674616918,
+        "Standard_Deviation": 5.1764533283909175
+      },
+      "LBP": {
+        "Mean": 0.0922156945,
+        "Standard_Deviation": 0.092687808
+      },
+      "HOG": {
+        "Mean": 0.154704362,
+        "Standard_Deviation": 0.0620028712
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 164.45256916996047,
+        "Standard_Deviation": 3463.9328199193214
+      },
+      "Circularity": {
+        "Mean": 0.85316240531231746,
+        "Standard_Deviation": 0.21980439515893876
+      },
+      "MajorAxisLength": {
+        "Mean": 4.9798070245378208,
+        "Standard_Deviation": 27.077171717180644
+      },
+      "MinorAxisLength": {
+        "Mean": 2.60330746176802,
+        "Standard_Deviation": 12.770705372357686
+      },
+      "Eccentricity": {
+        "Mean": 0.4810948221273213,
+        "Standard_Deviation": 0.42828688224871747
+      },
+      "Orientation": {
+        "Mean": 9.3429267834716079,
+        "Standard_Deviation": 35.99518782422242
+      },
+      "FilledArea": {
+        "Mean": 180.1501976284585,
+        "Standard_Deviation": 3812.3989948860112
+      },
+      "Perimeter": {
+        "Mean": 20.528934782608705,
+        "Standard_Deviation": 300.27359969558495
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/2295744/pexels-photo-2295744.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "elephant",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 123.70546,
+      "Green": 152.172996,
+      "Blue": 103.316916
+    },
+    "Normalization": {
+      "Red": 64284.391853422552,
+      "Green": 79149.38498518923,
+      "Blue": 53991.855306730053
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.48729458917835672,
+          0.58719442893803631,
+          0.36108617234468943,
+          0.63206573467576432
+        ],
+        "Correlation": [
+          0.92974950496612185,
+          0.915385831749136,
+          0.94793036878576764,
+          0.90891803424904061
+        ],
+        "Energy": [
+          0.071715863213400746,
+          0.065162973174210034,
+          0.081751330380199272,
+          0.063581923858298056
+        ],
+        "Homogeneity": [
+          0.80116486305945223,
+          0.77491763754630161,
+          0.83581623246492986,
+          0.76781003556879956
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.347273700362372,
+        "Standard_Deviation": 0.34352713082610209
+      },
+      "StandardDeviation": {
+        "Mean": 13.936657485730615,
+        "Standard_Deviation": 8.05265416256872
+      },
+      "LBP": {
+        "Mean": 0.088619262,
+        "Standard_Deviation": 0.09619046
+      },
+      "HOG": {
+        "Mean": 0.157003716,
+        "Standard_Deviation": 0.0559251495
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 89.236947791164653,
+        "Standard_Deviation": 2399.4098445431923
+      },
+      "Circularity": {
+        "Mean": 0.83766633333526463,
+        "Standard_Deviation": 0.22802131037690018
+      },
+      "MajorAxisLength": {
+        "Mean": 4.7110252903999381,
+        "Standard_Deviation": 16.064039514817285
+      },
+      "MinorAxisLength": {
+        "Mean": 2.5966822493252533,
+        "Standard_Deviation": 9.4769457255466651
+      },
+      "Eccentricity": {
+        "Mean": 0.54200615166090527,
+        "Standard_Deviation": 0.40920689167320629
+      },
+      "Orientation": {
+        "Mean": 16.801734364356481,
+        "Standard_Deviation": 49.846759184212715
+      },
+      "FilledArea": {
+        "Mean": 95.150602409638552,
+        "Standard_Deviation": 2572.8546532486689
+      },
+      "Perimeter": {
+        "Mean": 15.112239959839364,
+        "Standard_Deviation": 195.1740329069147
+      }
+    }
+  },
+  {
+    "ID": "image_9.jpeg",
+    "ImageAddress": "https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "Tags": "squirell",
+    "Size": [
+      500,
+      500
+    ],
+    "Mean": {
+      "Red": 113.47118,
+      "Green": 115.339596,
+      "Blue": 71.582916
+    },
+    "Normalization": {
+      "Red": 59438.024336502618,
+      "Green": 59327.332474112096,
+      "Blue": 38083.986592835739
+    },
+    "TextureFeatures": {
+      "GLCM": {
+        "Contrast": [
+          0.35081763527054105,
+          0.5213232075373192,
+          0.36472144288577152,
+          0.48284143437174959
+        ],
+        "Correlation": [
+          0.93477822041298764,
+          0.90313015626814708,
+          0.93214196014712014,
+          0.9102810585926242
+        ],
+        "Energy": [
+          0.10266167515793106,
+          0.088801764965601285,
+          0.10260780359918231,
+          0.0901887446801658
+        ],
+        "Homogeneity": [
+          0.85067154308617232,
+          0.81042462824303063,
+          0.84898256513026049,
+          0.81665789829491975
+        ]
+      },
+      "Entropy": {
+        "Mean": 5.0570112043346542,
+        "Standard_Deviation": 0.44862319060609657
+      },
+      "StandardDeviation": {
+        "Mean": 11.282221708764231,
+        "Standard_Deviation": 8.4101389678326868
+      },
+      "LBP": {
+        "Mean": 0.0823424608,
+        "Standard_Deviation": 0.101706438
+      },
+      "HOG": {
+        "Mean": 0.157466441,
+        "Standard_Deviation": 0.0546086505
+      }
+    },
+    "ShapeFeatures": {
+      "Area": {
+        "Mean": 86.229189189189185,
+        "Standard_Deviation": 1437.111954555488
+      },
+      "Circularity": {
+        "Mean": 0.86515523069433,
+        "Standard_Deviation": 0.21585890085311771
+      },
+      "MajorAxisLength": {
+        "Mean": 4.5781533625850672,
+        "Standard_Deviation": 23.49140264602152
+      },
+      "MinorAxisLength": {
+        "Mean": 2.313506909861351,
+        "Standard_Deviation": 8.4584412156868147
+      },
+      "Eccentricity": {
+        "Mean": 0.48309815498747194,
+        "Standard_Deviation": 0.42913978310498829
+      },
+      "Orientation": {
+        "Mean": 11.65065361213103,
+        "Standard_Deviation": 41.114356171873148
+      },
+      "FilledArea": {
+        "Mean": 90.97837837837838,
+        "Standard_Deviation": 1499.1910688780983
+      },
+      "Perimeter": {
+        "Mean": 17.461874594594594,
+        "Standard_Deviation": 195.13482700632795
+      }
+    }
+  }
+]
