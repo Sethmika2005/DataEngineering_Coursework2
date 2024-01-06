@@ -1,5 +1,6 @@
-OriginalFolder = 'noisy images';
-PreprocessedFolder = 'preprocessed images';
+%Specify the folders
+OriginalFolder = 'noisy_images';
+PreprocessedFolder = 'preprocessed_images';
 
 % Create the "preprocessed images" folder if it doesn't exist
 if ~exist(PreprocessedFolder, 'dir')
@@ -21,6 +22,7 @@ ImageUrl = UrlTable.URL;
 ImageTags = 'image_tags.xlsx';
 TagsTable = readtable(ImageTags);
 Tags = TagsTable.Tags;
+Description = TagsTable.Description;
 
 % Ask the user if they want to rotate the images
 RotateImages = input('Do you want to rotate the images? (yes/no): ', 's');
@@ -144,15 +146,16 @@ for i = 1:length(ImageList)
 
     MeanPerimeter = mean([GeoFeatures.Perimeter]);
     StdPerimeter = std([GeoFeatures.Perimeter]);
-        
+       
     %% Save in JSON File
     % Get the list of preprocessed image files
     OutputImageList = dir(fullfile(PreprocessedFolder, '*.jpeg'));
 
     % Create a structure for the current image
-    CurrentImageInfo.ID = OutputImageList(i).name;
+    CurrentImageInfo.ImageId = OutputImageList(i).name;
     CurrentImageInfo.ImageAddress = ImageUrl{i};
     CurrentImageInfo.Tags = Tags{i};
+    CurrentImageInfo.Description = Description{i};
     CurrentImageInfo.Size = CcImages.ImageSize;
     CurrentImageInfo.Mean = struct('Red', RedMean, 'Green', GreenMean, 'Blue', BlueMean);
     CurrentImageInfo.Normalization = struct('Red', RedNorm, 'Green', GreenNorm, 'Blue', BlueNorm);

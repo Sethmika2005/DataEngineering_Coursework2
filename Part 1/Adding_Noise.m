@@ -1,19 +1,29 @@
-% get the list of image files in the folder
-image_files = dir('50_images/*.jpeg'); % change the extension if needed
-% create a new folder to store the noisy images
-if ~exist('noisy images', 'dir')
-    mkdir('noisy images');
+%Specify the folders
+ImageFolder = '50_images';
+NoisyFolder = 'noisy_images';
+
+% Create the "noisy_images" folder if it doesn't exist
+if ~exist(NoisyFolder, 'dir')
+    mkdir(NoisyFolder);
 end
+
+% Get the list of the names of the image files with jpeg extension
+ImageList = dir(fullfile(ImageFolder, '*.jpeg'));
+
+
 % loop through each image file
-for i = 1:length(image_files)
+for i = 1:length(ImageList)
+    
     % read the image
-    image_name = image_files(i).name;
-    image_path = fullfile('50_images', image_name);
-    I = imread(image_path);
+    Image_Name = ImageList(i).name;
+    ImagePath = fullfile(ImageFolder,Image_Name );
+    Image = imread(ImagePath);
+    
     % add noise to the image
-    J = imnoise(I, 'gaussian', 0, 0.01);
+    NoiseImage = imnoise(Image, 'gaussian', 0, 0.01);
+    
     % save the noisy image in the new folder
-    noisy_image_path = fullfile('noisy images', image_name);
-    imwrite(J, noisy_image_path);
+    noisy_image_path = fullfile(NoisyFolder, Image_Name);
+    imwrite(NoiseImage, noisy_image_path);
 end
 
