@@ -1,6 +1,7 @@
 %Specify the folders
-OriginalFolder = 'noisy_images';
+OriginalFolder = '50_images';
 PreprocessedFolder = 'preprocessed_images';
+
 
 % Create the "preprocessed images" folder if it doesn't exist
 if ~exist(PreprocessedFolder, 'dir')
@@ -21,12 +22,16 @@ ImageUrl = UrlTable.URL;
 % Loading the image with metadata (tags)
 ImageTags = 'image_tags.xlsx';
 TagsTable = readtable(ImageTags);
+ImageId = TagsTable.ImageId;
 Tags = TagsTable.Tags;
 Description = TagsTable.Description;
 
 % Ask the user if they want to rotate the images
 RotateImages = input('Do you want to rotate the images? (yes/no): ', 's');
 RotateImages = strcmpi(RotateImages, 'yes');
+
+% Get the list of preprocessed image files
+OutputImageList = dir(fullfile(PreprocessedFolder, '*.jpeg'));
 
 % A loop for image pre-processing and image feature extraction for each 50 images
 for i = 1:length(ImageList)
@@ -56,7 +61,7 @@ for i = 1:length(ImageList)
     Denoised = imgaussfilt(RotatedImage, 0.5); %%experimented with several values and decided 0.5 was the optimal value to denoise without bluring the image much
 
     % Saving the pre-processed images in 'preprocessed images' folder
-    OutputFileName = sprintf('image_%d.jpeg', i);
+    OutputFileName = sprintf('image_%02d.jpeg', i);
     OutputFilePath = fullfile(PreprocessedFolder, OutputFileName);
     imwrite(Denoised, OutputFilePath);
     
@@ -146,13 +151,12 @@ for i = 1:length(ImageList)
 
     MeanPerimeter = mean([GeoFeatures.Perimeter]);
     StdPerimeter = std([GeoFeatures.Perimeter]);
-       
+
     %% Save in JSON File
-    % Get the list of preprocessed image files
-    OutputImageList = dir(fullfile(PreprocessedFolder, '*.jpeg'));
+
 
     % Create a structure for the current image
-    CurrentImageInfo.ImageId = OutputImageList(i).name;
+    CurrentImageInfo.ImageId = ImageId{i};
     CurrentImageInfo.ImageAddress = ImageUrl{i};
     CurrentImageInfo.Tags = Tags{i};
     CurrentImageInfo.Description = Description{i};
