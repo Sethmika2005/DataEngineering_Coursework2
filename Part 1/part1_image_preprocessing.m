@@ -1,5 +1,5 @@
 %Specify the folders
-OriginalFolder = '50_images';
+OriginalFolder = 'original_images';
 PreprocessedFolder = 'preprocessed_images';
 
 
