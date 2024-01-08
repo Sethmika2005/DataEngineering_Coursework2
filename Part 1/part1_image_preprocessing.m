@@ -42,28 +42,30 @@ for i = 1:length(ImageList)
     % Resizing the image to 500x500 pixels 
     ResizedImage = imresize(OriginalImage, [500, 500]);
     
+    % Reduce the noise of the image using a Gaussian Filter
+    DenoisedImage = imgaussfilt(ResizedImage, 1); %%experimented with several values and decided 0.5 was the optimal value to denoise without bluring the image much
+
     % Rotate the image if the user wants to rotate
     if RotateImages
         % Opening an interactive window to rotate the image
         figure(1);
-        imshow(ResizedImage);
-        title('Resized image');
+        imshow(DenoisedImage);
+        title('Denoised image');
         
         % Prompt the user to enter the rotation angle
         RotationAngle = input('Enter rotation angle (in degrees): ');
-        RotatedImage = imrotate(ResizedImage, RotationAngle); 
+        RotatedImage = imrotate(DenoisedImage, RotationAngle); 
         close;
     else
-        RotatedImage = ResizedImage; 
+        RotatedImage = DenoisedImage; 
     end
 
-    % Reduce the noise of the image using a Gaussian Filter
-    Denoised = imgaussfilt(RotatedImage, 0.5); %%experimented with several values and decided 0.5 was the optimal value to denoise without bluring the image much
-
+   
     % Saving the pre-processed images in 'preprocessed images' folder
     OutputFileName = sprintf('image_%02d.jpeg', i);
     OutputFilePath = fullfile(PreprocessedFolder, OutputFileName);
-    imwrite(Denoised, OutputFilePath);
+    imwrite(RotatedImage, OutputFilePath);
+    
     
     %% Image Feature Extraction
 
@@ -190,3 +192,5 @@ JsonFilePath = 'w1985751_part1.json';
 Fid = fopen(JsonFilePath, 'w');
 fprintf(Fid, '%s\n', JsonString);
 fclose(Fid);
+%% 
+

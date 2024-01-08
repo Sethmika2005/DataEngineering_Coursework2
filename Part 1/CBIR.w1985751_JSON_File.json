@@ -1,0 +1,5050 @@
+[{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7913d"
+  },
+  "ImageId": "image_01",
+  "ImageAddress": "https://images.pexels.com/photos/45851/bird-blue-cristata-cyanocitta-45851.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "bird",
+  "Description": "blue bird sitting on a stick",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 126.371584,
+    "Green": 138.276504,
+    "Blue": 89.586072
+  },
+  "Normalization": {
+    "Red": 64262.23283704024,
+    "Green": 70368.42617462573,
+    "Blue": 46358.78134361747
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.07214428857715431,
+        0.14998333340026748,
+        0.10881763527054109,
+        0.13181473166774432
+      ],
+      "Correlation": [
+        0.9836111482817093,
+        0.9659469284734995,
+        0.9752713883013984,
+        0.9700687724072183
+      ],
+      "Energy": [
+        0.17430526511941716,
+        0.16039020252122957,
+        0.16765786675555522,
+        0.1634437338084405
+      ],
+      "Homogeneity": [
+        0.9652094188376753,
+        0.9392110875056727,
+        0.9523620574482299,
+        0.9450129383683866
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.036815514916568,
+      "Standard_Deviation": 1.6895919770979313
+    },
+    "StandardDeviation": {
+      "Mean": 3.741464676400312,
+      "Standard_Deviation": 6.735499617594926
+    },
+    "LBP": {
+      "Mean": 0.0508179776,
+      "Standard_Deviation": 0.120889992
+    },
+    "HOG": {
+      "Mean": 0.118566759,
+      "Standard_Deviation": 0.116876327
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 3230.470588235294,
+      "Standard_Deviation": 18246.720990998663
+    },
+    "Circularity": {
+      "Mean": 0.8420307256066376,
+      "Standard_Deviation": 0.23801588401020307
+    },
+    "MajorAxisLength": {
+      "Mean": 24.9937586463468,
+      "Standard_Deviation": 99.0018419034842
+    },
+    "MinorAxisLength": {
+      "Mean": 17.016807516651877,
+      "Standard_Deviation": 79.69277602904874
+    },
+    "Eccentricity": {
+      "Mean": 0.5541427918948053,
+      "Standard_Deviation": 0.40503024572158436
+    },
+    "Orientation": {
+      "Mean": 1.3939357433043649,
+      "Standard_Deviation": 37.14377150623138
+    },
+    "FilledArea": {
+      "Mean": 3386.264705882353,
+      "Standard_Deviation": 19150.684517093952
+    },
+    "Perimeter": {
+      "Mean": 159.23682352941177,
+      "Standard_Deviation": 820.6911471542517
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7913e"
+  },
+  "ImageId": "image_02",
+  "ImageAddress": "https://images.pexels.com/photos/144234/bull-landscape-nature-mammal-144234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "Tags": "bull",
+  "Description": "red bull",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 123.975152,
+    "Green": 119.378232,
+    "Blue": 115.413732
+  },
+  "Normalization": {
+    "Red": 64135.209505453,
+    "Green": 62725.7173142082,
+    "Blue": 62617.708565190456
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.14167134268537074,
+        0.17203946972100514,
+        0.08522244488977955,
+        0.16576640254456812
+      ],
+      "Correlation": [
+        0.9758929331589862,
+        0.9707324887564291,
+        0.9854973670617907,
+        0.9717995446260643
+      ],
+      "Energy": [
+        0.12165244791787985,
+        0.11527727479882377,
+        0.13616457488925748,
+        0.11619336718096404
+      ],
+      "Homogeneity": [
+        0.9300888443553774,
+        0.9169682049469681,
+        0.957864395457582,
+        0.9189976479344795
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.326841951959862,
+      "Standard_Deviation": 0.9754912208049302
+    },
+    "StandardDeviation": {
+      "Mean": 4.72438590448854,
+      "Standard_Deviation": 4.525507813336771
+    },
+    "LBP": {
+      "Mean": 0.0888717547,
+      "Standard_Deviation": 0.0959531888
+    },
+    "HOG": {
+      "Mean": 0.130464658,
+      "Standard_Deviation": 0.103715092
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 1039.5357142857142,
+      "Standard_Deviation": 10740.950260717975
+    },
+    "Circularity": {
+      "Mean": 0.7429279939731487,
+      "Standard_Deviation": 0.27328025647383997
+    },
+    "MajorAxisLength": {
+      "Mean": 13.825146894410855,
+      "Standard_Deviation": 62.654093161434545
+    },
+    "MinorAxisLength": {
+      "Mean": 7.2144890581543475,
+      "Standard_Deviation": 47.77880651343032
+    },
+    "Eccentricity": {
+      "Mean": 0.6800008604284986,
+      "Standard_Deviation": 0.3816880251139574
+    },
+    "Orientation": {
+      "Mean": 17.21206834007804,
+      "Standard_Deviation": 62.43016508843471
+    },
+    "FilledArea": {
+      "Mean": 1046.544642857143,
+      "Standard_Deviation": 10814.6486640907
+    },
+    "Perimeter": {
+      "Mean": 74.68568749999999,
+      "Standard_Deviation": 624.428393666423
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7913f"
+  },
+  "ImageId": "image_03",
+  "ImageAddress": "https://images.pexels.com/photos/162140/duckling-birds-yellow-fluffy-162140.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "duckling",
+  "Description": "yellow duckling",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 117.054964,
+    "Green": 97.495524,
+    "Blue": 70.025088
+  },
+  "Normalization": {
+    "Red": 59909.29879638673,
+    "Green": 50991.540621184,
+    "Blue": 35859.88447797922
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.1050060120240481,
+        0.14302352199388757,
+        0.09155110220440882,
+        0.13557776876398087
+      ],
+      "Correlation": [
+        0.9675704904578262,
+        0.9558828177878191,
+        0.9717260227531626,
+        0.9581801115917753
+      ],
+      "Energy": [
+        0.22843954188135784,
+        0.21288180886834568,
+        0.2338887641093811,
+        0.21511880620666424
+      ],
+      "Homogeneity": [
+        0.947689378757515,
+        0.9298911784825497,
+        0.9542885771543086,
+        0.932939359011945
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.343973305124471,
+      "Standard_Deviation": 0.8110009739719916
+    },
+    "StandardDeviation": {
+      "Mean": 4.01781561173137,
+      "Standard_Deviation": 3.757946614087506
+    },
+    "LBP": {
+      "Mean": 0.0921618342,
+      "Standard_Deviation": 0.0927422866
+    },
+    "HOG": {
+      "Mean": 0.140058935,
+      "Standard_Deviation": 0.0903400779
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 439.25773195876286,
+      "Standard_Deviation": 3896.5686381266664
+    },
+    "Circularity": {
+      "Mean": 0.862775040105579,
+      "Standard_Deviation": 0.19652328331043042
+    },
+    "MajorAxisLength": {
+      "Mean": 10.371659267193687,
+      "Standard_Deviation": 35.76698011368623
+    },
+    "MinorAxisLength": {
+      "Mean": 5.964837564372802,
+      "Standard_Deviation": 20.6324069962906
+    },
+    "Eccentricity": {
+      "Mean": 0.6187996862408994,
+      "Standard_Deviation": 0.3275450276474178
+    },
+    "Orientation": {
+      "Mean": 11.517295527399368,
+      "Standard_Deviation": 54.750231227140944
+    },
+    "FilledArea": {
+      "Mean": 439.5773195876289,
+      "Standard_Deviation": 3898.60791350326
+    },
+    "Perimeter": {
+      "Mean": 34.6061030927835,
+      "Standard_Deviation": 181.529500740323
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79140"
+  },
+  "ImageId": "image_04",
+  "ImageAddress": "https://images.pexels.com/photos/70080/elephant-africa-african-elephant-kenya-70080.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "elephant",
+  "Description": "elephant playing with sand",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 168.771192,
+    "Green": 133.526452,
+    "Blue": 105.420656
+  },
+  "Normalization": {
+    "Red": 85331.03162949161,
+    "Green": 69192.99866345293,
+    "Blue": 58596.78830470319
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.11308617234468937,
+        0.14318416391902042,
+        0.095374749498998,
+        0.15699133738418722
+      ],
+      "Correlation": [
+        0.9755453949926147,
+        0.9690374703128797,
+        0.9793636050924611,
+        0.9660536834074832
+      ],
+      "Energy": [
+        0.166057208027277,
+        0.15732216035881386,
+        0.17179515121626016,
+        0.1556912661827027
+      ],
+      "Homogeneity": [
+        0.9444081496325986,
+        0.9308854850649864,
+        0.9531730126920509,
+        0.9272061156380897
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.101492246136755,
+      "Standard_Deviation": 1.19723554365516
+    },
+    "StandardDeviation": {
+      "Mean": 4.47109174647267,
+      "Standard_Deviation": 4.789339923338384
+    },
+    "LBP": {
+      "Mean": 0.0892703906,
+      "Standard_Deviation": 0.0955760255
+    },
+    "HOG": {
+      "Mean": 0.13994585,
+      "Standard_Deviation": 0.0905151293
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 474.8825910931174,
+      "Standard_Deviation": 6949.4671362651225
+    },
+    "Circularity": {
+      "Mean": 0.804147887262029,
+      "Standard_Deviation": 0.23534870148485565
+    },
+    "MajorAxisLength": {
+      "Mean": 8.964442640979284,
+      "Standard_Deviation": 35.48787894413977
+    },
+    "MinorAxisLength": {
+      "Mean": 5.105496511729898,
+      "Standard_Deviation": 28.401905474663916
+    },
+    "Eccentricity": {
+      "Mean": 0.6033368556141689,
+      "Standard_Deviation": 0.37108667798812567
+    },
+    "Orientation": {
+      "Mean": 7.083267890357217,
+      "Standard_Deviation": 51.63705273691976
+    },
+    "FilledArea": {
+      "Mean": 518.6437246963562,
+      "Standard_Deviation": 7626.798821978056
+    },
+    "Perimeter": {
+      "Mean": 42.92984615384616,
+      "Standard_Deviation": 434.2937837114683
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79141"
+  },
+  "ImageId": "image_05",
+  "ImageAddress": "https://images.pexels.com/photos/17308888/pexels-photo-17308888/free-photo-of-a-group-of-elephants-standing-in-a-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "Tags": "elephant",
+  "Description": "group of elephants",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 80.663916,
+    "Green": 75.862024,
+    "Blue": 67.42502
+  },
+  "Normalization": {
+    "Red": 43302.462876529724,
+    "Green": 40082.45320040345,
+    "Blue": 36129.15664017016
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.15015631262525048,
+        0.22464970020200722,
+        0.16969539078156312,
+        0.23252918662977257
+      ],
+      "Correlation": [
+        0.9634531878613385,
+        0.9453648001767345,
+        0.9587222608607668,
+        0.9434516579288245
+      ],
+      "Energy": [
+        0.14993792850631124,
+        0.13220187862021976,
+        0.14607402392761476,
+        0.1313806391076006
+      ],
+      "Homogeneity": [
+        0.9260761523046093,
+        0.8938411224586783,
+        0.9173914495657984,
+        0.891300637346838
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.803628974166874,
+      "Standard_Deviation": 0.7023756058853745
+    },
+    "StandardDeviation": {
+      "Mean": 6.6892164779589525,
+      "Standard_Deviation": 5.247577785497495
+    },
+    "LBP": {
+      "Mean": 0.0995256677,
+      "Standard_Deviation": 0.0846477523
+    },
+    "HOG": {
+      "Mean": 0.144374937,
+      "Standard_Deviation": 0.083268851
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 276.66478873239436,
+      "Standard_Deviation": 3278.4957705111483
+    },
+    "Circularity": {
+      "Mean": 0.8062477660862583,
+      "Standard_Deviation": 0.21922316561014854
+    },
+    "MajorAxisLength": {
+      "Mean": 9.015019823435761,
+      "Standard_Deviation": 35.46339621559395
+    },
+    "MinorAxisLength": {
+      "Mean": 4.552765026146109,
+      "Standard_Deviation": 17.817678013977524
+    },
+    "Eccentricity": {
+      "Mean": 0.6865411023412339,
+      "Standard_Deviation": 0.31559411798606307
+    },
+    "Orientation": {
+      "Mean": 7.500554590276288,
+      "Standard_Deviation": 46.2556334928757
+    },
+    "FilledArea": {
+      "Mean": 310.38591549295774,
+      "Standard_Deviation": 3737.809144151979
+    },
+    "Perimeter": {
+      "Mean": 36.85456619718309,
+      "Standard_Deviation": 307.17663988865746
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79142"
+  },
+  "ImageId": "image_06",
+  "ImageAddress": "https://images.pexels.com/photos/17081254/pexels-photo-17081254/free-photo-of-elephant-in-nature.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "Tags": "elephant",
+  "Description": "elephant walking",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 143.689896,
+    "Green": 132.911184,
+    "Blue": 116.053604
+  },
+  "Normalization": {
+    "Red": 75365.87628749327,
+    "Green": 70666.6878301074,
+    "Blue": 64256.6616393431
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.07529458917835671,
+        0.11317223625607928,
+        0.07188376753507014,
+        0.10700760237910692
+      ],
+      "Correlation": [
+        0.9906506542062982,
+        0.9859447760901685,
+        0.9910756632802272,
+        0.9867150223263054
+      ],
+      "Energy": [
+        0.16054366480455903,
+        0.15452394677376144,
+        0.16199900517668603,
+        0.1548007956653757
+      ],
+      "Homogeneity": [
+        0.964370741482966,
+        0.9511189379426856,
+        0.9661519706078824,
+        0.952049389359882
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.2420159851819386,
+      "Standard_Deviation": 1.705410204322736
+    },
+    "StandardDeviation": {
+      "Mean": 2.9011292252875984,
+      "Standard_Deviation": 4.537033245191564
+    },
+    "LBP": {
+      "Mean": 0.0619473,
+      "Standard_Deviation": 0.11548917
+    },
+    "HOG": {
+      "Mean": 0.121937826,
+      "Standard_Deviation": 0.1118965
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 2085.7,
+      "Standard_Deviation": 12957.455723666168
+    },
+    "Circularity": {
+      "Mean": 0.7597239518578113,
+      "Standard_Deviation": 0.24814642770521259
+    },
+    "MajorAxisLength": {
+      "Mean": 24.833406227264444,
+      "Standard_Deviation": 108.40769405851131
+    },
+    "MinorAxisLength": {
+      "Mean": 12.354451663503529,
+      "Standard_Deviation": 58.63087461869783
+    },
+    "Eccentricity": {
+      "Mean": 0.7570270751539583,
+      "Standard_Deviation": 0.2994135134115681
+    },
+    "Orientation": {
+      "Mean": 18.293598939703962,
+      "Standard_Deviation": 66.72579730916715
+    },
+    "FilledArea": {
+      "Mean": 2091.625,
+      "Standard_Deviation": 12994.927268050526
+    },
+    "Perimeter": {
+      "Mean": 74.76250000000002,
+      "Standard_Deviation": 375.5637770834397
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79143"
+  },
+  "ImageId": "image_07",
+  "ImageAddress": "https://images.pexels.com/photos/67552/giraffe-tall-mammal-africa-67552.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "giraffe",
+  "Description": "giraffe in a field",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 174.808772,
+    "Green": 162.691564,
+    "Blue": 147.85212
+  },
+  "Normalization": {
+    "Red": 87592.64620650547,
+    "Green": 81810.17085965422,
+    "Blue": 76017.15838839658
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.05827655310621242,
+        0.09074662350753611,
+        0.06904609218436875,
+        0.09791125336846036
+      ],
+      "Correlation": [
+        0.9529073768649794,
+        0.9267384447017097,
+        0.9442105309210265,
+        0.9209528703950101
+      ],
+      "Energy": [
+        0.4792755587969526,
+        0.46774962267092723,
+        0.47447036328368153,
+        0.465750739869773
+      ],
+      "Homogeneity": [
+        0.971444221776887,
+        0.9589251984262445,
+        0.9666045424181697,
+        0.9562110192328545
+      ]
+    },
+    "Entropy": {
+      "Mean": 2.5455129152395752,
+      "Standard_Deviation": 1.8027751707327568
+    },
+    "StandardDeviation": {
+      "Mean": 2.8874605396517343,
+      "Standard_Deviation": 5.251994326936388
+    },
+    "LBP": {
+      "Mean": 0.035097871,
+      "Standard_Deviation": 0.126444787
+    },
+    "HOG": {
+      "Mean": 0.109147944,
+      "Standard_Deviation": 0.125390485
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 372.45098039215685,
+      "Standard_Deviation": 3070.0926094834595
+    },
+    "Circularity": {
+      "Mean": 0.7341956254184768,
+      "Standard_Deviation": 0.2576413789534487
+    },
+    "MajorAxisLength": {
+      "Mean": 16.40432747272453,
+      "Standard_Deviation": 53.35584635913107
+    },
+    "MinorAxisLength": {
+      "Mean": 5.631066741773652,
+      "Standard_Deviation": 10.449150884728981
+    },
+    "Eccentricity": {
+      "Mean": 0.7240592032758602,
+      "Standard_Deviation": 0.2938150659391315
+    },
+    "Orientation": {
+      "Mean": 13.304309414464386,
+      "Standard_Deviation": 42.82931393845266
+    },
+    "FilledArea": {
+      "Mean": 394.1111111111111,
+      "Standard_Deviation": 3313.925394523516
+    },
+    "Perimeter": {
+      "Mean": 49.16052287581699,
+      "Standard_Deviation": 217.93581560673354
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79144"
+  },
+  "ImageId": "image_08",
+  "ImageAddress": "https://images.pexels.com/photos/50577/hedgehog-animal-baby-cute-50577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "Tags": "hedgehog",
+  "Description": "cute hedgehog",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 212.289068,
+    "Green": 210.882308,
+    "Blue": 210.782452
+  },
+  "Normalization": {
+    "Red": 107092.56657419335,
+    "Green": 106681.48340368879,
+    "Blue": 106977.8288548317
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.11020841683366733,
+        0.16977441857663222,
+        0.10271743486973947,
+        0.1636378970365581
+      ],
+      "Correlation": [
+        0.9749526492300674,
+        0.9614637811807785,
+        0.9766784368924188,
+        0.9628556433913978
+      ],
+      "Energy": [
+        0.38155571484451867,
+        0.37206094521503247,
+        0.3803447104228498,
+        0.3726035741044095
+      ],
+      "Homogeneity": [
+        0.9521279225116901,
+        0.9351032057434843,
+        0.9530918503674015,
+        0.9368289685583593
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.308865557724078,
+      "Standard_Deviation": 1.693639788268333
+    },
+    "StandardDeviation": {
+      "Mean": 4.366631299618343,
+      "Standard_Deviation": 7.450047367143033
+    },
+    "LBP": {
+      "Mean": 0.0616791621,
+      "Standard_Deviation": 0.115635052
+    },
+    "HOG": {
+      "Mean": 0.124590948,
+      "Standard_Deviation": 0.11056716
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 370.39449541284404,
+      "Standard_Deviation": 2143.325535748511
+    },
+    "Circularity": {
+      "Mean": 0.735973434023271,
+      "Standard_Deviation": 0.2331171532174998
+    },
+    "MajorAxisLength": {
+      "Mean": 14.584046963280167,
+      "Standard_Deviation": 31.979719456382472
+    },
+    "MinorAxisLength": {
+      "Mean": 7.656022986536983,
+      "Standard_Deviation": 19.08496967502794
+    },
+    "Eccentricity": {
+      "Mean": 0.7377621737672917,
+      "Standard_Deviation": 0.28479407681235525
+    },
+    "Orientation": {
+      "Mean": 4.759682606923762,
+      "Standard_Deviation": 46.849573098488285
+    },
+    "FilledArea": {
+      "Mean": 386.61467889908255,
+      "Standard_Deviation": 2272.8264704916915
+    },
+    "Perimeter": {
+      "Mean": 58.22163302752294,
+      "Standard_Deviation": 253.49285464671036
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79145"
+  },
+  "ImageId": "image_09",
+  "ImageAddress": "https://images.pexels.com/photos/39857/leopard-leopard-spots-animal-wild-39857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "Tags": "leopard",
+  "Description": "leopard walking",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 162.777624,
+    "Green": 125.395424,
+    "Blue": 91.785016
+  },
+  "Normalization": {
+    "Red": 82326.19939390563,
+    "Green": 63109.306316756505,
+    "Blue": 46147.84020423302
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.25762324649298596,
+        0.33982192842599024,
+        0.1655310621242485,
+        0.34802671475214964
+      ],
+      "Correlation": [
+        0.8997080953642868,
+        0.8679204266289798,
+        0.9355669782713016,
+        0.8647307624831816
+      ],
+      "Energy": [
+        0.3524715006606399,
+        0.33718205135403057,
+        0.36050185090019715,
+        0.3379711777715762
+      ],
+      "Homogeneity": [
+        0.9014916499665999,
+        0.8826470576423388,
+        0.9239348697394789,
+        0.8823083039827149
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.36462376963701,
+      "Standard_Deviation": 1.0673150911416056
+    },
+    "StandardDeviation": {
+      "Mean": 8.128370112980615,
+      "Standard_Deviation": 10.415243881182478
+    },
+    "LBP": {
+      "Mean": 0.0997771323,
+      "Standard_Deviation": 0.0843460485
+    },
+    "HOG": {
+      "Mean": 0.148392484,
+      "Standard_Deviation": 0.0758780167
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 104.04273504273505,
+      "Standard_Deviation": 382.8400425353886
+    },
+    "Circularity": {
+      "Mean": 0.7102647546029748,
+      "Standard_Deviation": 0.24162667535463542
+    },
+    "MajorAxisLength": {
+      "Mean": 12.684137947418282,
+      "Standard_Deviation": 17.49392212492611
+    },
+    "MinorAxisLength": {
+      "Mean": 6.165102280355539,
+      "Standard_Deviation": 8.664361900347606
+    },
+    "Eccentricity": {
+      "Mean": 0.7547968032087503,
+      "Standard_Deviation": 0.2711654282958973
+    },
+    "Orientation": {
+      "Mean": 8.528587065921604,
+      "Standard_Deviation": 64.66725181242622
+    },
+    "FilledArea": {
+      "Mean": 106.52136752136752,
+      "Standard_Deviation": 401.793051172735
+    },
+    "Perimeter": {
+      "Mean": 38.84980911680911,
+      "Standard_Deviation": 102.70563125988774
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79146"
+  },
+  "ImageId": "image_10",
+  "ImageAddress": "https://images.pexels.com/photos/38280/monkey-mandril-africa-baboon-38280.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "chimpanzee",
+  "Description": "chimpanzee holding a stick",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 86.03566,
+    "Green": 93.691624,
+    "Blue": 71.406752
+  },
+  "Normalization": {
+    "Red": 49306.16562838115,
+    "Green": 50482.25687054096,
+    "Blue": 39119.99367149091
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.07269739478957915,
+        0.1130758511009996,
+        0.09058917835671343,
+        0.12229268155549576
+      ],
+      "Correlation": [
+        0.9864461687548359,
+        0.9789255582067815,
+        0.9831086647178637,
+        0.9772066293262924
+      ],
+      "Energy": [
+        0.17795443231151684,
+        0.16684861780005947,
+        0.17323116311982684,
+        0.1656556607524925
+      ],
+      "Homogeneity": [
+        0.9637849031396125,
+        0.9454209019240887,
+        0.9558757515030059,
+        0.9420216518541425
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.720798452677453,
+      "Standard_Deviation": 1.2682818666181337
+    },
+    "StandardDeviation": {
+      "Mean": 3.43307574866439,
+      "Standard_Deviation": 4.323745497537435
+    },
+    "LBP": {
+      "Mean": 0.0803815648,
+      "Standard_Deviation": 0.103289813
+    },
+    "HOG": {
+      "Mean": 0.13537851,
+      "Standard_Deviation": 0.097213693
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 2936.7073170731705,
+      "Standard_Deviation": 16338.423235189965
+    },
+    "Circularity": {
+      "Mean": 0.7215529100991549,
+      "Standard_Deviation": 0.3089063569858368
+    },
+    "MajorAxisLength": {
+      "Mean": 33.78724005551223,
+      "Standard_Deviation": 96.61837640815527
+    },
+    "MinorAxisLength": {
+      "Mean": 15.527325567848953,
+      "Standard_Deviation": 58.5208980559601
+    },
+    "Eccentricity": {
+      "Mean": 0.6988275591293108,
+      "Standard_Deviation": 0.3340583460117237
+    },
+    "Orientation": {
+      "Mean": 11.868193689378748,
+      "Standard_Deviation": 40.39307134861603
+    },
+    "FilledArea": {
+      "Mean": 3112.121951219512,
+      "Standard_Deviation": 17395.31126078968
+    },
+    "Perimeter": {
+      "Mean": 124.13370731707315,
+      "Standard_Deviation": 416.5745333327666
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79147"
+  },
+  "ImageId": "image_11",
+  "ImageAddress": "https://images.pexels.com/photos/162203/panthera-tigris-altaica-tiger-siberian-amurtiger-162203.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "tiger",
+  "Description": "tiger on a rock",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 90.374972,
+    "Green": 88.936264,
+    "Blue": 46.207908
+  },
+  "Normalization": {
+    "Red": 52326.554408573575,
+    "Green": 49942.546302859446,
+    "Blue": 29176.309997777473
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.14764729458917836,
+        0.22042080152288543,
+        0.1559879759519038,
+        0.2241597423303521
+      ],
+      "Correlation": [
+        0.9735594101738585,
+        0.9605206613002857,
+        0.9720417112507207,
+        0.9598520540734634
+      ],
+      "Energy": [
+        0.13260421691479152,
+        0.11760721327865968,
+        0.12992274662350753,
+        0.11850594214484131
+      ],
+      "Homogeneity": [
+        0.9268550434201737,
+        0.8957919178370101,
+        0.9234221776887106,
+        0.8960994801895038
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.67039506739372,
+      "Standard_Deviation": 0.9256760887534246
+    },
+    "StandardDeviation": {
+      "Mean": 6.593283939055456,
+      "Standard_Deviation": 5.913981411285386
+    },
+    "LBP": {
+      "Mean": 0.0954451486,
+      "Standard_Deviation": 0.0893002748
+    },
+    "HOG": {
+      "Mean": 0.13764599,
+      "Standard_Deviation": 0.0938961431
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 456.17241379310343,
+      "Standard_Deviation": 5934.644348184081
+    },
+    "Circularity": {
+      "Mean": 0.7715548097930184,
+      "Standard_Deviation": 0.22327061879225818
+    },
+    "MajorAxisLength": {
+      "Mean": 9.774405155736456,
+      "Standard_Deviation": 29.594863242713416
+    },
+    "MinorAxisLength": {
+      "Mean": 5.803833771966616,
+      "Standard_Deviation": 26.488112257110824
+    },
+    "Eccentricity": {
+      "Mean": 0.6779657047489911,
+      "Standard_Deviation": 0.3303290494681693
+    },
+    "Orientation": {
+      "Mean": 2.26751473812645,
+      "Standard_Deviation": 41.14196860268953
+    },
+    "FilledArea": {
+      "Mean": 509.3645320197044,
+      "Standard_Deviation": 6685.1327337936045
+    },
+    "Perimeter": {
+      "Mean": 48.034743842364534,
+      "Standard_Deviation": 421.06916181729366
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79148"
+  },
+  "ImageId": "image_12",
+  "ImageAddress": "https://images.pexels.com/photos/45911/peacock-plumage-bird-peafowl-45911.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "peacock",
+  "Description": "peacock in forest",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 126.770716,
+    "Green": 114.893416,
+    "Blue": 79.345528
+  },
+  "Normalization": {
+    "Red": 64976.464589090894,
+    "Green": 58582.95686972711,
+    "Blue": 40845.28314314134
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.302436873747495,
+        0.4134521548106233,
+        0.28501002004008014,
+        0.43290589194420914
+      ],
+      "Correlation": [
+        0.8929589472700802,
+        0.8536589590370323,
+        0.8991723169857989,
+        0.8467723728454253
+      ],
+      "Energy": [
+        0.12693502268665588,
+        0.10904325009842435,
+        0.13125613741310274,
+        0.10696537610902618
+      ],
+      "Homogeneity": [
+        0.8539118236472947,
+        0.8131721023878082,
+        0.861058450233801,
+        0.8093053173815902
+      ]
+    },
+    "Entropy": {
+      "Mean": 5.331499542485433,
+      "Standard_Deviation": 0.3075409265332872
+    },
+    "StandardDeviation": {
+      "Mean": 11.537225914110792,
+      "Standard_Deviation": 6.26312477941996
+    },
+    "LBP": {
+      "Mean": 0.103359692,
+      "Standard_Deviation": 0.0798370615
+    },
+    "HOG": {
+      "Mean": 0.147256136,
+      "Standard_Deviation": 0.0780605227
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 126.75352877307274,
+      "Standard_Deviation": 3082.3493430955477
+    },
+    "Circularity": {
+      "Mean": 0.7736746934051743,
+      "Standard_Deviation": 0.25264848414648194
+    },
+    "MajorAxisLength": {
+      "Mean": 7.320074582555036,
+      "Standard_Deviation": 21.33443821427718
+    },
+    "MinorAxisLength": {
+      "Mean": 3.5949691602986786,
+      "Standard_Deviation": 10.55863654928122
+    },
+    "Eccentricity": {
+      "Mean": 0.6413192731039582,
+      "Standard_Deviation": 0.36063021646481064
+    },
+    "Orientation": {
+      "Mean": 6.209767669807097,
+      "Standard_Deviation": 47.74420163794986
+    },
+    "FilledArea": {
+      "Mean": 141.98914223669925,
+      "Standard_Deviation": 3533.4648468316514
+    },
+    "Perimeter": {
+      "Mean": 24.966799131378927,
+      "Standard_Deviation": 285.79112904697644
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79149"
+  },
+  "ImageId": "image_13",
+  "ImageAddress": "https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "elephant",
+  "Description": "elephant in sunrise",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 141.45478,
+    "Green": 96.928484,
+    "Blue": 81.116228
+  },
+  "Normalization": {
+    "Red": 75718.65401446019,
+    "Green": 52042.23537352237,
+    "Blue": 44169.33094262145
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.07532665330661323,
+        0.12007983903679102,
+        0.07937875751503005,
+        0.11726057325070983
+      ],
+      "Correlation": [
+        0.986293639783256,
+        0.9781450351837522,
+        0.985556085970116,
+        0.978656945445891
+      ],
+      "Energy": [
+        0.14591413072236656,
+        0.13396635943967086,
+        0.14342181517343305,
+        0.13429315570513645
+      ],
+      "Homogeneity": [
+        0.9637154308617233,
+        0.943183963116614,
+        0.9605297261189044,
+        0.9437301456620657
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.7838681382350505,
+      "Standard_Deviation": 1.0755938885179595
+    },
+    "StandardDeviation": {
+      "Mean": 3.3634277763557163,
+      "Standard_Deviation": 4.454692466419617
+    },
+    "LBP": {
+      "Mean": 0.0830662549,
+      "Standard_Deviation": 0.101105951
+    },
+    "HOG": {
+      "Mean": 0.125108868,
+      "Standard_Deviation": 0.110116459
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 1781.1940298507463,
+      "Standard_Deviation": 14257.412438148764
+    },
+    "Circularity": {
+      "Mean": 0.7967633076717308,
+      "Standard_Deviation": 0.23026585747589856
+    },
+    "MajorAxisLength": {
+      "Mean": 15.091414496481962,
+      "Standard_Deviation": 71.83234206273407
+    },
+    "MinorAxisLength": {
+      "Mean": 10.52587854501508,
+      "Standard_Deviation": 60.876902303139225
+    },
+    "Eccentricity": {
+      "Mean": 0.6750448201750052,
+      "Standard_Deviation": 0.3388037114257513
+    },
+    "Orientation": {
+      "Mean": 8.13863308653475,
+      "Standard_Deviation": 33.32156499009185
+    },
+    "FilledArea": {
+      "Mean": 2031.44776119403,
+      "Standard_Deviation": 16304.53546147985
+    },
+    "Perimeter": {
+      "Mean": 81.33349253731342,
+      "Standard_Deviation": 559.4404565802137
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7914a"
+  },
+  "ImageId": "image_14",
+  "ImageAddress": "https://images.pexels.com/photos/1054666/pexels-photo-1054666.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "elephant",
+  "Description": "elephant with large tusks",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 92.054276,
+    "Green": 87.501772,
+    "Blue": 78.268544
+  },
+  "Normalization": {
+    "Red": 48954.252135060255,
+    "Green": 45986.38981764604,
+    "Blue": 41761.48667960351
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.0953066132264529,
+        0.1280035019939679,
+        0.07795190380761521,
+        0.12093525728812335
+      ],
+      "Correlation": [
+        0.978539549949481,
+        0.9711262912773192,
+        0.9824237738945625,
+        0.9727269549872672
+      ],
+      "Energy": [
+        0.1635253811832081,
+        0.1525610037494165,
+        0.17003230669756347,
+        0.15768242968649426
+      ],
+      "Homogeneity": [
+        0.9529986639946559,
+        0.9373104927289448,
+        0.9615457581830327,
+        0.9425849026041395
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.0348476143681316,
+      "Standard_Deviation": 0.8856188762801303
+    },
+    "StandardDeviation": {
+      "Mean": 3.564724697564751,
+      "Standard_Deviation": 3.7419909965597324
+    },
+    "LBP": {
+      "Mean": 0.0949503854,
+      "Standard_Deviation": 0.0898352116
+    },
+    "HOG": {
+      "Mean": 0.13562873,
+      "Standard_Deviation": 0.0968642831
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 516.2463768115942,
+      "Standard_Deviation": 5144.711897492263
+    },
+    "Circularity": {
+      "Mean": 0.7963630145387798,
+      "Standard_Deviation": 0.24760916305451627
+    },
+    "MajorAxisLength": {
+      "Mean": 13.229627725456568,
+      "Standard_Deviation": 69.45378762287004
+    },
+    "MinorAxisLength": {
+      "Mean": 6.472624511302388,
+      "Standard_Deviation": 35.152082199116585
+    },
+    "Eccentricity": {
+      "Mean": 0.6277235921786227,
+      "Standard_Deviation": 0.3793078664710668
+    },
+    "Orientation": {
+      "Mean": -0.790869963209452,
+      "Standard_Deviation": 53.600379616504526
+    },
+    "FilledArea": {
+      "Mean": 518.3333333333334,
+      "Standard_Deviation": 5163.539929486972
+    },
+    "Perimeter": {
+      "Mean": 42.114108695652185,
+      "Standard_Deviation": 273.70236789424223
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7914b"
+  },
+  "ImageId": "image_15",
+  "ImageAddress": "https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "jellyfish",
+  "Description": "jellyfish underwater",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 43.502832,
+    "Green": 146.52362,
+    "Blue": 194.11912
+  },
+  "Normalization": {
+    "Red": 37818.25597872462,
+    "Green": 74934.39040912729,
+    "Blue": 97459.5498101122
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.050585170340681364,
+        0.07307601174292473,
+        0.05955511022044088,
+        0.08323259745944794
+      ],
+      "Correlation": [
+        0.9844762124834449,
+        0.9775426996669644,
+        0.9816851638269928,
+        0.9744210302784407
+      ],
+      "Energy": [
+        0.27870476716157766,
+        0.27049680878241844,
+        0.27527730012329266,
+        0.2663254506646545
+      ],
+      "Homogeneity": [
+        0.974755511022044,
+        0.9639064367880718,
+        0.9703079492317969,
+        0.9592491596419291
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.1654750634736,
+      "Standard_Deviation": 1.3043556431351717
+    },
+    "StandardDeviation": {
+      "Mean": 2.396691474862361,
+      "Standard_Deviation": 3.4742920032439963
+    },
+    "LBP": {
+      "Mean": 0.0579157844,
+      "Standard_Deviation": 0.117598087
+    },
+    "HOG": {
+      "Mean": 0.130825683,
+      "Standard_Deviation": 0.103259318
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 402.875,
+      "Standard_Deviation": 3963.728950981688
+    },
+    "Circularity": {
+      "Mean": 0.7875541984012681,
+      "Standard_Deviation": 0.2184442028913247
+    },
+    "MajorAxisLength": {
+      "Mean": 10.962829559488553,
+      "Standard_Deviation": 34.21671466994679
+    },
+    "MinorAxisLength": {
+      "Mean": 5.880697180220047,
+      "Standard_Deviation": 18.72262555103284
+    },
+    "Eccentricity": {
+      "Mean": 0.7061987625244537,
+      "Standard_Deviation": 0.2909270633012342
+    },
+    "Orientation": {
+      "Mean": 12.66755114123067,
+      "Standard_Deviation": 41.32377226202077
+    },
+    "FilledArea": {
+      "Mean": 438.2578125,
+      "Standard_Deviation": 4362.970210647055
+    },
+    "Perimeter": {
+      "Mean": 35.58235937500001,
+      "Standard_Deviation": 186.4438801287411
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7914c"
+  },
+  "ImageId": "image_16",
+  "ImageAddress": "https://images.pexels.com/photos/1213921/pexels-photo-1213921.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "lion in forest",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 75.072308,
+    "Green": 68.350864,
+    "Blue": 72.533124
+  },
+  "Normalization": {
+    "Red": 43926.213120674096,
+    "Green": 38656.83660649271,
+    "Blue": 39585.67184697681
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.20236472945891787,
+        0.24436448046393391,
+        0.10885771543086173,
+        0.23248099405223271
+      ],
+      "Correlation": [
+        0.9656416169660431,
+        0.9585004216001091,
+        0.9814978085994613,
+        0.96052112252433
+      ],
+      "Energy": [
+        0.15385352364046728,
+        0.14657330448456948,
+        0.17911351327906314,
+        0.1496045596325817
+      ],
+      "Homogeneity": [
+        0.9038507014028057,
+        0.8878639041610276,
+        0.9461482965931862,
+        0.8932648195522642
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.60939423346228,
+      "Standard_Deviation": 0.788347765857982
+    },
+    "StandardDeviation": {
+      "Mean": 6.446503208257577,
+      "Standard_Deviation": 6.212658788222991
+    },
+    "LBP": {
+      "Mean": 0.0852779746,
+      "Standard_Deviation": 0.0992152244
+    },
+    "HOG": {
+      "Mean": 0.131323501,
+      "Standard_Deviation": 0.102625504
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 559.796992481203,
+      "Standard_Deviation": 3561.738173214919
+    },
+    "Circularity": {
+      "Mean": 0.7717920908676518,
+      "Standard_Deviation": 0.24435403370945272
+    },
+    "MajorAxisLength": {
+      "Mean": 15.123584671449114,
+      "Standard_Deviation": 53.66730202913476
+    },
+    "MinorAxisLength": {
+      "Mean": 6.054183418787836,
+      "Standard_Deviation": 20.19220489193071
+    },
+    "Eccentricity": {
+      "Mean": 0.727691705436483,
+      "Standard_Deviation": 0.32482935279961933
+    },
+    "Orientation": {
+      "Mean": 8.624012352336102,
+      "Standard_Deviation": 69.15767122892615
+    },
+    "FilledArea": {
+      "Mean": 616.5864661654135,
+      "Standard_Deviation": 3946.8053193955984
+    },
+    "Perimeter": {
+      "Mean": 57.42817293233084,
+      "Standard_Deviation": 291.59550907813724
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7914d"
+  },
+  "ImageId": "image_17",
+  "ImageAddress": "https://images.pexels.com/photos/12321255/pexels-photo-12321255.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "elephant",
+  "Description": "elephant drinking water",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 48.191988,
+    "Green": 55.13552,
+    "Blue": 53.720452
+  },
+  "Normalization": {
+    "Red": 26765.249975445822,
+    "Green": 29758.518601023537,
+    "Blue": 29475.01157260474
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.09780761523046091,
+        0.13950947988160692,
+        0.10252505010020041,
+        0.13893518499925703
+      ],
+      "Correlation": [
+        0.9522775884454133,
+        0.9319049816242542,
+        0.9499521687291773,
+        0.9321934336177325
+      ],
+      "Energy": [
+        0.23064843270508953,
+        0.2141196164774258,
+        0.23003162059590115,
+        0.21504627141081262
+      ],
+      "Homogeneity": [
+        0.9511442885771543,
+        0.930973503453132,
+        0.9492825651302605,
+        0.9319517458430555
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.308773449638618,
+      "Standard_Deviation": 0.7803047208772023
+    },
+    "StandardDeviation": {
+      "Mean": 4.314571812190585,
+      "Standard_Deviation": 3.422447960329121
+    },
+    "LBP": {
+      "Mean": 0.0991878361,
+      "Standard_Deviation": 0.0850501359
+    },
+    "HOG": {
+      "Mean": 0.148467273,
+      "Standard_Deviation": 0.0757316
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 425.44202898550725,
+      "Standard_Deviation": 6465.637233608691
+    },
+    "Circularity": {
+      "Mean": 0.8165761207158708,
+      "Standard_Deviation": 0.22189454529833888
+    },
+    "MajorAxisLength": {
+      "Mean": 8.10062590920419,
+      "Standard_Deviation": 37.42061913858801
+    },
+    "MinorAxisLength": {
+      "Mean": 4.83671854394199,
+      "Standard_Deviation": 26.99328171799791
+    },
+    "Eccentricity": {
+      "Mean": 0.6327680953199616,
+      "Standard_Deviation": 0.3509191465204043
+    },
+    "Orientation": {
+      "Mean": 12.835774736255601,
+      "Standard_Deviation": 53.03182171935086
+    },
+    "FilledArea": {
+      "Mean": 446.3152173913044,
+      "Standard_Deviation": 6775.680015406993
+    },
+    "Perimeter": {
+      "Mean": 37.24113768115942,
+      "Standard_Deviation": 373.86370838021475
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7914e"
+  },
+  "ImageId": "image_18",
+  "ImageAddress": "https://images.pexels.com/photos/1300960/pexels-photo-1300960.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "lion in forest",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 98.269008,
+    "Green": 100.212624,
+    "Blue": 99.968248
+  },
+  "Normalization": {
+    "Red": 50582.168160858724,
+    "Green": 51222.26196045461,
+    "Blue": 50814.93423959992
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.10664128256513025,
+        0.13291914490303253,
+        0.07826452905811623,
+        0.12886293629342854
+      ],
+      "Correlation": [
+        0.9453401457631568,
+        0.9319447429758927,
+        0.9599218536794644,
+        0.9340222050630971
+      ],
+      "Energy": [
+        0.25901204557411417,
+        0.24667834020322096,
+        0.2724701780635419,
+        0.2484180363956945
+      ],
+      "Homogeneity": [
+        0.9467915831663326,
+        0.9339410283492837,
+        0.9609585838343353,
+        0.9360902834392901
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.40542104929872,
+      "Standard_Deviation": 0.5896382231373821
+    },
+    "StandardDeviation": {
+      "Mean": 3.913333280844648,
+      "Standard_Deviation": 2.7740984469369447
+    },
+    "LBP": {
+      "Mean": 0.0939845219,
+      "Standard_Deviation": 0.0908625126
+    },
+    "HOG": {
+      "Mean": 0.143551,
+      "Standard_Deviation": 0.0846813694
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 241.95539033457248,
+      "Standard_Deviation": 3223.7377105404767
+    },
+    "Circularity": {
+      "Mean": 0.7677044494795547,
+      "Standard_Deviation": 0.23947395844402367
+    },
+    "MajorAxisLength": {
+      "Mean": 9.776564599064377,
+      "Standard_Deviation": 25.31416850137212
+    },
+    "MinorAxisLength": {
+      "Mean": 4.982943392878716,
+      "Standard_Deviation": 17.577242334050414
+    },
+    "Eccentricity": {
+      "Mean": 0.6758791499028081,
+      "Standard_Deviation": 0.3428824659757859
+    },
+    "Orientation": {
+      "Mean": 15.027443083242186,
+      "Standard_Deviation": 59.8073854817355
+    },
+    "FilledArea": {
+      "Mean": 260.48698884758363,
+      "Standard_Deviation": 3521.6702401862767
+    },
+    "Perimeter": {
+      "Mean": 36.96266171003719,
+      "Standard_Deviation": 269.0125550087933
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7914f"
+  },
+  "ImageId": "image_19",
+  "ImageAddress": "https://images.pexels.com/photos/1320412/pexels-photo-1320412.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "lion in rock",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 128.396356,
+    "Green": 137.638864,
+    "Blue": 161.23052
+  },
+  "Normalization": {
+    "Red": 66539.25790883138,
+    "Green": 72929.77452427355,
+    "Blue": 87135.1512053996
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.06807214428857715,
+        0.08898357837920329,
+        0.05398396793587174,
+        0.0940518311171441
+      ],
+      "Correlation": [
+        0.990855993220534,
+        0.9880485026362787,
+        0.992751260496874,
+        0.9873738126138113
+      ],
+      "Energy": [
+        0.19525512389106872,
+        0.1902456814964334,
+        0.19832151221882643,
+        0.1895477532625172
+      ],
+      "Homogeneity": [
+        0.9672518370073481,
+        0.9574563288233112,
+        0.9730293921175684,
+        0.9555550647052287
+      ]
+    },
+    "Entropy": {
+      "Mean": 2.869940673480299,
+      "Standard_Deviation": 1.6708732438875922
+    },
+    "StandardDeviation": {
+      "Mean": 2.6139667475479116,
+      "Standard_Deviation": 4.244748353074843
+    },
+    "LBP": {
+      "Mean": 0.0432519577,
+      "Standard_Deviation": 0.123848267
+    },
+    "HOG": {
+      "Mean": 0.118016906,
+      "Standard_Deviation": 0.117431596
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 17926.833333333332,
+      "Standard_Deviation": 43907.67519428314
+    },
+    "Circularity": {
+      "Mean": 0.833393279105703,
+      "Standard_Deviation": 0.2879102808319156
+    },
+    "MajorAxisLength": {
+      "Mean": 85.30878060417511,
+      "Standard_Deviation": 204.43958667643696
+    },
+    "MinorAxisLength": {
+      "Mean": 75.22298068579114,
+      "Standard_Deviation": 181.42949248667634
+    },
+    "Eccentricity": {
+      "Mean": 0.3785963084871069,
+      "Standard_Deviation": 0.4456476993038772
+    },
+    "Orientation": {
+      "Mean": 9.214501153182367,
+      "Standard_Deviation": 41.941744598008846
+    },
+    "FilledArea": {
+      "Mean": 18241.5,
+      "Standard_Deviation": 44678.44796655318
+    },
+    "Perimeter": {
+      "Mean": 367.4928333333334,
+      "Standard_Deviation": 897.2906958863257
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79150"
+  },
+  "ImageId": "image_20",
+  "ImageAddress": "https://images.pexels.com/photos/132434/pexels-photo-132434.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "monkey",
+  "Description": "monkey climbing a tree",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 128.421548,
+    "Green": 128.66798,
+    "Blue": 122.783912
+  },
+  "Normalization": {
+    "Red": 65799.30933608871,
+    "Green": 65866.76023525916,
+    "Blue": 63030.16238748865
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.10071743486973948,
+        0.14586688406873866,
+        0.10811623246492985,
+        0.1566017807157401
+      ],
+      "Correlation": [
+        0.9829859474656186,
+        0.9753508509743221,
+        0.9817143426833994,
+        0.9735321537776908
+      ],
+      "Energy": [
+        0.13965618081855097,
+        0.12849503711783716,
+        0.13765678203701992,
+        0.12708672437031948
+      ],
+      "Homogeneity": [
+        0.9512221108884436,
+        0.9294540985779173,
+        0.9465020040080159,
+        0.9259768702401463
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.465164023900431,
+      "Standard_Deviation": 0.8496518064981122
+    },
+    "StandardDeviation": {
+      "Mean": 4.510624232629215,
+      "Standard_Deviation": 4.3671985540613605
+    },
+    "LBP": {
+      "Mean": 0.0919704735,
+      "Standard_Deviation": 0.0929353163
+    },
+    "HOG": {
+      "Mean": 0.130112812,
+      "Standard_Deviation": 0.104120284
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 1405.3384615384616,
+      "Standard_Deviation": 5477.8144001420715
+    },
+    "Circularity": {
+      "Mean": 0.7001096169648856,
+      "Standard_Deviation": 0.2517129698536046
+    },
+    "MajorAxisLength": {
+      "Mean": 33.7441372236361,
+      "Standard_Deviation": 70.74279259626358
+    },
+    "MinorAxisLength": {
+      "Mean": 16.12043862205013,
+      "Standard_Deviation": 36.3873835882252
+    },
+    "Eccentricity": {
+      "Mean": 0.731525972141835,
+      "Standard_Deviation": 0.3105241097345352
+    },
+    "Orientation": {
+      "Mean": 11.472991839743745,
+      "Standard_Deviation": 50.31544411055949
+    },
+    "FilledArea": {
+      "Mean": 1439.6,
+      "Standard_Deviation": 5704.307275537494
+    },
+    "Perimeter": {
+      "Mean": 116.66155384615385,
+      "Standard_Deviation": 357.5314609241591
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79151"
+  },
+  "ImageId": "image_21",
+  "ImageAddress": "https://images.pexels.com/photos/133394/pexels-photo-133394.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "elephant",
+  "Description": "elephant walking",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 140.381816,
+    "Green": 143.954868,
+    "Blue": 130.905292
+  },
+  "Normalization": {
+    "Red": 74696.5402521747,
+    "Green": 77397.69703683781,
+    "Blue": 68945.34883384101
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.16512224448897794,
+        0.2109268637475351,
+        0.11125450901803606,
+        0.19220806342143204
+      ],
+      "Correlation": [
+        0.9844909357777459,
+        0.9802037087620993,
+        0.9895563879917433,
+        0.9819611114595189
+      ],
+      "Energy": [
+        0.11371687766715796,
+        0.10579497558098039,
+        0.12374706511218829,
+        0.10820088170920968
+      ],
+      "Homogeneity": [
+        0.9223042752171008,
+        0.9038839201448992,
+        0.9448099532398129,
+        0.9099016335945105
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.571514792067021,
+      "Standard_Deviation": 0.6964080693191341
+    },
+    "StandardDeviation": {
+      "Mean": 5.512575633858457,
+      "Standard_Deviation": 5.288847815268769
+    },
+    "LBP": {
+      "Mean": 0.0958065763,
+      "Standard_Deviation": 0.088905707
+    },
+    "HOG": {
+      "Mean": 0.141494423,
+      "Standard_Deviation": 0.0880746767
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 1361.1176470588234,
+      "Standard_Deviation": 11112.838693902602
+    },
+    "Circularity": {
+      "Mean": 0.8398597273276761,
+      "Standard_Deviation": 0.20968647064798546
+    },
+    "MajorAxisLength": {
+      "Mean": 10.619573841099935,
+      "Standard_Deviation": 47.5141057203556
+    },
+    "MinorAxisLength": {
+      "Mean": 7.834895119405616,
+      "Standard_Deviation": 45.65580824133862
+    },
+    "Eccentricity": {
+      "Mean": 0.5452304363843992,
+      "Standard_Deviation": 0.412601520459227
+    },
+    "Orientation": {
+      "Mean": 5.936780231036828,
+      "Standard_Deviation": 45.28612585930509
+    },
+    "FilledArea": {
+      "Mean": 1382.2794117647059,
+      "Standard_Deviation": 11287.096424540867
+    },
+    "Perimeter": {
+      "Mean": 66.1070588235294,
+      "Standard_Deviation": 475.24149137254045
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79152"
+  },
+  "ImageId": "image_22",
+  "ImageAddress": "https://images.pexels.com/photos/1362012/pexels-photo-1362012.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "lion in a field",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 113.115024,
+    "Green": 83.29422,
+    "Blue": 51.822096
+  },
+  "Normalization": {
+    "Red": 61593.48764714029,
+    "Green": 45648.365972860156,
+    "Blue": 28731.82662961014
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.19516633266533068,
+        0.23466170818591092,
+        0.11929058116232463,
+        0.22819587069931446
+      ],
+      "Correlation": [
+        0.965058741324521,
+        0.9579610028968077,
+        0.9786324414621429,
+        0.9591179895628172
+      ],
+      "Energy": [
+        0.11466669300123293,
+        0.10709573479809963,
+        0.13238888573138258,
+        0.10881520112451454
+      ],
+      "Homogeneity": [
+        0.9040243820975283,
+        0.8865884742096082,
+        0.9406753507014027,
+        0.8905874541333836
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.647351343887465,
+      "Standard_Deviation": 1.1955641251438853
+    },
+    "StandardDeviation": {
+      "Mean": 6.762932520654156,
+      "Standard_Deviation": 5.405393380151578
+    },
+    "LBP": {
+      "Mean": 0.0894584805,
+      "Standard_Deviation": 0.0953969434
+    },
+    "HOG": {
+      "Mean": 0.132166564,
+      "Standard_Deviation": 0.10127975
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 602.6108374384237,
+      "Standard_Deviation": 7147.634422167329
+    },
+    "Circularity": {
+      "Mean": 0.7569060477826792,
+      "Standard_Deviation": 0.25082621145746214
+    },
+    "MajorAxisLength": {
+      "Mean": 11.516678712668481,
+      "Standard_Deviation": 40.32129149046068
+    },
+    "MinorAxisLength": {
+      "Mean": 5.734734660341178,
+      "Standard_Deviation": 28.26010488303542
+    },
+    "Eccentricity": {
+      "Mean": 0.6933932835747981,
+      "Standard_Deviation": 0.3541077512104451
+    },
+    "Orientation": {
+      "Mean": 10.114771374591458,
+      "Standard_Deviation": 59.35585299532414
+    },
+    "FilledArea": {
+      "Mean": 651.4334975369458,
+      "Standard_Deviation": 7632.985417607388
+    },
+    "Perimeter": {
+      "Mean": 54.088034482758616,
+      "Standard_Deviation": 428.49347616763265
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79153"
+  },
+  "ImageId": "image_23",
+  "ImageAddress": "https://images.pexels.com/photos/1622508/pexels-photo-1622508.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "fox",
+  "Description": "fox on top of a rock",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 53.680824,
+    "Green": 48.263688,
+    "Blue": 43.104612
+  },
+  "Normalization": {
+    "Red": 34042.3148937557,
+    "Green": 31087.227261719203,
+    "Blue": 28908.606549209322
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.10876553106212425,
+        0.19785864313797935,
+        0.15547094188376753,
+        0.19874217372620992
+      ],
+      "Correlation": [
+        0.979464308249564,
+        0.962655175657319,
+        0.9706306911067996,
+        0.9624940860133806
+      ],
+      "Energy": [
+        0.3081767345833953,
+        0.287671245825582,
+        0.2960352539628355,
+        0.2862298327487793
+      ],
+      "Homogeneity": [
+        0.9472204408817636,
+        0.9126057726675798,
+        0.9265183700734805,
+        0.9105823537522608
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.397000014801724,
+      "Standard_Deviation": 1.1033848490997964
+    },
+    "StandardDeviation": {
+      "Mean": 6.146335493498653,
+      "Standard_Deviation": 6.334471726911509
+    },
+    "LBP": {
+      "Mean": 0.0922525302,
+      "Standard_Deviation": 0.0926505104
+    },
+    "HOG": {
+      "Mean": 0.140920341,
+      "Standard_Deviation": 0.0889484137
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 188.04,
+      "Standard_Deviation": 1828.5762226507802
+    },
+    "Circularity": {
+      "Mean": 0.7666159499777065,
+      "Standard_Deviation": 0.23124115160676095
+    },
+    "MajorAxisLength": {
+      "Mean": 9.85932336214476,
+      "Standard_Deviation": 22.82600176610107
+    },
+    "MinorAxisLength": {
+      "Mean": 4.906542084629583,
+      "Standard_Deviation": 14.354467490438624
+    },
+    "Eccentricity": {
+      "Mean": 0.706508664484352,
+      "Standard_Deviation": 0.3017148134606237
+    },
+    "Orientation": {
+      "Mean": 3.3476155297122983,
+      "Standard_Deviation": 43.72793173169142
+    },
+    "FilledArea": {
+      "Mean": 195.96363636363637,
+      "Standard_Deviation": 1927.8212179317607
+    },
+    "Perimeter": {
+      "Mean": 28.569861818181817,
+      "Standard_Deviation": 142.0773762699556
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79154"
+  },
+  "ImageId": "image_24",
+  "ImageAddress": "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "parrot",
+  "Description": "parrot on a stick",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 102.501148,
+    "Green": 127.777872,
+    "Blue": 78.479272
+  },
+  "Normalization": {
+    "Red": 56899.82915997877,
+    "Green": 66002.56934635596,
+    "Blue": 43902.00955371571
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.06295791583166332,
+        0.12108385106887123,
+        0.0707935871743487,
+        0.08690326544873314
+      ],
+      "Correlation": [
+        0.9890759258796813,
+        0.9789642285812251,
+        0.9877060899580473,
+        0.9849111433906509
+      ],
+      "Energy": [
+        0.17824689902450191,
+        0.16970609821121252,
+        0.17737554705402792,
+        0.17405269441757595
+      ],
+      "Homogeneity": [
+        0.971993653974616,
+        0.9550002476563013,
+        0.9672147628590514,
+        0.9609333563586759
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.035320458969337,
+      "Standard_Deviation": 1.3934419321592466
+    },
+    "StandardDeviation": {
+      "Mean": 2.7543313711546937,
+      "Standard_Deviation": 5.531460644700919
+    },
+    "LBP": {
+      "Mean": 0.0513135642,
+      "Standard_Deviation": 0.12067683
+    },
+    "HOG": {
+      "Mean": 0.116967946,
+      "Standard_Deviation": 0.118728116
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 2664.9565217391305,
+      "Standard_Deviation": 7037.729233975329
+    },
+    "Circularity": {
+      "Mean": 0.6883258407885838,
+      "Standard_Deviation": 0.27964442976514264
+    },
+    "MajorAxisLength": {
+      "Mean": 42.39270554686726,
+      "Standard_Deviation": 85.78702723423739
+    },
+    "MinorAxisLength": {
+      "Mean": 22.77853261577916,
+      "Standard_Deviation": 46.05623363159663
+    },
+    "Eccentricity": {
+      "Mean": 0.7654102604708883,
+      "Standard_Deviation": 0.2715524643835375
+    },
+    "Orientation": {
+      "Mean": 3.708374223520682,
+      "Standard_Deviation": 50.39072397423121
+    },
+    "FilledArea": {
+      "Mean": 2734.391304347826,
+      "Standard_Deviation": 7245.110518883066
+    },
+    "Perimeter": {
+      "Mean": 161.66408695652174,
+      "Standard_Deviation": 367.5269479873567
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79155"
+  },
+  "ImageId": "image_25",
+  "ImageAddress": "https://images.pexels.com/photos/1670413/pexels-photo-1670413.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "monkey",
+  "Description": "baby monkey",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 90.850836,
+    "Green": 124.24912,
+    "Blue": 122.367728
+  },
+  "Normalization": {
+    "Red": 48186.5288598745,
+    "Green": 63001.33606019898,
+    "Blue": 62881.96194665083
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.05037274549098197,
+        0.09043337175352707,
+        0.07049699398797596,
+        0.0831643246412665
+      ],
+      "Correlation": [
+        0.9840041342088012,
+        0.9712925726544815,
+        0.977615812982001,
+        0.9736000663566126
+      ],
+      "Energy": [
+        0.21089359625061746,
+        0.1958951547397146,
+        0.20317120882245454,
+        0.1982851931868116
+      ],
+      "Homogeneity": [
+        0.9748350033400133,
+        0.9552963642716293,
+        0.9648957915831664,
+        0.9585731248736618
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.821172438383949,
+      "Standard_Deviation": 0.939315660759044
+    },
+    "StandardDeviation": {
+      "Mean": 2.5508766921900174,
+      "Standard_Deviation": 2.5834636136048195
+    },
+    "LBP": {
+      "Mean": 0.0817432255,
+      "Standard_Deviation": 0.102196969
+    },
+    "HOG": {
+      "Mean": 0.126243114,
+      "Standard_Deviation": 0.108814165
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 1525.6515151515152,
+      "Standard_Deviation": 10458.382318640099
+    },
+    "Circularity": {
+      "Mean": 0.7979001360983575,
+      "Standard_Deviation": 0.25728787273976794
+    },
+    "MajorAxisLength": {
+      "Mean": 20.543275596047774,
+      "Standard_Deviation": 71.64256448754419
+    },
+    "MinorAxisLength": {
+      "Mean": 9.942163239313693,
+      "Standard_Deviation": 39.65720758172349
+    },
+    "Eccentricity": {
+      "Mean": 0.6021777691593876,
+      "Standard_Deviation": 0.3951816709858434
+    },
+    "Orientation": {
+      "Mean": -7.7226306529326765,
+      "Standard_Deviation": 34.415480474765445
+    },
+    "FilledArea": {
+      "Mean": 1598,
+      "Standard_Deviation": 11023.807728310996
+    },
+    "Perimeter": {
+      "Mean": 91.39092424242423,
+      "Standard_Deviation": 498.688430179261
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79156"
+  },
+  "ImageId": "image_26",
+  "ImageAddress": "https://images.pexels.com/photos/189342/pexels-photo-189342.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "monkey",
+  "Description": "monkey climbing a tree",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 55.86214,
+    "Green": 83.312392,
+    "Blue": 48.766104
+  },
+  "Normalization": {
+    "Red": 31973.19490418161,
+    "Green": 45119.756062643304,
+    "Blue": 27978.469177283325
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.16667735470941883,
+        0.2322239669720202,
+        0.15501803607214426,
+        0.23943277336235594
+      ],
+      "Correlation": [
+        0.968355862554174,
+        0.9559184379642118,
+        0.9705823477471365,
+        0.9545507578970754
+      ],
+      "Energy": [
+        0.14901325292669507,
+        0.13579585572052152,
+        0.15081193164686083,
+        0.1340769646705298
+      ],
+      "Homogeneity": [
+        0.9187241148964596,
+        0.8908997018753606,
+        0.9237682030728123,
+        0.8885134999457833
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.870743082176609,
+      "Standard_Deviation": 0.8811924941136419
+    },
+    "StandardDeviation": {
+      "Mean": 7.1052749677851725,
+      "Standard_Deviation": 6.017794320808721
+    },
+    "LBP": {
+      "Mean": 0.0894885361,
+      "Standard_Deviation": 0.0953682736
+    },
+    "HOG": {
+      "Mean": 0.135974824,
+      "Standard_Deviation": 0.0963778272
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 501.3368983957219,
+      "Standard_Deviation": 4186.0792520171935
+    },
+    "Circularity": {
+      "Mean": 0.7527104184021117,
+      "Standard_Deviation": 0.23264421634245178
+    },
+    "MajorAxisLength": {
+      "Mean": 17.869328996602935,
+      "Standard_Deviation": 47.56768891967853
+    },
+    "MinorAxisLength": {
+      "Mean": 8.839821097452724,
+      "Standard_Deviation": 22.19701797479278
+    },
+    "Eccentricity": {
+      "Mean": 0.6977802248170747,
+      "Standard_Deviation": 0.27913367766385894
+    },
+    "Orientation": {
+      "Mean": 8.92055997041148,
+      "Standard_Deviation": 53.12894075800731
+    },
+    "FilledArea": {
+      "Mean": 532.192513368984,
+      "Standard_Deviation": 4554.697928601178
+    },
+    "Perimeter": {
+      "Mean": 77.85778074866309,
+      "Standard_Deviation": 470.4801638671409
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79157"
+  },
+  "ImageId": "image_27",
+  "ImageAddress": "https://images.pexels.com/photos/209077/pexels-photo-209077.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "lion lying in grass",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 145.959316,
+    "Green": 132.433484,
+    "Blue": 100.818116
+  },
+  "Normalization": {
+    "Red": 74272.60581173177,
+    "Green": 67623.66186101614,
+    "Blue": 52123.983658461286
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.15434068136272544,
+        0.18451733125569778,
+        0.0935190380761523,
+        0.17940891803647374
+      ],
+      "Correlation": [
+        0.9635762063734591,
+        0.9564381193376326,
+        0.9778997385642679,
+        0.95764737205976
+      ],
+      "Energy": [
+        0.17160758660406986,
+        0.16399771752024447,
+        0.18993787996032147,
+        0.16481815056847793
+      ],
+      "Homogeneity": [
+        0.9244114896459588,
+        0.9119616654819325,
+        0.9535237140948564,
+        0.9138858880084819
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.444453213074485,
+      "Standard_Deviation": 0.9247305195797956
+    },
+    "StandardDeviation": {
+      "Mean": 5.246142724426379,
+      "Standard_Deviation": 5.058735227344333
+    },
+    "LBP": {
+      "Mean": 0.0908829942,
+      "Standard_Deviation": 0.0940173
+    },
+    "HOG": {
+      "Mean": 0.131878704,
+      "Standard_Deviation": 0.101911008
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 273.23555555555555,
+      "Standard_Deviation": 2228.1165057096705
+    },
+    "Circularity": {
+      "Mean": 0.7337579055059739,
+      "Standard_Deviation": 0.2511820830032576
+    },
+    "MajorAxisLength": {
+      "Mean": 12.549811626444097,
+      "Standard_Deviation": 32.40426779675733
+    },
+    "MinorAxisLength": {
+      "Mean": 5.505591695174972,
+      "Standard_Deviation": 13.50027404435609
+    },
+    "Eccentricity": {
+      "Mean": 0.7120611279205508,
+      "Standard_Deviation": 0.32951918067699076
+    },
+    "Orientation": {
+      "Mean": 13.259101318948245,
+      "Standard_Deviation": 63.41129899369494
+    },
+    "FilledArea": {
+      "Mean": 276.72444444444443,
+      "Standard_Deviation": 2250.373898413046
+    },
+    "Perimeter": {
+      "Mean": 40.70129333333333,
+      "Standard_Deviation": 186.21361268969923
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79158"
+  },
+  "ImageId": "image_28",
+  "ImageAddress": "https://images.pexels.com/photos/219906/pexels-photo-219906.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "moose",
+  "Description": "moos in a field",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 173.571256,
+    "Green": 171.352888,
+    "Blue": 164.295336
+  },
+  "Normalization": {
+    "Red": 87742.5472561686,
+    "Green": 86750.28203039317,
+    "Blue": 83629.93796967712
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.10388777555110221,
+        0.17441697021297103,
+        0.1140681362725451,
+        0.16651740354456407
+      ],
+      "Correlation": [
+        0.9710183076388493,
+        0.951324395494576,
+        0.9681569171498676,
+        0.9535291596019748
+      ],
+      "Energy": [
+        0.20257273151513452,
+        0.18812365586411922,
+        0.19774921941678947,
+        0.18910611954586795
+      ],
+      "Homogeneity": [
+        0.953127588510354,
+        0.9309905047235421,
+        0.9484014696058785,
+        0.9322730966274567
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.521378145302073,
+      "Standard_Deviation": 1.4545296558992937
+    },
+    "StandardDeviation": {
+      "Mean": 4.3814418325416185,
+      "Standard_Deviation": 7.168070187657968
+    },
+    "LBP": {
+      "Mean": 0.058447063,
+      "Standard_Deviation": 0.117330395
+    },
+    "HOG": {
+      "Mean": 0.121645972,
+      "Standard_Deviation": 0.113930367
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 659.4736842105264,
+      "Standard_Deviation": 3879.4329099549036
+    },
+    "Circularity": {
+      "Mean": 0.7481054976356248,
+      "Standard_Deviation": 0.26552575483197205
+    },
+    "MajorAxisLength": {
+      "Mean": 20.314918648839082,
+      "Standard_Deviation": 69.2547472105201
+    },
+    "MinorAxisLength": {
+      "Mean": 8.725507330344328,
+      "Standard_Deviation": 28.10119777925328
+    },
+    "Eccentricity": {
+      "Mean": 0.7018431960825969,
+      "Standard_Deviation": 0.3240440618677881
+    },
+    "Orientation": {
+      "Mean": 5.980979835598761,
+      "Standard_Deviation": 44.89895295113316
+    },
+    "FilledArea": {
+      "Mean": 704.859649122807,
+      "Standard_Deviation": 4250.396784970178
+    },
+    "Perimeter": {
+      "Mean": 79.96633333333332,
+      "Standard_Deviation": 364.78851539525925
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79159"
+  },
+  "ImageId": "image_29",
+  "ImageAddress": "https://images.pexels.com/photos/2220336/pexels-photo-2220336.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "close up picture of a lion",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 79.031272,
+    "Green": 54.038376,
+    "Blue": 35.362564
+  },
+  "Normalization": {
+    "Red": 43009.38512850763,
+    "Green": 30318.761897154884,
+    "Blue": 20859.62769002969
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.18918236472945893,
+        0.2021638467315392,
+        0.13661723446893786,
+        0.25255320259757996
+      ],
+      "Correlation": [
+        0.9415013209612728,
+        0.9375090505649621,
+        0.9577707637836658,
+        0.9219325955858902
+      ],
+      "Energy": [
+        0.1710255169738274,
+        0.16798768221425892,
+        0.18768449633535608,
+        0.15469523073209146
+      ],
+      "Homogeneity": [
+        0.9066165664662658,
+        0.9030392113552421,
+        0.9317982631930528,
+        0.8781203020603665
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.8465408337511775,
+      "Standard_Deviation": 0.618204536135197
+    },
+    "StandardDeviation": {
+      "Mean": 6.824507553493957,
+      "Standard_Deviation": 4.752485980704713
+    },
+    "LBP": {
+      "Mean": 0.0933771133,
+      "Standard_Deviation": 0.0914973319
+    },
+    "HOG": {
+      "Mean": 0.13734749,
+      "Standard_Deviation": 0.0944113806
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 288.9191919191919,
+      "Standard_Deviation": 3179.007837562819
+    },
+    "Circularity": {
+      "Mean": 0.7698843274246435,
+      "Standard_Deviation": 0.2613820762609549
+    },
+    "MajorAxisLength": {
+      "Mean": 11.027587956319428,
+      "Standard_Deviation": 39.658251626102256
+    },
+    "MinorAxisLength": {
+      "Mean": 3.8313743493563477,
+      "Standard_Deviation": 13.284041666470571
+    },
+    "Eccentricity": {
+      "Mean": 0.640404144130472,
+      "Standard_Deviation": 0.39804549732755173
+    },
+    "Orientation": {
+      "Mean": 20.25987833848929,
+      "Standard_Deviation": 49.368585048002366
+    },
+    "FilledArea": {
+      "Mean": 313.8181818181818,
+      "Standard_Deviation": 3513.7734606896174
+    },
+    "Perimeter": {
+      "Mean": 44.58215151515151,
+      "Standard_Deviation": 323.3275249920954
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7915a"
+  },
+  "ImageId": "image_30",
+  "ImageAddress": "https://images.pexels.com/photos/2295744/pexels-photo-2295744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "Tags": "fox",
+  "Description": "fox on top of a rock",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 86.949976,
+    "Green": 84.69888,
+    "Blue": 77.5589
+  },
+  "Normalization": {
+    "Red": 49921.54329291914,
+    "Green": 47904.76899064634,
+    "Blue": 43428.93890045824
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.09819639278557114,
+        0.17773422596696398,
+        0.13834068136272545,
+        0.17303544965682865
+      ],
+      "Correlation": [
+        0.9869680104535549,
+        0.9764152018599911,
+        0.9816451121506189,
+        0.9770472091625637
+      ],
+      "Energy": [
+        0.14459009424058536,
+        0.12599791019362147,
+        0.13391121160155983,
+        0.12767795485961198
+      ],
+      "Homogeneity": [
+        0.951441549766199,
+        0.9163453828164011,
+        0.932502338009352,
+        0.919120806743748
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.256123630434897,
+      "Standard_Deviation": 1.1152732308537505
+    },
+    "StandardDeviation": {
+      "Mean": 4.865394314668817,
+      "Standard_Deviation": 5.438584837176091
+    },
+    "LBP": {
+      "Mean": 0.0859850869,
+      "Standard_Deviation": 0.0985924527
+    },
+    "HOG": {
+      "Mean": 0.130359039,
+      "Standard_Deviation": 0.103847817
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 705.7207207207207,
+      "Standard_Deviation": 6696.216717698506
+    },
+    "Circularity": {
+      "Mean": 0.7539064951038056,
+      "Standard_Deviation": 0.21804893852651575
+    },
+    "MajorAxisLength": {
+      "Mean": 14.51896979616399,
+      "Standard_Deviation": 48.919345325737105
+    },
+    "MinorAxisLength": {
+      "Mean": 8.097654872593179,
+      "Standard_Deviation": 36.685472091997255
+    },
+    "Eccentricity": {
+      "Mean": 0.7458090470954043,
+      "Standard_Deviation": 0.26563711670217416
+    },
+    "Orientation": {
+      "Mean": 4.471343731727449,
+      "Standard_Deviation": 41.10308013923847
+    },
+    "FilledArea": {
+      "Mean": 783.0540540540541,
+      "Standard_Deviation": 7507.985428665375
+    },
+    "Perimeter": {
+      "Mean": 63.392783783783784,
+      "Standard_Deviation": 420.17283854423107
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7915b"
+  },
+  "ImageId": "image_31",
+  "ImageAddress": "https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "parrot",
+  "Description": "parrot on a stick",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 69.333228,
+    "Green": 49.002852,
+    "Blue": 29.90876
+  },
+  "Normalization": {
+    "Red": 42924.96178137806,
+    "Green": 31838.118067855776,
+    "Blue": 15997.76933002959
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.10821643286573146,
+        0.15620017590290802,
+        0.0814749498997996,
+        0.14271428628800686
+      ],
+      "Correlation": [
+        0.983110810400535,
+        0.9756514768466104,
+        0.9872831937537766,
+        0.9777537571094477
+      ],
+      "Energy": [
+        0.47778858921851725,
+        0.4722639509214395,
+        0.4810793092075935,
+        0.47436722423264077
+      ],
+      "Homogeneity": [
+        0.9497471609886439,
+        0.9372154462565745,
+        0.9621890447561792,
+        0.9394691185979173
+      ]
+    },
+    "Entropy": {
+      "Mean": 2.1965132085069277,
+      "Standard_Deviation": 2.303277404735044
+    },
+    "StandardDeviation": {
+      "Mean": 3.9109622423079933,
+      "Standard_Deviation": 7.181883031575892
+    },
+    "LBP": {
+      "Mean": 0.0333886333,
+      "Standard_Deviation": 0.126914755
+    },
+    "HOG": {
+      "Mean": 0.0799548626,
+      "Standard_Deviation": 0.118424915
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 2783.5714285714284,
+      "Standard_Deviation": 10906.703574276824
+    },
+    "Circularity": {
+      "Mean": 0.7475377248986695,
+      "Standard_Deviation": 0.2857593837943117
+    },
+    "MajorAxisLength": {
+      "Mean": 35.13543438497232,
+      "Standard_Deviation": 98.2572956609558
+    },
+    "MinorAxisLength": {
+      "Mean": 17.71331620401867,
+      "Standard_Deviation": 49.23159700135158
+    },
+    "Eccentricity": {
+      "Mean": 0.7128626884266765,
+      "Standard_Deviation": 0.31655600322205524
+    },
+    "Orientation": {
+      "Mean": 15.676859394211757,
+      "Standard_Deviation": 62.52987208006393
+    },
+    "FilledArea": {
+      "Mean": 2950.1428571428573,
+      "Standard_Deviation": 11645.571683200933
+    },
+    "Perimeter": {
+      "Mean": 236.6039047619048,
+      "Standard_Deviation": 828.6697693310589
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7915c"
+  },
+  "ImageId": "image_32",
+  "ImageAddress": "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "lion lying on top of a rock",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 114.807764,
+    "Green": 96.140168,
+    "Blue": 53.262084
+  },
+  "Normalization": {
+    "Red": 60080.78705392484,
+    "Green": 50222.58734511201,
+    "Blue": 30863.850267809004
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.1383927855711423,
+        0.2257621455335521,
+        0.13157114228456915,
+        0.17656957200975099
+      ],
+      "Correlation": [
+        0.9765886233131109,
+        0.9618291836192129,
+        0.977743708935695,
+        0.9701471076880492
+      ],
+      "Energy": [
+        0.1964518436150859,
+        0.18325697493335957,
+        0.2005916569652331,
+        0.18710586093924528
+      ],
+      "Homogeneity": [
+        0.9332661990647962,
+        0.9063413399946185,
+        0.9390547762191048,
+        0.9181659913012398
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.264899613724303,
+      "Standard_Deviation": 1.1767416098302594
+    },
+    "StandardDeviation": {
+      "Mean": 5.612568919611478,
+      "Standard_Deviation": 6.547528358328735
+    },
+    "LBP": {
+      "Mean": 0.0923976749,
+      "Standard_Deviation": 0.0925032571
+    },
+    "HOG": {
+      "Mean": 0.137917057,
+      "Standard_Deviation": 0.0935773
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 729.9367088607595,
+      "Standard_Deviation": 4854.211812071625
+    },
+    "Circularity": {
+      "Mean": 0.719784323055409,
+      "Standard_Deviation": 0.2671546061290577
+    },
+    "MajorAxisLength": {
+      "Mean": 23.15527266227574,
+      "Standard_Deviation": 73.14415841890738
+    },
+    "MinorAxisLength": {
+      "Mean": 8.965655538270582,
+      "Standard_Deviation": 27.51148420448121
+    },
+    "Eccentricity": {
+      "Mean": 0.6991602080887372,
+      "Standard_Deviation": 0.34037027810434045
+    },
+    "Orientation": {
+      "Mean": -10.11506038440755,
+      "Standard_Deviation": 49.33650661697049
+    },
+    "FilledArea": {
+      "Mean": 745.9240506329114,
+      "Standard_Deviation": 4985.191699043179
+    },
+    "Perimeter": {
+      "Mean": 90.77044303797467,
+      "Standard_Deviation": 427.55582514159056
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7915d"
+  },
+  "ImageId": "image_33",
+  "ImageAddress": "https://images.pexels.com/photos/2499271/pexels-photo-2499271.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "elephant",
+  "Description": "elephant walking on grass",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 104.565096,
+    "Green": 108.82014,
+    "Blue": 87.478892
+  },
+  "Normalization": {
+    "Red": 55355.60661422598,
+    "Green": 57663.75634215352,
+    "Blue": 46717.60895199636
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.17846492985971946,
+        0.2724567371215377,
+        0.19664128256513028,
+        0.2866574833032799
+      ],
+      "Correlation": [
+        0.9754104744892288,
+        0.9624567209165157,
+        0.9729098633702004,
+        0.9604875778751125
+      ],
+      "Energy": [
+        0.11186319280645457,
+        0.09855278391663128,
+        0.10936188426552504,
+        0.09683891568076566
+      ],
+      "Homogeneity": [
+        0.9149799599198398,
+        0.8815521490542876,
+        0.9079923179692719,
+        0.8771897167748992
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.65457924430824,
+      "Standard_Deviation": 0.8744027192170359
+    },
+    "StandardDeviation": {
+      "Mean": 7.290551501597117,
+      "Standard_Deviation": 7.293446573009344
+    },
+    "LBP": {
+      "Mean": 0.0995117277,
+      "Standard_Deviation": 0.0846643895
+    },
+    "HOG": {
+      "Mean": 0.141949862,
+      "Standard_Deviation": 0.0873387679
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 822.303448275862,
+      "Standard_Deviation": 8179.105804939242
+    },
+    "Circularity": {
+      "Mean": 0.7916667140461539,
+      "Standard_Deviation": 0.22770136214907274
+    },
+    "MajorAxisLength": {
+      "Mean": 12.501111374973577,
+      "Standard_Deviation": 45.515954129049035
+    },
+    "MinorAxisLength": {
+      "Mean": 7.3808361643597955,
+      "Standard_Deviation": 37.1707004204039
+    },
+    "Eccentricity": {
+      "Mean": 0.6486738462607733,
+      "Standard_Deviation": 0.36723845121527915
+    },
+    "Orientation": {
+      "Mean": 5.479809512503937,
+      "Standard_Deviation": 35.029632722243534
+    },
+    "FilledArea": {
+      "Mean": 887.1448275862069,
+      "Standard_Deviation": 8921.325759396314
+    },
+    "Perimeter": {
+      "Mean": 57.77185517241381,
+      "Standard_Deviation": 420.26689258849046
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7915e"
+  },
+  "ImageId": "image_34",
+  "ImageAddress": "https://images.pexels.com/photos/2499898/pexels-photo-2499898.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "monkey",
+  "Description": "monkey hanging on a tree branch",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 89.596884,
+    "Green": 84.558412,
+    "Blue": 50.753384
+  },
+  "Normalization": {
+    "Red": 46399.34843667793,
+    "Green": 43603.72550246399,
+    "Blue": 28354.894643182968
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.1787254509018036,
+        0.31476982020152533,
+        0.236937875751503,
+        0.3162919024421589
+      ],
+      "Correlation": [
+        0.9663511253385855,
+        0.940616353193829,
+        0.9552950888135582,
+        0.9403244660080278
+      ],
+      "Energy": [
+        0.16820994804036934,
+        0.14372212066321813,
+        0.1547579810844133,
+        0.1419589903272666
+      ],
+      "Homogeneity": [
+        0.914369071476286,
+        0.86603112705036,
+        0.8896372745490982,
+        0.863316546252157
+      ]
+    },
+    "Entropy": {
+      "Mean": 5.044839535410854,
+      "Standard_Deviation": 0.6331584921477879
+    },
+    "StandardDeviation": {
+      "Mean": 8.670146293065395,
+      "Standard_Deviation": 7.627961741735274
+    },
+    "LBP": {
+      "Mean": 0.0906535685,
+      "Standard_Deviation": 0.0942423344
+    },
+    "HOG": {
+      "Mean": 0.137302816,
+      "Standard_Deviation": 0.0944762826
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 162.58659217877096,
+      "Standard_Deviation": 964.8845402192843
+    },
+    "Circularity": {
+      "Mean": 0.7495474522013864,
+      "Standard_Deviation": 0.22858969475301852
+    },
+    "MajorAxisLength": {
+      "Mean": 14.10958114884663,
+      "Standard_Deviation": 27.477341799679564
+    },
+    "MinorAxisLength": {
+      "Mean": 7.013319432767535,
+      "Standard_Deviation": 11.824133286574927
+    },
+    "Eccentricity": {
+      "Mean": 0.7451252576588632,
+      "Standard_Deviation": 0.24493612503671144
+    },
+    "Orientation": {
+      "Mean": 1.6550240726793508,
+      "Standard_Deviation": 40.04682272741663
+    },
+    "FilledArea": {
+      "Mean": 164.35474860335196,
+      "Standard_Deviation": 981.1605201178306
+    },
+    "Perimeter": {
+      "Mean": 41.985812849162016,
+      "Standard_Deviation": 150.62459606655935
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7915f"
+  },
+  "ImageId": "image_35",
+  "ImageAddress": "https://images.pexels.com/photos/2649842/pexels-photo-2649842.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "lion lying on a rock",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 138.50962,
+    "Green": 109.376076,
+    "Blue": 60.459188
+  },
+  "Normalization": {
+    "Red": 71978.35572827599,
+    "Green": 56716.5719717398,
+    "Blue": 31980.523594898343
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.17544689378757516,
+        0.22027220774213757,
+        0.14617635270541082,
+        0.2535009899558636
+      ],
+      "Correlation": [
+        0.9700186312024802,
+        0.962351324881574,
+        0.9750018087872567,
+        0.9566706224157119
+      ],
+      "Energy": [
+        0.11485512944927931,
+        0.10595254306426674,
+        0.12202422644085767,
+        0.10228245783509485
+      ],
+      "Homogeneity": [
+        0.9149081496325986,
+        0.8957487453196304,
+        0.9289599198396794,
+        0.8856636452597915
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.717281505038681,
+      "Standard_Deviation": 0.894380369274478
+    },
+    "StandardDeviation": {
+      "Mean": 6.679299173602758,
+      "Standard_Deviation": 6.030290476365234
+    },
+    "LBP": {
+      "Mean": 0.0941590071,
+      "Standard_Deviation": 0.0906785578
+    },
+    "HOG": {
+      "Mean": 0.136406466,
+      "Standard_Deviation": 0.0954926908
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 809.7142857142857,
+      "Standard_Deviation": 8835.135111494117
+    },
+    "Circularity": {
+      "Mean": 0.7352871968198388,
+      "Standard_Deviation": 0.24377056807649125
+    },
+    "MajorAxisLength": {
+      "Mean": 13.518431009593876,
+      "Standard_Deviation": 45.58156314451017
+    },
+    "MinorAxisLength": {
+      "Mean": 7.454723506173347,
+      "Standard_Deviation": 37.102353509127674
+    },
+    "Eccentricity": {
+      "Mean": 0.7186797148074003,
+      "Standard_Deviation": 0.32062620810261594
+    },
+    "Orientation": {
+      "Mean": 12.79594357931721,
+      "Standard_Deviation": 59.67347681367201
+    },
+    "FilledArea": {
+      "Mean": 901.9183673469388,
+      "Standard_Deviation": 9945.849005758395
+    },
+    "Perimeter": {
+      "Mean": 64.62770068027213,
+      "Standard_Deviation": 502.1860640277299
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79160"
+  },
+  "ImageId": "image_36",
+  "ImageAddress": "https://images.pexels.com/photos/2674052/pexels-photo-2674052.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "lion in a field",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 110.786112,
+    "Green": 85.2996,
+    "Blue": 65.195524
+  },
+  "Normalization": {
+    "Red": 56161.38510735987,
+    "Green": 43139.014719456856,
+    "Blue": 32890.95102919685
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.1765811623246493,
+        0.21688266312183485,
+        0.12430460921843689,
+        0.21224011148549604
+      ],
+      "Correlation": [
+        0.9215357413951857,
+        0.9036763137807312,
+        0.944799022505791,
+        0.9057420130904539
+      ],
+      "Energy": [
+        0.19909944435564517,
+        0.18431266271688607,
+        0.21847109947349613,
+        0.18693298024530097
+      ],
+      "Homogeneity": [
+        0.9127879091516367,
+        0.893920104738535,
+        0.938130928523714,
+        0.8968511505308545
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.824747256501683,
+      "Standard_Deviation": 0.561207507960802
+    },
+    "StandardDeviation": {
+      "Mean": 6.172826269867176,
+      "Standard_Deviation": 4.522242767118365
+    },
+    "LBP": {
+      "Mean": 0.0950301886,
+      "Standard_Deviation": 0.0897493139
+    },
+    "HOG": {
+      "Mean": 0.145257533,
+      "Standard_Deviation": 0.0817194432
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 217.0855949895616,
+      "Standard_Deviation": 1781.5901619649985
+    },
+    "Circularity": {
+      "Mean": 0.7614698061861089,
+      "Standard_Deviation": 0.2543037228650331
+    },
+    "MajorAxisLength": {
+      "Mean": 11.756709571309203,
+      "Standard_Deviation": 26.843189486279062
+    },
+    "MinorAxisLength": {
+      "Mean": 6.402369279730331,
+      "Standard_Deviation": 15.466655578732981
+    },
+    "Eccentricity": {
+      "Mean": 0.6728130974367543,
+      "Standard_Deviation": 0.3164671177699333
+    },
+    "Orientation": {
+      "Mean": 10.865126397424964,
+      "Standard_Deviation": 58.361667085110476
+    },
+    "FilledArea": {
+      "Mean": 222.85594989561588,
+      "Standard_Deviation": 1851.197690482569
+    },
+    "Perimeter": {
+      "Mean": 45.08407724425887,
+      "Standard_Deviation": 208.96985469270197
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79161"
+  },
+  "ImageId": "image_37",
+  "ImageAddress": "https://images.pexels.com/photos/321552/pexels-photo-321552.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "monkey",
+  "Description": "monkey eating a banana",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 119.805312,
+    "Green": 116.647184,
+    "Blue": 75.94546
+  },
+  "Normalization": {
+    "Red": 63676.95464398646,
+    "Green": 61095.93878640489,
+    "Blue": 42002.63986661707
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.09790781563126252,
+        0.12629266549130325,
+        0.06681362725450903,
+        0.11871839872129027
+      ],
+      "Correlation": [
+        0.981834999282086,
+        0.9765566337669849,
+        0.9876049715622462,
+        0.9779665913184924
+      ],
+      "Energy": [
+        0.13674936344833954,
+        0.12934736626638685,
+        0.14494118086272745,
+        0.13218740651827174
+      ],
+      "Homogeneity": [
+        0.952557448229793,
+        0.9391475000769742,
+        0.9667802271209084,
+        0.9441533702006552
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.085575374491985,
+      "Standard_Deviation": 0.935474805751804
+    },
+    "StandardDeviation": {
+      "Mean": 3.4977862413945897,
+      "Standard_Deviation": 4.130190334470279
+    },
+    "LBP": {
+      "Mean": 0.085459061,
+      "Standard_Deviation": 0.0990566164
+    },
+    "HOG": {
+      "Mean": 0.12294738,
+      "Standard_Deviation": 0.112524629
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 2607.0444444444443,
+      "Standard_Deviation": 16018.348717465962
+    },
+    "Circularity": {
+      "Mean": 0.7056923209513748,
+      "Standard_Deviation": 0.2487526590773315
+    },
+    "MajorAxisLength": {
+      "Mean": 25.15320488009398,
+      "Standard_Deviation": 82.23060447100704
+    },
+    "MinorAxisLength": {
+      "Mean": 13.938155589226097,
+      "Standard_Deviation": 55.01230326367508
+    },
+    "Eccentricity": {
+      "Mean": 0.7271841129725816,
+      "Standard_Deviation": 0.33770248974681283
+    },
+    "Orientation": {
+      "Mean": 4.231909204543905,
+      "Standard_Deviation": 57.5807165635704
+    },
+    "FilledArea": {
+      "Mean": 2841.4666666666667,
+      "Standard_Deviation": 17517.162348809397
+    },
+    "Perimeter": {
+      "Mean": 113.69564444444447,
+      "Standard_Deviation": 528.5063337349961
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79162"
+  },
+  "ImageId": "image_38",
+  "ImageAddress": "https://images.pexels.com/photos/326012/pexels-photo-326012.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "rabbit",
+  "Description": "rabbit walking on grass",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 100.701524,
+    "Green": 101.465884,
+    "Blue": 49.532896
+  },
+  "Normalization": {
+    "Red": 53643.94369070687,
+    "Green": 52193.58892153495,
+    "Blue": 26728.49502934227
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.08133466933867733,
+        0.12381476379612932,
+        0.09242484969939879,
+        0.11804771868386071
+      ],
+      "Correlation": [
+        0.9705481414449325,
+        0.9552135927068602,
+        0.9665290136159088,
+        0.9572993565959775
+      ],
+      "Energy": [
+        0.20409434548455635,
+        0.18727228678914706,
+        0.19948424499500003,
+        0.18942431834164036
+      ],
+      "Homogeneity": [
+        0.9593326653306613,
+        0.9383175167971212,
+        0.953808951235805,
+        0.9411367825832024
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.318371055051786,
+      "Standard_Deviation": 0.653874542387047
+    },
+    "StandardDeviation": {
+      "Mean": 3.6225265937265783,
+      "Standard_Deviation": 2.8163342060647882
+    },
+    "LBP": {
+      "Mean": 0.0955421701,
+      "Standard_Deviation": 0.0891946554
+    },
+    "HOG": {
+      "Mean": 0.142519251,
+      "Standard_Deviation": 0.0864065289
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 521.4368421052632,
+      "Standard_Deviation": 6125.325914551979
+    },
+    "Circularity": {
+      "Mean": 0.7696386092638511,
+      "Standard_Deviation": 0.21985105223380522
+    },
+    "MajorAxisLength": {
+      "Mean": 11.983882522097733,
+      "Standard_Deviation": 36.150203840919616
+    },
+    "MinorAxisLength": {
+      "Mean": 6.840257137181147,
+      "Standard_Deviation": 27.920896635687605
+    },
+    "Eccentricity": {
+      "Mean": 0.6734491058898792,
+      "Standard_Deviation": 0.33983390845500977
+    },
+    "Orientation": {
+      "Mean": 1.389024230386773,
+      "Standard_Deviation": 43.4264747055183
+    },
+    "FilledArea": {
+      "Mean": 550.5315789473684,
+      "Standard_Deviation": 6510.456843710149
+    },
+    "Perimeter": {
+      "Mean": 44.67067368421053,
+      "Standard_Deviation": 288.7919535155944
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79163"
+  },
+  "ImageId": "image_39",
+  "ImageAddress": "https://images.pexels.com/photos/326900/pexels-photo-326900.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "woodpecker",
+  "Description": "woodpecker on a tsick",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 189.188408,
+    "Green": 171.716684,
+    "Blue": 90.016892
+  },
+  "Normalization": {
+    "Red": 97027.43009863491,
+    "Green": 86485.76229616326,
+    "Blue": 47644.43556412545
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.05834468937875752,
+        0.08319243697816474,
+        0.04483366733466934,
+        0.07252982919747311
+      ],
+      "Correlation": [
+        0.9808042438279516,
+        0.9726338966381515,
+        0.9852336140426483,
+        0.976137489763303
+      ],
+      "Energy": [
+        0.35055918474223,
+        0.34545766263025685,
+        0.35497766296520894,
+        0.3479100816669315
+      ],
+      "Homogeneity": [
+        0.9715694722778891,
+        0.962203632381664,
+        0.9787738810955243,
+        0.967353210094203
+      ]
+    },
+    "Entropy": {
+      "Mean": 2.1177584907703357,
+      "Standard_Deviation": 1.746387077066848
+    },
+    "StandardDeviation": {
+      "Mean": 2.2218502855832436,
+      "Standard_Deviation": 4.79827828637097
+    },
+    "LBP": {
+      "Mean": 0.030233426,
+      "Standard_Deviation": 0.12771672
+    },
+    "HOG": {
+      "Mean": 0.105356269,
+      "Standard_Deviation": 0.12882483
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 1175.857142857143,
+      "Standard_Deviation": 6081.020764180265
+    },
+    "Circularity": {
+      "Mean": 0.7296811556943527,
+      "Standard_Deviation": 0.28346114031146163
+    },
+    "MajorAxisLength": {
+      "Mean": 26.391836573037356,
+      "Standard_Deviation": 96.12121955249056
+    },
+    "MinorAxisLength": {
+      "Mean": 7.504154661868978,
+      "Standard_Deviation": 25.28339166464056
+    },
+    "Eccentricity": {
+      "Mean": 0.6422550893222088,
+      "Standard_Deviation": 0.4210440366210127
+    },
+    "Orientation": {
+      "Mean": -4.3201270929193045,
+      "Standard_Deviation": 64.87047666488711
+    },
+    "FilledArea": {
+      "Mean": 1229.0357142857142,
+      "Standard_Deviation": 6362.40326991677
+    },
+    "Perimeter": {
+      "Mean": 106.51307142857145,
+      "Standard_Deviation": 477.1358583027383
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79164"
+  },
+  "ImageId": "image_40",
+  "ImageAddress": "https://images.pexels.com/photos/3284268/pexels-photo-3284268.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "lion",
+  "Description": "lion walking",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 76.654796,
+    "Green": 64.669376,
+    "Blue": 59.191168
+  },
+  "Normalization": {
+    "Red": 41744.86401535323,
+    "Green": 35141.471131725615,
+    "Blue": 32295.00021667587
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.11225250501002004,
+        0.1598708438921932,
+        0.11294989979959918,
+        0.15513993919703134
+      ],
+      "Correlation": [
+        0.9706862040746804,
+        0.9582733527296361,
+        0.9705199639894179,
+        0.9595142469281857
+      ],
+      "Energy": [
+        0.17575269744298216,
+        0.16066558038386963,
+        0.17571802857016638,
+        0.16339893327797664
+      ],
+      "Homogeneity": [
+        0.9439004676018704,
+        0.9209106255262696,
+        0.9436372745490982,
+        0.9231636285262576
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.478112521740298,
+      "Standard_Deviation": 0.8510484450648929
+    },
+    "StandardDeviation": {
+      "Mean": 4.790815112230304,
+      "Standard_Deviation": 3.744221380782729
+    },
+    "LBP": {
+      "Mean": 0.098240152,
+      "Standard_Deviation": 0.0861617923
+    },
+    "HOG": {
+      "Mean": 0.139718324,
+      "Standard_Deviation": 0.0908659399
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 509.7914110429448,
+      "Standard_Deviation": 5352.365405846611
+    },
+    "Circularity": {
+      "Mean": 0.7624407479465414,
+      "Standard_Deviation": 0.2665231832391875
+    },
+    "MajorAxisLength": {
+      "Mean": 14.21312528498046,
+      "Standard_Deviation": 46.19337211616679
+    },
+    "MinorAxisLength": {
+      "Mean": 5.777693374655451,
+      "Standard_Deviation": 21.639360430128203
+    },
+    "Eccentricity": {
+      "Mean": 0.6686239967008729,
+      "Standard_Deviation": 0.3674061976919976
+    },
+    "Orientation": {
+      "Mean": 0.03263355121880981,
+      "Standard_Deviation": 47.99620094451667
+    },
+    "FilledArea": {
+      "Mean": 527.6503067484663,
+      "Standard_Deviation": 5571.1822974818
+    },
+    "Perimeter": {
+      "Mean": 59.17327607361963,
+      "Standard_Deviation": 396.4918395348067
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79165"
+  },
+  "ImageId": "image_41",
+  "ImageAddress": "https://images.pexels.com/photos/3342627/pexels-photo-3342627.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "monkey",
+  "Description": "monkey on top of a rock",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 110.430812,
+    "Green": 115.584004,
+    "Blue": 121.7456
+  },
+  "Normalization": {
+    "Red": 63112.24305751803,
+    "Green": 67408.72426114748,
+    "Blue": 73421.74417444247
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.060444889779559106,
+        0.11400355821864168,
+        0.09575150300601204,
+        0.11882281597262662
+      ],
+      "Correlation": [
+        0.9940618212163038,
+        0.9888081890965893,
+        0.9905988707475729,
+        0.9883360570557175
+      ],
+      "Energy": [
+        0.14687299838956472,
+        0.13329885389005763,
+        0.13808603499584338,
+        0.13251394066103833
+      ],
+      "Homogeneity": [
+        0.9698363393453574,
+        0.9435648183474498,
+        0.9523967935871742,
+        0.941771987528832
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.768531151538088,
+      "Standard_Deviation": 1.2692539660106226
+    },
+    "StandardDeviation": {
+      "Mean": 3.4914538894759866,
+      "Standard_Deviation": 4.150540470969988
+    },
+    "LBP": {
+      "Mean": 0.0705213174,
+      "Standard_Deviation": 0.110373795
+    },
+    "HOG": {
+      "Mean": 0.119934767,
+      "Standard_Deviation": 0.11573036
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 760.1372549019608,
+      "Standard_Deviation": 6800.341188352559
+    },
+    "Circularity": {
+      "Mean": 0.691798029147935,
+      "Standard_Deviation": 0.258257391714876
+    },
+    "MajorAxisLength": {
+      "Mean": 18.473217542041198,
+      "Standard_Deviation": 60.15175871569503
+    },
+    "MinorAxisLength": {
+      "Mean": 6.119595009265751,
+      "Standard_Deviation": 16.46542087416611
+    },
+    "Eccentricity": {
+      "Mean": 0.760907141050147,
+      "Standard_Deviation": 0.3053500810309297
+    },
+    "Orientation": {
+      "Mean": 3.104724253192957,
+      "Standard_Deviation": 27.510821503293354
+    },
+    "FilledArea": {
+      "Mean": 761.5490196078431,
+      "Standard_Deviation": 6800.75824343816
+    },
+    "Perimeter": {
+      "Mean": 44.46493137254902,
+      "Standard_Deviation": 141.58057409851307
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79166"
+  },
+  "ImageId": "image_42",
+  "ImageAddress": "https://images.pexels.com/photos/460775/pexels-photo-460775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "Tags": "rabbit",
+  "Description": "rabbit plucking flowers",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 76.92124,
+    "Green": 61.734424,
+    "Blue": 41.14772
+  },
+  "Normalization": {
+    "Red": 43984.07349779559,
+    "Green": 35132.19010421248,
+    "Blue": 27513.421768940778
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.1207134268537074,
+        0.1905373874000506,
+        0.12797995991983968,
+        0.17999124501508026
+      ],
+      "Correlation": [
+        0.9757264192650912,
+        0.9614440613024887,
+        0.9741128891335384,
+        0.9635555378675521
+      ],
+      "Energy": [
+        0.1866775983389625,
+        0.17407245484336406,
+        0.19025245209456992,
+        0.17665356006113508
+      ],
+      "Homogeneity": [
+        0.9415607882431529,
+        0.9144737705203325,
+        0.9398480293921176,
+        0.9189735516457096
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.458855106742959,
+      "Standard_Deviation": 0.8513525810721138
+    },
+    "StandardDeviation": {
+      "Mean": 5.410545606244201,
+      "Standard_Deviation": 5.903307959199811
+    },
+    "LBP": {
+      "Mean": 0.0951366201,
+      "Standard_Deviation": 0.0896345451
+    },
+    "HOG": {
+      "Mean": 0.134260073,
+      "Standard_Deviation": 0.0987526178
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 471.6309523809524,
+      "Standard_Deviation": 3757.63346751143
+    },
+    "Circularity": {
+      "Mean": 0.794804483271591,
+      "Standard_Deviation": 0.21978628505846992
+    },
+    "MajorAxisLength": {
+      "Mean": 12.475549947939244,
+      "Standard_Deviation": 52.914522704955225
+    },
+    "MinorAxisLength": {
+      "Mean": 6.837304807112941,
+      "Standard_Deviation": 32.97845652935004
+    },
+    "Eccentricity": {
+      "Mean": 0.6665545117206575,
+      "Standard_Deviation": 0.3398560274287166
+    },
+    "Orientation": {
+      "Mean": -4.793428697275182,
+      "Standard_Deviation": 49.939250361146264
+    },
+    "FilledArea": {
+      "Mean": 542.452380952381,
+      "Standard_Deviation": 4376.926745359785
+    },
+    "Perimeter": {
+      "Mean": 60.5876488095238,
+      "Standard_Deviation": 409.69870891891037
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79167"
+  },
+  "ImageId": "image_43",
+  "ImageAddress": "https://images.pexels.com/photos/70069/pexels-photo-70069.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "bird",
+  "Description": "bird on a stick",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 107.831244,
+    "Green": 125.172392,
+    "Blue": 38.164468
+  },
+  "Normalization": {
+    "Red": 54735.7338257756,
+    "Green": 63253.91685863069,
+    "Blue": 20445.10044746113
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.09215230460921843,
+        0.11397142983361513,
+        0.07247294589178356,
+        0.1294934558495749
+      ],
+      "Correlation": [
+        0.9619521413317794,
+        0.9529232044934113,
+        0.9700649842108854,
+        0.9465117989603765
+      ],
+      "Energy": [
+        0.22666587263504967,
+        0.22004928504759597,
+        0.23341606027285033,
+        0.21617289396433337
+      ],
+      "Homogeneity": [
+        0.9552491649966601,
+        0.9471237063304967,
+        0.9642338009352038,
+        0.9411013074914025
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.6544058052881043,
+      "Standard_Deviation": 1.1699617499452526
+    },
+    "StandardDeviation": {
+      "Mean": 3.3988790294582514,
+      "Standard_Deviation": 5.17740023869759
+    },
+    "LBP": {
+      "Mean": 0.0761543959,
+      "Standard_Deviation": 0.106498338
+    },
+    "HOG": {
+      "Mean": 0.122258693,
+      "Standard_Deviation": 0.113272555
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 2214.509433962264,
+      "Standard_Deviation": 13083.678575324651
+    },
+    "Circularity": {
+      "Mean": 0.7176349378401103,
+      "Standard_Deviation": 0.270987352064448
+    },
+    "MajorAxisLength": {
+      "Mean": 26.7911919485647,
+      "Standard_Deviation": 75.23860658953053
+    },
+    "MinorAxisLength": {
+      "Mean": 15.099885133085461,
+      "Standard_Deviation": 49.70326869381931
+    },
+    "Eccentricity": {
+      "Mean": 0.7005490445296458,
+      "Standard_Deviation": 0.33512920025216175
+    },
+    "Orientation": {
+      "Mean": 21.066866981909442,
+      "Standard_Deviation": 51.8560554099357
+    },
+    "FilledArea": {
+      "Mean": 2587.264150943396,
+      "Standard_Deviation": 15726.886136303874
+    },
+    "Perimeter": {
+      "Mean": 104.08384905660377,
+      "Standard_Deviation": 356.20980195959254
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79168"
+  },
+  "ImageId": "image_44",
+  "ImageAddress": "https://images.pexels.com/photos/733998/pexels-photo-733998.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "monkey",
+  "Description": "monkey on a rock",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 164.027536,
+    "Green": 143.831296,
+    "Blue": 114.64868
+  },
+  "Normalization": {
+    "Red": 86426.15879281616,
+    "Green": 75410.45139235952,
+    "Blue": 60092.96831504283
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.07350300601202404,
+        0.09452170874815764,
+        0.05668537074148297,
+        0.09345343994602431
+      ],
+      "Correlation": [
+        0.9900064529815394,
+        0.9871606767108198,
+        0.9922995356452694,
+        0.9873051258024156
+      ],
+      "Energy": [
+        0.17662952267661575,
+        0.17177580581727597,
+        0.18192479210926865,
+        0.17217376175052782
+      ],
+      "Homogeneity": [
+        0.9632859051436207,
+        0.9537029971767184,
+        0.971812291249165,
+        0.9540871991143276
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.611900020343407,
+      "Standard_Deviation": 1.1212346150676407
+    },
+    "StandardDeviation": {
+      "Mean": 2.7806026965275725,
+      "Standard_Deviation": 3.6459203126382964
+    },
+    "LBP": {
+      "Mean": 0.0763845667,
+      "Standard_Deviation": 0.106330514
+    },
+    "HOG": {
+      "Mean": 0.125749692,
+      "Standard_Deviation": 0.109384045
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 2052.8,
+      "Standard_Deviation": 11543.642084561985
+    },
+    "Circularity": {
+      "Mean": 0.7424210322758111,
+      "Standard_Deviation": 0.2730254824826313
+    },
+    "MajorAxisLength": {
+      "Mean": 21.2612213019115,
+      "Standard_Deviation": 65.83969322630888
+    },
+    "MinorAxisLength": {
+      "Mean": 13.916145565296002,
+      "Standard_Deviation": 52.24127739723763
+    },
+    "Eccentricity": {
+      "Mean": 0.6895435683261683,
+      "Standard_Deviation": 0.3387053894901704
+    },
+    "Orientation": {
+      "Mean": 0.11289189621332442,
+      "Standard_Deviation": 55.549541933070685
+    },
+    "FilledArea": {
+      "Mean": 2116.2,
+      "Standard_Deviation": 11917.015513665376
+    },
+    "Perimeter": {
+      "Mean": 104.38682857142857,
+      "Standard_Deviation": 453.4565795405518
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c79169"
+  },
+  "ImageId": "image_45",
+  "ImageAddress": "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "tiger",
+  "Description": "tiger on a rock",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 52.837648,
+    "Green": 40.752152,
+    "Blue": 29.822076
+  },
+  "Normalization": {
+    "Red": 37786.50236255182,
+    "Green": 29485.490207977917,
+    "Blue": 22603.112219586514
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.17245290581162323,
+        0.2477540250842366,
+        0.14265330661322645,
+        0.24241268107357
+      ],
+      "Correlation": [
+        0.9673083498267564,
+        0.9530847840231289,
+        0.9729561619063821,
+        0.9540962321961753
+      ],
+      "Energy": [
+        0.36681811925253316,
+        0.3585103032614065,
+        0.37004367484467937,
+        0.3581699118405467
+      ],
+      "Homogeneity": [
+        0.9224335337341348,
+        0.9037741481627248,
+        0.9338209752839012,
+        0.9060674455122669
+      ]
+    },
+    "Entropy": {
+      "Mean": 3.0568707477487855,
+      "Standard_Deviation": 2.5221805540205287
+    },
+    "StandardDeviation": {
+      "Mean": 6.5747615111144455,
+      "Standard_Deviation": 8.846326424739413
+    },
+    "LBP": {
+      "Mean": 0.0421716757,
+      "Standard_Deviation": 0.124226674
+    },
+    "HOG": {
+      "Mean": 0.086782895,
+      "Standard_Deviation": 0.105683245
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 1209.258064516129,
+      "Standard_Deviation": 9329.998509893023
+    },
+    "Circularity": {
+      "Mean": 0.7618784071860569,
+      "Standard_Deviation": 0.2680281286601124
+    },
+    "MajorAxisLength": {
+      "Mean": 15.247525429687736,
+      "Standard_Deviation": 55.441911209415295
+    },
+    "MinorAxisLength": {
+      "Mean": 7.807970870667357,
+      "Standard_Deviation": 38.80101247887268
+    },
+    "Eccentricity": {
+      "Mean": 0.6709899942971888,
+      "Standard_Deviation": 0.3604378249842431
+    },
+    "Orientation": {
+      "Mean": 10.49726966898758,
+      "Standard_Deviation": 49.74443260871916
+    },
+    "FilledArea": {
+      "Mean": 1515.032258064516,
+      "Standard_Deviation": 11736.871010354356
+    },
+    "Perimeter": {
+      "Mean": 73.0324516129032,
+      "Standard_Deviation": 450.25636498193285
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7916a"
+  },
+  "ImageId": "image_46",
+  "ImageAddress": "https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "turtle",
+  "Description": "turtle swimming",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 35.6721,
+    "Green": 105.362576,
+    "Blue": 80.59442
+  },
+  "Normalization": {
+    "Red": 20055.00587878253,
+    "Green": 54005.86403679917,
+    "Blue": 43432.06418929667
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.17331062124248497,
+        0.2804727691856659,
+        0.21545090180360724,
+        0.28075790860277666
+      ],
+      "Correlation": [
+        0.9396060925936216,
+        0.9022450187263653,
+        0.9248599800403081,
+        0.9021461905784709
+      ],
+      "Energy": [
+        0.16383805035321142,
+        0.1363328664875753,
+        0.15037862941915897,
+        0.13579785944630246
+      ],
+      "Homogeneity": [
+        0.9140981963927854,
+        0.8687940342943737,
+        0.8937922511690046,
+        0.8679509988581036
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.7471723302481506,
+      "Standard_Deviation": 1.0802926595945062
+    },
+    "StandardDeviation": {
+      "Mean": 7.964571863909712,
+      "Standard_Deviation": 6.297890829520155
+    },
+    "LBP": {
+      "Mean": 0.0946190953,
+      "Standard_Deviation": 0.0901900604
+    },
+    "HOG": {
+      "Mean": 0.141871035,
+      "Standard_Deviation": 0.0874667838
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 383.9646302250804,
+      "Standard_Deviation": 4435.797708603062
+    },
+    "Circularity": {
+      "Mean": 0.7739884063473896,
+      "Standard_Deviation": 0.24327151551070592
+    },
+    "MajorAxisLength": {
+      "Mean": 11.865315527579792,
+      "Standard_Deviation": 41.7916137283245
+    },
+    "MinorAxisLength": {
+      "Mean": 5.443437766039804,
+      "Standard_Deviation": 18.52686155538891
+    },
+    "Eccentricity": {
+      "Mean": 0.6783609375808686,
+      "Standard_Deviation": 0.3265483088799696
+    },
+    "Orientation": {
+      "Mean": 4.9190896601615695,
+      "Standard_Deviation": 39.344505472119124
+    },
+    "FilledArea": {
+      "Mean": 469.39871382636653,
+      "Standard_Deviation": 5495.277609753342
+    },
+    "Perimeter": {
+      "Mean": 51.38492604501607,
+      "Standard_Deviation": 354.9750303902503
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7916b"
+  },
+  "ImageId": "image_47",
+  "ImageAddress": "https://images.pexels.com/photos/908070/pexels-photo-908070.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "monkey",
+  "Description": "a monkey",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 112.688168,
+    "Green": 118.082816,
+    "Blue": 56.58288
+  },
+  "Normalization": {
+    "Red": 58020.090213529285,
+    "Green": 63451.79416998882,
+    "Blue": 31022.359933122123
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.09385170340681362,
+        0.11917221215979051,
+        0.06895390781563127,
+        0.12149750402608825
+      ],
+      "Correlation": [
+        0.9801888902529396,
+        0.9748466619728253,
+        0.9854475621212292,
+        0.974367642372402
+      ],
+      "Energy": [
+        0.15820851941960073,
+        0.1515816538956594,
+        0.16622928454102592,
+        0.1507025474586001
+      ],
+      "Homogeneity": [
+        0.9535177020708083,
+        0.9420290146090444,
+        0.9657100868403474,
+        0.940384442900497
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.068209883207228,
+      "Standard_Deviation": 1.1426423702322908
+    },
+    "StandardDeviation": {
+      "Mean": 3.5515461630183447,
+      "Standard_Deviation": 3.8970257233014847
+    },
+    "LBP": {
+      "Mean": 0.0838098153,
+      "Standard_Deviation": 0.100479804
+    },
+    "HOG": {
+      "Mean": 0.124063633,
+      "Standard_Deviation": 0.111292712
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 1780.0149253731342,
+      "Standard_Deviation": 10745.102462239076
+    },
+    "Circularity": {
+      "Mean": 0.7295995632299513,
+      "Standard_Deviation": 0.2494797315699856
+    },
+    "MajorAxisLength": {
+      "Mean": 31.704138511756152,
+      "Standard_Deviation": 83.57514281537277
+    },
+    "MinorAxisLength": {
+      "Mean": 16.817170705408028,
+      "Standard_Deviation": 51.03114083975457
+    },
+    "Eccentricity": {
+      "Mean": 0.6582124428532653,
+      "Standard_Deviation": 0.3491259232461946
+    },
+    "Orientation": {
+      "Mean": 11.954267375329037,
+      "Standard_Deviation": 55.27494610483587
+    },
+    "FilledArea": {
+      "Mean": 1820.2686567164178,
+      "Standard_Deviation": 11012.10133056397
+    },
+    "Perimeter": {
+      "Mean": 120.73146268656714,
+      "Standard_Deviation": 472.98489513851473
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7916c"
+  },
+  "ImageId": "image_48",
+  "ImageAddress": "https://images.pexels.com/photos/953691/pexels-photo-953691.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "monkeys",
+  "Description": "group of monkeys",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 160.166164,
+    "Green": 155.459796,
+    "Blue": 142.391364
+  },
+  "Normalization": {
+    "Red": 82486.71485833827,
+    "Green": 79791.77219776642,
+    "Blue": 74687.60070244427
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.08749899799599198,
+        0.15593110067831054,
+        0.12662525050100198,
+        0.1618266593306854
+      ],
+      "Correlation": [
+        0.9797885038943955,
+        0.9640097838488856,
+        0.9707804312370695,
+        0.9626502845297106
+      ],
+      "Energy": [
+        0.18585188859482493,
+        0.16433086127750768,
+        0.17208789195224117,
+        0.16332958682444532
+      ],
+      "Homogeneity": [
+        0.9565551102204409,
+        0.9244146275182294,
+        0.9381088844355379,
+        0.922587660290521
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.461631236390136,
+      "Standard_Deviation": 0.7208196538542144
+    },
+    "StandardDeviation": {
+      "Mean": 4.686854355146336,
+      "Standard_Deviation": 4.396003500368129
+    },
+    "LBP": {
+      "Mean": 0.091055572,
+      "Standard_Deviation": 0.0938472599
+    },
+    "HOG": {
+      "Mean": 0.132538036,
+      "Standard_Deviation": 0.101052046
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 991.5595238095239,
+      "Standard_Deviation": 8669.138292319138
+    },
+    "Circularity": {
+      "Mean": 0.7325912958427271,
+      "Standard_Deviation": 0.2355750573459464
+    },
+    "MajorAxisLength": {
+      "Mean": 16.09566479528806,
+      "Standard_Deviation": 65.54603124850473
+    },
+    "MinorAxisLength": {
+      "Mean": 7.448376093335971,
+      "Standard_Deviation": 30.881582561162503
+    },
+    "Eccentricity": {
+      "Mean": 0.7253845546940076,
+      "Standard_Deviation": 0.313479241949381
+    },
+    "Orientation": {
+      "Mean": 5.5039415689599975,
+      "Standard_Deviation": 43.390728884084965
+    },
+    "FilledArea": {
+      "Mean": 1034.0357142857142,
+      "Standard_Deviation": 9057.079490780878
+    },
+    "Perimeter": {
+      "Mean": 88.9387380952381,
+      "Standard_Deviation": 625.3525231343974
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7916d"
+  },
+  "ImageId": "image_49",
+  "ImageAddress": "https://images.pexels.com/photos/982021/pexels-photo-982021.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "elephant",
+  "Description": "elephant walking on grass",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 123.6452,
+    "Green": 153.04186,
+    "Blue": 102.95216
+  },
+  "Normalization": {
+    "Red": 64328.88889998738,
+    "Green": 79694.42732439788,
+    "Blue": 53901.73025287223
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.20956713426853707,
+        0.25822386255476887,
+        0.16384769539078156,
+        0.2810390319717591
+      ],
+      "Correlation": [
+        0.9678704021752498,
+        0.9604305561771799,
+        0.97487211547403,
+        0.9569324490672749
+      ],
+      "Energy": [
+        0.10933964252352399,
+        0.10060017822310356,
+        0.11849317636475355,
+        0.0975211631000025
+      ],
+      "Homogeneity": [
+        0.8985427521710088,
+        0.878161801224359,
+        0.9187762191048765,
+        0.8697946996196801
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.893916647540828,
+      "Standard_Deviation": 0.7922270359982336
+    },
+    "StandardDeviation": {
+      "Mean": 7.703002913078704,
+      "Standard_Deviation": 5.901464628680592
+    },
+    "LBP": {
+      "Mean": 0.097791478,
+      "Standard_Deviation": 0.0866794586
+    },
+    "HOG": {
+      "Mean": 0.145903304,
+      "Standard_Deviation": 0.0805607662
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 322.85185185185185,
+      "Standard_Deviation": 4664.048884053472
+    },
+    "Circularity": {
+      "Mean": 0.7844411571879003,
+      "Standard_Deviation": 0.22927005010235796
+    },
+    "MajorAxisLength": {
+      "Mean": 9.497575533614498,
+      "Standard_Deviation": 30.190380649591138
+    },
+    "MinorAxisLength": {
+      "Mean": 4.992323496383156,
+      "Standard_Deviation": 17.600792582096503
+    },
+    "Eccentricity": {
+      "Mean": 0.6796519508330827,
+      "Standard_Deviation": 0.3209835865998073
+    },
+    "Orientation": {
+      "Mean": 16.92067049581261,
+      "Standard_Deviation": 56.81580473061311
+    },
+    "FilledArea": {
+      "Mean": 337.9,
+      "Standard_Deviation": 4895.322875271853
+    },
+    "Perimeter": {
+      "Mean": 36.579355555555544,
+      "Standard_Deviation": 295.5503706944642
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "659b7d0d304a062aa1c7916e"
+  },
+  "ImageId": "image_50",
+  "ImageAddress": "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "Tags": "rabbit",
+  "Description": "rabbit eating",
+  "Size": [
+    500,
+    500
+  ],
+  "Mean": {
+    "Red": 114.10846,
+    "Green": 115.181432,
+    "Blue": 69.698872
+  },
+  "Normalization": {
+    "Red": 59897.82877652946,
+    "Green": 59295.689737275316,
+    "Blue": 37368.124126270595
+  },
+  "TextureFeatures": {
+    "GLCM": {
+      "Contrast": [
+        0.12467735470941885,
+        0.2003244966887683,
+        0.13100200400801604,
+        0.17703543359263618
+      ],
+      "Correlation": [
+        0.9762902916997749,
+        0.9619329282077753,
+        0.9750719134388531,
+        0.9663585350346835
+      ],
+      "Energy": [
+        0.15193396938968118,
+        0.13918989232906614,
+        0.15123072042280955,
+        0.14217751462807915
+      ],
+      "Homogeneity": [
+        0.9399859719438878,
+        0.9138547636354875,
+        0.9378710754843019,
+        0.921400918068602
+      ]
+    },
+    "Entropy": {
+      "Mean": 4.078075514763624,
+      "Standard_Deviation": 1.3018945527852264
+    },
+    "StandardDeviation": {
+      "Mean": 5.163661531193821,
+      "Standard_Deviation": 6.481157077042541
+    },
+    "LBP": {
+      "Mean": 0.0873605758,
+      "Standard_Deviation": 0.097354643
+    },
+    "HOG": {
+      "Mean": 0.134569749,
+      "Standard_Deviation": 0.0983301774
+    }
+  },
+  "ShapeFeatures": {
+    "Area": {
+      "Mean": 795.7777777777778,
+      "Standard_Deviation": 4231.262701860308
+    },
+    "Circularity": {
+      "Mean": 0.7610021609222912,
+      "Standard_Deviation": 0.2647561618873111
+    },
+    "MajorAxisLength": {
+      "Mean": 19.222399534701303,
+      "Standard_Deviation": 60.594986845212226
+    },
+    "MinorAxisLength": {
+      "Mean": 8.684175889302042,
+      "Standard_Deviation": 25.405161753978447
+    },
+    "Eccentricity": {
+      "Mean": 0.6455661359481185,
+      "Standard_Deviation": 0.3736515185389007
+    },
+    "Orientation": {
+      "Mean": 3.481515424825063,
+      "Standard_Deviation": 40.865833321756696
+    },
+    "FilledArea": {
+      "Mean": 815.8888888888889,
+      "Standard_Deviation": 4297.930014076042
+    },
+    "Perimeter": {
+      "Mean": 94.98924242424243,
+      "Standard_Deviation": 398.6628878671724
+    }
+  }
+}]

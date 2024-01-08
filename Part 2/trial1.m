@@ -7,6 +7,10 @@ if ~exist(PreprocessedTextFolder, 'dir')
     mkdir(PreprocessedTextFolder);
 end
 
+% Initialize accumulators for Bag-of-Words and TF-IDF
+TotalBoW = bagOfWords;
+TotalTFIDF = bagOfWords;
+
 %Get the list of the names of the text files
 FileList = dir(fullfile(OriginalTextFolder, '*.txt'));
 
@@ -51,6 +55,10 @@ for i = 1:length(FileList)
     BoWStem=bagOfWords(StemmedTokens);
     BoWLemma=bagOfWords(LemmatisedTokens);
     
+    % Accumulate Bag-of-Words
+    TotalBoW = add(TotalBoW, BoWFiltered);
+    TotalBoW = add(TotalBoW, BoWStem);
+    TotalBoW = add(TotalBoW, BoWLemma);
 
     % Term Frequency–Inverse Document Frequency
 
@@ -58,7 +66,13 @@ for i = 1:length(FileList)
     TfidStem = tfidf(BoWStem);
     TfidLemma = tfidf(BoWLemma);
 
+    % Accumulate TF-IDF
+    TotalTFIDF = add(TotalTFIDF, TfidTokens);
+    TotalTFIDF = add(TotalTFIDF, TfidStem);
+    TotalTFIDF = add(TotalTFIDF, TfidLemma);
+
     %figure
     %wordcloud(BoWFiltered); %%With the use of the word cloud sentiments were collected
     
 end
+addterms
