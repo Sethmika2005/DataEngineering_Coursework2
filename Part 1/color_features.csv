@@ -1,4 +1,4 @@
-ImageId,Mean.Red,Mean.Green,Mean.Blue,Normalization.Red,Normalization.Green,Normalization.Blue
+ImageId,ColourFeatures.Mean.Red,ColourFeatures.Mean.Green,ColourFeatures.Mean.Blue,ColourFeatures.Normalization.Red,ColourFeatures.Normalization.Green,ColourFeatures.Normalization.Blue
 image_01,126.371584,138.276504,89.586072,64262.23283704024,70368.42617462573,46358.78134361747
 image_02,123.975152,119.378232,115.413732,64135.209505453,62725.7173142082,62617.708565190456
 image_03,117.054964,97.495524,70.025088,59909.29879638673,50991.540621184,35859.88447797922

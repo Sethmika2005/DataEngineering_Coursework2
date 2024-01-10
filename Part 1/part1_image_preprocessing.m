@@ -15,9 +15,11 @@ ImageList = dir(fullfile(OriginalFolder, '*.jpeg'));
 FeaturesArray = cell(1, length(ImageList));
 
 % Load URLs from the CSV file
-URL = 'url.xlsx'; 
-UrlTable = readtable(URL);
-ImageUrl = UrlTable.URL;
+URL = 'image_address.xlsx'; 
+ImageAddressTable = readtable(URL);
+WebImageAddress = ImageAddressTable.WebImageAddress;
+GithubOriginalImageAddress = ImageAddressTable.GithubOriginalImageAddress;
+GithubPreprocessedImageAddress = ImageAddressTable.GithubPreprocessedImageAddress;
 
 % Loading the image with metadata (tags)
 ImageTags = 'image_tags.xlsx';
@@ -26,12 +28,13 @@ ImageId = TagsTable.ImageId;
 Tags = TagsTable.Tags;
 Description = TagsTable.Description;
 
+%Ask the user if they wish to see the original and denoised image side by side
+DenoiseImages = input('Do you wish to see the original and denoised image side by side? (yes/no): ', 's');
+DenoiseImages = strcmpi(DenoiseImages, 'yes');
+
 % Ask the user if they want to rotate the images
 RotateImages = input('Do you want to rotate the images? (yes/no): ', 's');
 RotateImages = strcmpi(RotateImages, 'yes');
-
-% Get the list of preprocessed image files
-OutputImageList = dir(fullfile(PreprocessedFolder, '*.jpeg'));
 
 % A loop for image pre-processing and image feature extraction for each 50 images
 for i = 1:length(ImageList)
@@ -43,12 +46,22 @@ for i = 1:length(ImageList)
     ResizedImage = imresize(OriginalImage, [500, 500]);
     
     % Reduce the noise of the image using a Gaussian Filter
-    DenoisedImage = imgaussfilt(ResizedImage, 1); %%experimented with several values and decided 0.5 was the optimal value to denoise without bluring the image much
+    DenoisedImage = imgaussfilt(ResizedImage, 1); 
+
+    if DenoiseImages
+       figure();
+       subplot(1,2,1);
+       imshow(ResizedImage);
+       title('Resized image');
+       subplot(1,2,2)
+       imshow(DenoisedImage);
+       title('Denoised Image');
+    end
 
     % Rotate the image if the user wants to rotate
     if RotateImages
         % Opening an interactive window to rotate the image
-        figure(1);
+        figure(2);
         imshow(DenoisedImage);
         title('Denoised image');
         
@@ -72,6 +85,8 @@ for i = 1:length(ImageList)
     % Read the preprocessed image
     PreprocessedImage = imread(OutputFilePath);
     
+    %* Colour Features*
+    
     % MEAN of channel pixel intensity - using mean2 function
     RedMean = mean2(PreprocessedImage(:,:,1));
     GreenMean = mean2(PreprocessedImage(:,:,2));
@@ -86,37 +101,35 @@ for i = 1:length(ImageList)
 
     % GLCM features - statistics of the GLCM
     GreyImage = rgb2gray(PreprocessedImage);
-    Glcm = graycomatrix(GreyImage, 'Offset', [0 1; -1 1; -1 0; -1 -1]); %%[0 1; -1 1; -1 0; -1 -1] was chosen as there is no domient orientation for the images therefore it will take the pixel relationship horizontally, vertically, and diagonally, and since the images are resized to 500x500 used a smaller offset of 1 pixel displacement to avoid losing information
+    Glcm = graycomatrix(GreyImage, 'Offset', [0 1; -1 1; -1 0; -1 -1]); 
     GlcmStats = graycoprops(Glcm, {'Contrast', 'Energy', 'Correlation', 'Homogeneity'});
     
     % Entropy
     E = entropyfilt(GreyImage); % Local entropy of the image
     MeanE = mean(E(:)); % Mean of the local entropy
     StdE = std(E(:)); % Standard deviation of the local entropy
+    SkewE = skewness(E(:)); % Skewness of the local entropy
     
     % Standard deviation
     S = stdfilt(GreyImage); % Local standard deviation of the image
     MeanS = mean(S(:)); % Mean of the local standard deviation
     StdS = std(S(:)); % Standard deviation of the local standard deviation
+    SkewS = skewness(S(:)); % Skewness of the local standard deviation
     
     % LBP
     LBP = extractLBPFeatures(GreyImage); % Extract the LBP features
     MeanLBP = mean(LBP); % Mean of the LBP features
     StdLBP = std(LBP); % Standard deviation of the LBP features
+    SkewLBP = skewness(LBP); % Skewness of the LBP features
     
-    % HOG
-    HOG = extractHOGFeatures(GreyImage); % Extract the HOG features
-    MeanHOG = mean(HOG); % Mean of the HOG features
-    StdHOG = std(HOG); % Standard deviation of the HOG features
-    
+
     % *Shape Features*
-    % Applying binarization and connected components before getting the region props of the image
-    % Applying binarization to easily identify and measure the regions of interest in the image
-    BinaryImages = imbinarize(GreyImage, 'global'); %% The global binarization method was used to binarize the images of animals, because most of them have high contrast with the background.
-    
+    % Binarize the image using golbal threshold
+    BinaryImages = imbinarize(GreyImage, 'global');
+
     % Invert the image if mean binary value is greater than 0.5
     MeanBinaryImage = mean(BinaryImages(:));
-    if MeanBinaryImage > 0.5 %% 0.5 was used as it the midpoint of the binary range values
+    if MeanBinaryImage > 0.5 
         % Use imcomplement to invert the image
         ImImages = imcomplement(BinaryImages);
     else
@@ -129,55 +142,83 @@ for i = 1:length(ImageList)
     % To measure geometric properties of the image
     GeoFeatures = regionprops(CcImages, 'Area', 'Centroid', 'Circularity', 'MajorAxisLength', 'MinorAxisLength', 'Eccentricity', 'Orientation', 'FilledArea', 'Perimeter');
 
-    % Calculate mean and standard deviation for each measurement
-    MeanArea = mean([GeoFeatures.Area]);
-    StdArea = std([GeoFeatures.Area]);
+    % Calculate mean,standard deviation and skewness for each measurement
+    % Area
+    MeanArea = mean([GeoFeatures.Area]); % Mean area
+    StdArea = std([GeoFeatures.Area]);   % Standard deviation of the area
+    SkewArea = skewness([GeoFeatures.Area]); % Skewness of the area
+    
+    %Centroid
+    MeanCentroid = mean([GeoFeatures.Centroid]); % Mean Centroid
+    StdCentroid = std([GeoFeatures.Centroid]);   % Standard deviation of the Centroid
+    SkewCentroid = skewness([GeoFeatures.Centroid]); % Skewness of the Centroid
 
-    MeanCircularity = mean([GeoFeatures.Circularity]);
-    StdCircularity = std([GeoFeatures.Circularity]);
-
-    MeanMajorAxisLength = mean([GeoFeatures.MajorAxisLength]);
-    StdMajorAxisLength = std([GeoFeatures.MajorAxisLength]);
-
-    MeanMinorAxisLength = mean([GeoFeatures.MinorAxisLength]);
-    StdMinorAxisLength = std([GeoFeatures.MinorAxisLength]);
-
-    MeanEccentricity = mean([GeoFeatures.Eccentricity]);
-    StdEccentricity = std([GeoFeatures.Eccentricity]);
-
-    MeanOrientation = mean([GeoFeatures.Orientation]);
-    StdOrientation = std([GeoFeatures.Orientation]);
-
-    MeanFilledArea = mean([GeoFeatures.FilledArea]);
-    StdFilledArea = std([GeoFeatures.FilledArea]);
-
-    MeanPerimeter = mean([GeoFeatures.Perimeter]);
-    StdPerimeter = std([GeoFeatures.Perimeter]);
+    % Circularity
+    MeanCircularity = mean([GeoFeatures.Circularity]); % Mean circularity
+    StdCircularity = std([GeoFeatures.Circularity]);   % Standard deviation of the circularity
+    SkewCircularity = skewness([GeoFeatures.Circularity]); % Skewness of the circularity
+    
+    % Major Axis Length
+    MeanMajorAxisLength = mean([GeoFeatures.MajorAxisLength]); % Mean major axis length
+    StdMajorAxisLength = std([GeoFeatures.MajorAxisLength]);   % Standard deviation of the major axis length
+    SkewMajorAxisLength = skewness([GeoFeatures.MajorAxisLength]); % Skewness of the major axis length
+    
+    % Minor Axis Length
+    MeanMinorAxisLength = mean([GeoFeatures.MinorAxisLength]); % Mean minor axis length
+    StdMinorAxisLength = std([GeoFeatures.MinorAxisLength]);   % Standard deviation of the minor axis length
+    SkewMinorAxisLength = skewness([GeoFeatures.MinorAxisLength]); % Skewness of the minor axis length
+    
+    % Eccentricity
+    MeanEccentricity = mean([GeoFeatures.Eccentricity]); % Mean eccentricity
+    StdEccentricity = std([GeoFeatures.Eccentricity]);   % Standard deviation of the eccentricity
+    SkewEccentricity = skewness([GeoFeatures.Eccentricity]); % Skewness of the eccentricity
+    
+    % Orientation
+    MeanOrientation = mean([GeoFeatures.Orientation]); % Mean orientation
+    StdOrientation = std([GeoFeatures.Orientation]);   % Standard deviation of the orientation
+    SkewOrientation = skewness([GeoFeatures.Orientation]); % Skewness of the orientation
+    
+    % Filled Area
+    MeanFilledArea = mean([GeoFeatures.FilledArea]); % Mean filled area
+    StdFilledArea = std([GeoFeatures.FilledArea]);   % Standard deviation of the filled area
+    SkewFilledArea = skewness([GeoFeatures.FilledArea]); % Skewness of the filled area
+    
+    % Perimeter
+    MeanPerimeter = mean([GeoFeatures.Perimeter]); % Mean perimeter
+    StdPerimeter = std([GeoFeatures.Perimeter]);   % Standard deviation of the perimeter
+    SkewPerimeter = skewness([GeoFeatures.Perimeter]); % Skewness of the perimeter
 
     %% Save in JSON File
 
-
     % Create a structure for the current image
     CurrentImageInfo.ImageId = ImageId{i};
-    CurrentImageInfo.ImageAddress = ImageUrl{i};
+    CurrentImageInfo.WebImageAddress = WebImageAddress{i};
+    CurrentImageInfo.GithubOriginalImageAddress = GithubOriginalImageAddress {i};
+    CurrentImageInfo.GithubPreprocessedImageAddress = GithubPreprocessedImageAddress{i};
     CurrentImageInfo.Tags = Tags{i};
     CurrentImageInfo.Description = Description{i};
     CurrentImageInfo.Size = CcImages.ImageSize;
-    CurrentImageInfo.Mean = struct('Red', RedMean, 'Green', GreenMean, 'Blue', BlueMean);
-    CurrentImageInfo.Normalization = struct('Red', RedNorm, 'Green', GreenNorm, 'Blue', BlueNorm);
+    
+    % Channel pixel intensities
+    CurrentImageInfo.ColourFeatures.Mean = struct('Red', RedMean, 'Green', GreenMean, 'Blue', BlueMean);
+    CurrentImageInfo.ColourFeatures.Normalization = struct('Red', RedNorm, 'Green', GreenNorm, 'Blue', BlueNorm);
+
+    % Texture Features
     CurrentImageInfo.TextureFeatures.GLCM = GlcmStats;
-    CurrentImageInfo.TextureFeatures.Entropy = struct('Mean', MeanE, 'Standard_Deviation', StdE);
-    CurrentImageInfo.TextureFeatures.StandardDeviation = struct('Mean', MeanS, 'Standard_Deviation', StdS);
-    CurrentImageInfo.TextureFeatures.LBP = struct('Mean', MeanLBP, 'Standard_Deviation', StdLBP);
-    CurrentImageInfo.TextureFeatures.HOG = struct('Mean', MeanHOG, 'Standard_Deviation', StdHOG);
-    CurrentImageInfo.ShapeFeatures.Area = struct('Mean', MeanArea, 'Standard_Deviation', StdArea);
-    CurrentImageInfo.ShapeFeatures.Circularity = struct('Mean', MeanCircularity, 'Standard_Deviation', StdCircularity);
-    CurrentImageInfo.ShapeFeatures.MajorAxisLength = struct('Mean', MeanMajorAxisLength, 'Standard_Deviation', StdMajorAxisLength);
-    CurrentImageInfo.ShapeFeatures.MinorAxisLength = struct('Mean', MeanMinorAxisLength, 'Standard_Deviation', StdMinorAxisLength);
-    CurrentImageInfo.ShapeFeatures.Eccentricity = struct('Mean', MeanEccentricity, 'Standard_Deviation', StdEccentricity);
-    CurrentImageInfo.ShapeFeatures.Orientation = struct('Mean', MeanOrientation, 'Standard_Deviation', StdOrientation);
-    CurrentImageInfo.ShapeFeatures.FilledArea = struct('Mean', MeanFilledArea, 'Standard_Deviation', StdFilledArea);
-    CurrentImageInfo.ShapeFeatures.Perimeter = struct('Mean', MeanPerimeter, 'Standard_Deviation', StdPerimeter);
+    CurrentImageInfo.TextureFeatures.Entropy = struct('Mean', MeanE, 'Standard_Deviation', StdE, 'Skewness', SkewE);
+    CurrentImageInfo.TextureFeatures.StandardDeviation = struct('Mean', MeanS, 'Standard_Deviation', StdS, 'Skewness', SkewS);
+    CurrentImageInfo.TextureFeatures.LBP = struct('Mean', MeanLBP, 'Standard_Deviation', StdLBP, 'Skewness', SkewLBP);
+
+    % Shape Features
+    CurrentImageInfo.ShapeFeatures.Area = struct('Mean', MeanArea, 'Standard_Deviation', StdArea, 'Skewness', SkewArea);
+    CurrentImageInfo.ShapeFeatures.Centroid = struct('Mean', MeanCentroid, 'Standard_Deviation', StdCentroid, 'Skewness', SkewCentroid);
+    CurrentImageInfo.ShapeFeatures.Circularity = struct('Mean', MeanCircularity, 'Standard_Deviation', StdCircularity, 'Skewness', SkewCircularity);
+    CurrentImageInfo.ShapeFeatures.MajorAxisLength = struct('Mean', MeanMajorAxisLength, 'Standard_Deviation', StdMajorAxisLength, 'Skewness', SkewMajorAxisLength);
+    CurrentImageInfo.ShapeFeatures.MinorAxisLength = struct('Mean', MeanMinorAxisLength, 'Standard_Deviation', StdMinorAxisLength, 'Skewness', SkewMinorAxisLength);
+    CurrentImageInfo.ShapeFeatures.Eccentricity = struct('Mean', MeanEccentricity, 'Standard_Deviation', StdEccentricity, 'Skewness', SkewEccentricity);
+    CurrentImageInfo.ShapeFeatures.Orientation = struct('Mean', MeanOrientation, 'Standard_Deviation', StdOrientation, 'Skewness', SkewOrientation);
+    CurrentImageInfo.ShapeFeatures.FilledArea = struct('Mean', MeanFilledArea, 'Standard_Deviation', StdFilledArea, 'Skewness', SkewFilledArea);
+    CurrentImageInfo.ShapeFeatures.Perimeter = struct('Mean', MeanPerimeter, 'Standard_Deviation', StdPerimeter, 'Skewness', SkewPerimeter);
 
     % Store the current image info in the cell array
     FeaturesArray{i} = CurrentImageInfo;
@@ -192,5 +233,5 @@ JsonFilePath = 'w1985751_part1.json';
 Fid = fopen(JsonFilePath, 'w');
 fprintf(Fid, '%s\n', JsonString);
 fclose(Fid);
-%% 
+
 
